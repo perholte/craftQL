@@ -2,7 +2,7 @@ import React from 'react';
 import logo from '../../beer-svgrepo-com.svg';
 import { Box, Flex, Heading } from '@chakra-ui/react';
 
-const Header = () => {
+const Header: React.FunctionComponent = () => {
     return (
         <Box>
             <Flex h={'6em'} justifyContent="space-between" py="1rem" bg="#556B2F" alignItems="center" px="5%">
