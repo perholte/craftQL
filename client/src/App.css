@@ -111,41 +111,12 @@
 
 /* Schaum */
 .schaum {
-  fill: #4b4949;
-  animation: fillschaum 6s linear infinite;
-}
+  fill: #FFFFFF;
 
-@keyframes fillschaum {
-  40% {
-    fill: #131313;
-  }
-  45% {
-    fill: #FFFFFF;
-  }
-  55% {
-    fill: #FFFFFF;
-  }
-  60% {
-    fill: #131313;
-  }
 }
 
 /* Beer */
 .beer {
-  fill: #131313;
-  animation: fillbeer 6s linear infinite;
-}
-@keyframes fillbeer {
-  40% {
-    fill: #131313;
-  }
-  45% {
-    fill: #DEB712;
-  }
-  55% {
-    fill: #DEB712;
-  }
-  60% {
-    fill: #131313;
-  }
+  fill: #DEB712;
+
 }
