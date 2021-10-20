@@ -22,18 +22,18 @@ const BEER: Array<Beer> = [
 
 const SearchPage: React.FC = () => {
     const [name, setName] = useState<string>('');
-    const [result, setResult] = useState<Array<Beer>>(BEER);
+    const [search, setSearch] = useState<Array<Beer>>(BEER);
 
     const filter = (e: React.FormEvent<HTMLInputElement>) => {
         const keyword: string = e.currentTarget.value;
 
         if (keyword !== ' ') {
-            const results: Array<Beer> = BEER.filter((beer) => {
+            const Searches: Array<Beer> = BEER.filter((beer) => {
                 return beer.name.toLowerCase().startsWith(keyword.toLowerCase());
             });
-            setResult(results);
+            setSearch(Searches);
         } else {
-            setResult(BEER);
+            setSearch(BEER);
         }
         setName(keyword);
     };
@@ -44,14 +44,14 @@ const SearchPage: React.FC = () => {
                 <Flex direction="column" justifyContent="center" alignItems="center" spacing="5em">
                     <Input variant="filled" placeholder="Seach for beer" value={name} onChange={filter} />
                     <List spacing={3}>
-                        {result && result.length > 0 ? (
-                            result.map((beer) => (
+                        {search && search.length > 0 ? (
+                            search.map((beer) => (
                                 <ListItem key={beer.name} fontSize="2xl">
-                                    {beer.name} {beer.rating} out of 6
+                                    {beer.name} {beer.rating} out of 6 {/* Kan lage et "øl-element" ellerno her? */}
                                 </ListItem>
                             ))
                         ) : (
-                            <h1>No results</h1>
+                            <h1>No Results</h1>
                         )}
                     </List>
                 </Flex>
