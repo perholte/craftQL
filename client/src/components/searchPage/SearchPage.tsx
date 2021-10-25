@@ -1,4 +1,4 @@
-import { Input, List, ListItem, Flex } from '@chakra-ui/react';
+import { Grid } from '@chakra-ui/react';
 import React, { useState } from 'react';
 import BeerModal from '../modal/BeerModal';
 
@@ -41,22 +41,13 @@ const SearchPage: React.FC = () => {
 
     return (
         <>
-            <div>
-                <Flex direction="column" justifyContent="center" alignItems="center" spacing="5em">
-                    <Input variant="filled" placeholder="Seach for beer" value={name} onChange={filter} />
-                    <List spacing={3}>
-                        {search && search.length > 0 ? (
-                            search.map((beer) => (
-                                <ListItem key={beer.name} fontSize="2xl">
-                                    <BeerModal name={beer.name} rating={beer.rating} />
-                                </ListItem>
-                            ))
-                        ) : (
-                            <h1>No Results</h1>
-                        )}
-                    </List>
-                </Flex>
-            </div>
+            <Grid templateColumns="repeat( auto-fit, minmax(250px, 1fr))" gap={4}>
+                {search && search.length > 0 ? (
+                    search.map((beer) => <BeerModal key={beer.name} name={beer.name} rating={beer.rating} />)
+                ) : (
+                    <h1>No Results</h1>
+                )}
+            </Grid>
         </>
     );
 };

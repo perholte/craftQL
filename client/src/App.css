@@ -8,7 +8,7 @@
 }
 
 .schaum {
-    fill: #F15A24;
+    fill: #f15a24;
 }
 
 .outline {
@@ -21,7 +21,7 @@
 }
 
 .beer {
-    fill: #FF00FF;
+    fill: #ff00ff;
 }
 
 .handle {
@@ -36,87 +36,85 @@
 /*** Animation ***/
 /* Outline */
 .outline {
-  stroke-dasharray: 1500;
-  stroke-dashoffset: 1500;
-  animation: outlinedash 6s linear infinite;
+    stroke-dasharray: 1500;
+    stroke-dashoffset: 1500;
+    animation: outlinedash 6s linear infinite;
 }
 
 @keyframes outlinedash {
-  5% {
-    stroke-dashoffset: 1500;
-  }
-  45% {
-    stroke-dashoffset: 0;
-  }
-  55% {
-    stroke-dashoffset: 0;
-  }
-  95% {
-    stroke-dashoffset: 1500;
-  }
+    5% {
+        stroke-dashoffset: 1500;
+    }
+    45% {
+        stroke-dashoffset: 0;
+    }
+    55% {
+        stroke-dashoffset: 0;
+    }
+    95% {
+        stroke-dashoffset: 1500;
+    }
 }
 
 /* Handle */
 .handle {
-  stroke-dasharray: 300;
-  stroke-dashoffset: 300;
-  animation: handledash 6s linear infinite;
+    stroke-dasharray: 300;
+    stroke-dashoffset: 300;
+    animation: handledash 6s linear infinite;
 }
 
 @keyframes handledash {
-  10% {
-    stroke-dashoffset: 300;
-  }
-  20% {
-    stroke-dashoffset: 300;
-  }
-  23% {
-    stroke-dashoffset: 0;
-  }
-  50% {
-    stroke-dashoffset: 0;
-  }
-  77% {
-    stroke-dashoffset: 0;
-  }
-  80% {
-    stroke-dashoffset: 300;
-  }
-  90% {
-    stroke-dashoffset: 300;
-  }
+    10% {
+        stroke-dashoffset: 300;
+    }
+    20% {
+        stroke-dashoffset: 300;
+    }
+    23% {
+        stroke-dashoffset: 0;
+    }
+    50% {
+        stroke-dashoffset: 0;
+    }
+    77% {
+        stroke-dashoffset: 0;
+    }
+    80% {
+        stroke-dashoffset: 300;
+    }
+    90% {
+        stroke-dashoffset: 300;
+    }
 }
 
 /* Lines */
 .lines {
-  stroke-dasharray: 100;
-  stroke-dashoffset: 100;
-  animation: linedash 6s linear infinite;
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+    animation: linedash 6s linear infinite;
 }
 
 @keyframes linedash {
-  5% {
-    stroke-dashoffset: 100;
-  }
-  10% {
-    stroke-dashoffset: 0;
-  }
-  90% {
-    stroke-dashoffset: 0;
-  }
-  95% {
-    stroke-dashoffset: 100;
-  }
+    5% {
+        stroke-dashoffset: 100;
+    }
+    10% {
+        stroke-dashoffset: 0;
+    }
+    90% {
+        stroke-dashoffset: 0;
+    }
+    95% {
+        stroke-dashoffset: 100;
+    }
 }
 
 /* Schaum */
 .schaum {
-  fill: #FFFFFF;
-
+    fill: #ffffff;
 }
 
 /* Beer */
 .beer {
-  fill: #DEB712;
-
+    fill: #deb712;
 }

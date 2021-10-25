@@ -10,6 +10,7 @@ import {
     ModalContent,
 } from '@chakra-ui/react';
 import React from 'react';
+import './BeerModal.css';
 
 interface BeerModalProps {
     name: string;
@@ -20,7 +21,9 @@ const BeerModal: React.FC<BeerModalProps> = ({ name, rating }) => {
     const { isOpen, onOpen, onClose } = useDisclosure();
     return (
         <>
-            <Button onClick={onOpen}>{name}</Button>
+            <div className="ModalDiv" onClick={onOpen}>
+                {name} + Rating + Type
+            </div>
 
             <Modal size="xl" isOpen={isOpen} onClose={onClose}>
                 <ModalOverlay />

@@ -1,0 +1,13 @@
+.ModalDiv:hover {
+    background-color: aliceblue;
+    transform: scale(130%);
+    transition: background-color 0.5s;
+    transition: transform 0.25s ease-in;
+}
+
+.ModalDiv {
+    height: 10vh;
+    text-align: center;
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.4);
+    border-radius: 100px;
+}
