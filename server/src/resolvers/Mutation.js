@@ -4,8 +4,9 @@ async function rateBeer(parent, args, context, info) {
     // Does the beer exist, if not return undefined
     const BeerID = parseInt(args.beerID);
     const rating = parseInt(args.rating);
-    const beer = await context.prisma.$exists.beer({
-        BeerID: BeerID,
+    const beer = await context.prisma.beer.findUnique({
+        where: { BeerID },
+        include: {Type_BeerToType: true, Brand_BeerToBrand: true }
     });
     if (!beer) {
         return undefined;
@@ -18,12 +19,11 @@ async function rateBeer(parent, args, context, info) {
         },
     });
     // Return Beer object with updated rating value
-    let ratingsForBeer = await context.prisma.review.aggregate({
+    const ratingForBeer = await context.prisma.review.aggregate({
         _avg: { Stars: true },
         where: { Beer: BeerID },
     });
-    ratingsForBeer = ratingsForBeer['_avg']['Stars'];
-    beer['Review'] = parseFloat(ratingsForBeer);
+    beer['Review'] = parseFloat(ratingForBeer['_avg']['Stars']);
     return parseBeer(beer);
 }
 

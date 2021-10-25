@@ -10,8 +10,8 @@ function parseBeer(beer) {
 }
 
 function mapOrdering(ordering) {
-    let column = Object.keys(ordering)[0];
-    let ord = ordering[column];
+    const column = Object.keys(ordering)[0];
+    const ord = ordering[column];
     switch (column) {
         case 'brand':
             return { Brand_BeerToBrand: { Name: ord } };
@@ -22,7 +22,7 @@ function mapOrdering(ordering) {
         case 'abv':
             return { Volume: ord };
         case 'rating':
-            return { Review: { groupBy: {}, _avg: ord } };
+            return { Review: { _avg: ord } };
         default:
             return { Volume: ord };
     }
