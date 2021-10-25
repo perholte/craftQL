@@ -1,5 +1,6 @@
 import { Input, List, ListItem, Flex } from '@chakra-ui/react';
 import React, { useState } from 'react';
+import BeerModal from '../modal/BeerModal';
 
 interface Beer {
     name: string;
@@ -47,7 +48,7 @@ const SearchPage: React.FC = () => {
                         {search && search.length > 0 ? (
                             search.map((beer) => (
                                 <ListItem key={beer.name} fontSize="2xl">
-                                    {beer.name} {beer.rating} out of 6 {/* Kan lage et "øl-element" ellerno her? */}
+                                    <BeerModal name={beer.name} rating={beer.rating} />
                                 </ListItem>
                             ))
                         ) : (
