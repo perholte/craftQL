@@ -15,6 +15,9 @@ export const counterSlice = createSlice({
         setSearchValue: (state, action: PayloadAction<string>) => {
             state.value = action.payload;
         },
+        clearSearch: (state) => {
+            state.value = '';
+        },
     },
 });
 
