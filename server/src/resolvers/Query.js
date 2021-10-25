@@ -1,7 +1,8 @@
-const parseBeer = require('./utils')
+const {parseBeer, mapOrdering} = require('./utils')
 
 async function beers(parent, args, context, info) {
-    let { filter, skip, take } = args
+    let { filter, skip, take, orderBy } = args
+
     const where = filter
         ? {
         OR: [
@@ -15,7 +16,8 @@ async function beers(parent, args, context, info) {
             where, 
             include: {Type_BeerToType: true, Brand_BeerToBrand: true, _count: true}, 
             take: take || 15, 
-            skip 
+            skip,
+            orderBy: mapOrdering(orderBy) 
     })).map(parseBeer);
 }
 
