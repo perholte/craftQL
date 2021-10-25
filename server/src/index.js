@@ -1,32 +1,20 @@
-import { ApolloServer, gql, makeExecutableSchema } from 'apollo-server'
-import {
-    createBeerResolver, createBeerSchema
-} from './schema/Beer'
-const { merge } = require('lodash');
-const Op = require('sequelize').Op;
+const { ApolloServer } = require('apollo-server');
+const path = require('path');
+const fs = require('fs');
 
-// const resolvers = {
-//     Query: {
-//         beers: () => {
-//             return Brand.getAll()
-//         },
-//     },
-// }
-/**
- * Define database objects
- */
-let beerSchema = createBeerSchema(gql);
-let beerResolver = createBeerResolver(MySQLDataBase, Op, withFilter, pubsub);
+const Query = require('./resolvers/Query');
+const Mutation = require('./resolvers/Mutation');
 
-const resolvers = merge(beerResolver)
+const typeDefs = fs.readFileSync(path.join(__dirname, 'schema.graphql'), 'utf-8');
 
-const schema = makeExecutableSchema({
-    typeDefs: [
-        beerSchema
-    ], 
-    resolvers
-})
+const resolvers = {
+    Query,
+    Mutation,
+};
 
-const server = new ApolloServer({ schema })
- 
+const server = new ApolloServer({
+    typeDefs,
+    resolvers,
+});
+
 server.listen().then(({ url }) => console.log(`Server is running on ${url}`));
