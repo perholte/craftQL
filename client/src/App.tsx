@@ -1,13 +1,19 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
 import './App.css';
+import Search from './components/common/Search';
 import Header from './components/header/Header';
 import SearchPage from './components/searchPage/SearchPage';
+import { RootState } from './redux/store';
 
-const App: React.FC = () => {
+function App() {
+    const searchValue = useSelector((state: RootState) => state.search.value);
+
     return (
         <div className="app">
             <Header />
             <SearchPage />
+            <Search />
         </div>
     );
 };
