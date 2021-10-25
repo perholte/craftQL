@@ -1,10 +1,12 @@
 import { configureStore } from '@reduxjs/toolkit';
 import { useDispatch } from 'react-redux';
 import searchReducer from './slices/searchSlice';
+import sortReducer from './slices/sortSlice';
 
 export const store = configureStore({
     reducer: {
         search: searchReducer,
+        sort: sortReducer,
     },
 });
 
