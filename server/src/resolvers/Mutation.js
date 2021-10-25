@@ -1,4 +1,4 @@
-const parseBeer = require('./utils')
+const {parseBeer} = require('./utils')
 
 async function rateBeer(parent, args, context, info) {
     // Does the beer exist, if not return undefined
