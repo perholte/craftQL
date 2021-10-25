@@ -1,0 +1,16 @@
+type Query {
+    beers: [Beer!]!
+}
+
+type Mutation {
+    rateBeer(beerID: ID!, rating: Int!): Beer
+}
+
+type Beer {
+    id: ID!
+    brand: String!
+    name: String!
+    type: String!
+    abv: Float!
+    rating: Float!
+}
