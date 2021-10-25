@@ -3,9 +3,8 @@ const path = require('path');
 const fs = require('fs');
 const Query = require('./resolvers/Query');
 const Mutation = require('./resolvers/Mutation');
-const { PrismaClient } = require('@prisma/client')
-const prisma = new PrismaClient()
-
+const { PrismaClient } = require('@prisma/client');
+const prisma = new PrismaClient();
 
 const typeDefs = fs.readFileSync(path.join(__dirname, 'schema.graphql'), 'utf-8');
 
@@ -19,7 +18,7 @@ const server = new ApolloServer({
     resolvers,
     context: {
         prisma,
-    }
+    },
 });
 
 server.listen().then(({ url }) => console.log(`Server is running on ${url}`));
