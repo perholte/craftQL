@@ -1,0 +1,2411 @@
+TypeID,Name
+0,American Pale Lager
+1,American Pale Ale (APA)
+2,American IPA
+3,American Double / Imperial IPA
+4,American IPA
+5,Oatmeal Stout
+6,American Pale Ale (APA)
+7,American Porter
+8,American Pale Ale (APA)
+9,American Double / Imperial IPA
+10,Saison / Farmhouse Ale
+11,Saison / Farmhouse Ale
+12,Saison / Farmhouse Ale
+13,Belgian IPA
+14,American Pale Ale (APA)
+15,Cider
+16,Cider
+17,Cider
+18,Cider
+19,Baltic Porter
+20,Tripel
+21,American Barleywine
+22,Winter Warmer
+23,American Stout
+24,American Pale Ale (APA)
+25,Fruit / Vegetable Beer
+26,Fruit / Vegetable Beer
+27,Fruit / Vegetable Beer
+28,American IPA
+29,American IPA
+30,American IPA
+31,English Strong Ale
+32,American Double / Imperial IPA
+33,American Pale Ale (APA)
+34,Winter Warmer
+35,American Black Ale
+36,Belgian Dark Ale
+37,American IPA
+38,Fruit / Vegetable Beer
+39,American IPA
+40,American Blonde Ale
+41,American Amber / Red Ale
+42,Berliner Weissbier
+43,American Blonde Ale
+44,American Brown Ale
+45,American Amber / Red Ale
+46,American Black Ale
+47,American IPA
+48,American IPA
+49,American Pale Wheat Ale
+50,American IPA
+51,American IPA
+52,Belgian Strong Dark Ale
+53,American IPA
+54,English Strong Ale
+55,Kölsch
+56,Belgian Dark Ale
+57,American IPA
+58,English Pale Ale
+59,English Pale Ale
+60,American Double / Imperial IPA
+61,Berliner Weissbier
+62,American Amber / Red Lager
+63,American Amber / Red Lager
+64,American IPA
+65,Fruit / Vegetable Beer
+66,American Amber / Red Lager
+67,American IPA
+68,American Brown Ale
+69,American Double / Imperial IPA
+70,English Barleywine
+71,Milk / Sweet Stout
+72,American Pale Ale (APA)
+73,German Pilsener
+74,Pumpkin Ale
+75,Belgian Pale Ale
+76,American Pilsner
+77,American Double / Imperial IPA
+78,Saison / Farmhouse Ale
+79,American Wild Ale
+80,American IPA
+81,English Brown Ale
+82,American Stout
+83,American Pale Ale (APA)
+84,American Pilsner
+85,American Pilsner
+86,American Pale Ale (APA)
+87,American Double / Imperial IPA
+88,American Pale Ale (APA)
+89,Altbier
+90,American Pale Ale (APA)
+91,Kölsch
+92,American IPA
+93,American Pale Ale (APA)
+94,American IPA
+95,American IPA
+96,American IPA
+97,American IPA
+98,American Pale Wheat Ale
+99,American Amber / Red Lager
+100,California Common / Steam Beer
+101,Gose
+102,American Pale Ale (APA)
+103,Gose
+104,Pumpkin Ale
+105,Oatmeal Stout
+106,Cream Ale
+107,American IPA
+108,American Amber / Red Ale
+109,Oatmeal Stout
+110,Vienna Lager
+111,American Amber / Red Ale
+112,Cream Ale
+113,Oatmeal Stout
+114,Winter Warmer
+115,American IPA
+116,American Amber / Red Ale
+117,Cream Ale
+118,American Pale Ale (APA)
+119,American IPA
+120,American Pale Ale (APA)
+121,Oatmeal Stout
+122,Cider
+123,Cider
+124,Cider
+125,Belgian Pale Ale
+126,Witbier
+127,American Stout
+128,American IPA
+129,American Blonde Ale
+130,American Porter
+131,American Pale Ale (APA)
+132,American Pale Wheat Ale
+133,American Pale Ale (APA)
+134,American Double / Imperial Stout
+135,Saison / Farmhouse Ale
+136,Gose
+137,American IPA
+138,Kölsch
+139,American Porter
+140,American IPA
+141,Kölsch
+142,American IPA
+143,American Amber / Red Ale
+144,American Blonde Ale
+145,American IPA
+146,American Stout
+147,American Double / Imperial IPA
+148,American Porter
+149,American Amber / Red Ale
+150,American Double / Imperial IPA
+151,American Porter
+152,Fruit / Vegetable Beer
+153,American Blonde Ale
+154,American IPA
+155,Munich Helles Lager
+156,American Black Ale
+157,American IPA
+158,American Pale Ale (APA)
+159,German Pilsener
+160,Schwarzbier
+161,American Double / Imperial IPA
+162,Saison / Farmhouse Ale
+163,German Pilsener
+164,Witbier
+165,American IPA
+166,American Brown Ale
+167,Pumpkin Ale
+168,Märzen / Oktoberfest
+169,American Pale Wheat Ale
+170,American IPA
+171,Tripel
+172,American Amber / Red Ale
+173,American Double / Imperial IPA
+174,American Porter
+175,American Blonde Ale
+176,American IPA
+177,American Amber / Red Ale
+178,English Brown Ale
+179,American Pale Ale (APA)
+180,American IPA
+181,American Pale Ale (APA)
+182,American IPA
+183,American IPA
+184,Kölsch
+185,American IPA
+186,Munich Helles Lager
+187,American IPA
+188,Extra Special / Strong Bitter (ESB)
+189,Rye Beer
+190,American Amber / Red Ale
+191,American IPA
+192,American IPA
+193,American Blonde Ale
+194,American Pilsner
+195,American IPA
+196,American Pale Lager
+197,Witbier
+198,Euro Dark Lager
+199,California Common / Steam Beer
+200,American IPA
+201,Schwarzbier
+202,German Pilsener
+203,California Common / Steam Beer
+204,Hefeweizen
+205,American Pale Wheat Ale
+206,Foreign / Export Stout
+207,Rye Beer
+208,American Pale Wheat Ale
+209,American Amber / Red Ale
+210,American Pale Ale (APA)
+211,American IPA
+212,American Double / Imperial IPA
+213,Fruit / Vegetable Beer
+214,American Pale Ale (APA)
+215,American IPA
+216,Other
+217,American Pale Wheat Ale
+218,Rye Beer
+219,Witbier
+220,American Pale Wheat Ale
+221,American IPA
+222,American Brown Ale
+223,English India Pale Ale (IPA)
+224,American Double / Imperial IPA
+225,American Blonde Ale
+226,American Black Ale
+227,American IPA
+228,Extra Special / Strong Bitter (ESB)
+229,American IPA
+230,American Black Ale
+231,German Pilsener
+232,English India Pale Ale (IPA)
+233,American Pale Ale (APA)
+234,American IPA
+235,Czech Pilsener
+236,American Porter
+237,Hefeweizen
+238,American Blonde Ale
+239,American Strong Ale
+240,American Double / Imperial IPA
+241,California Common / Steam Beer
+242,American Amber / Red Ale
+243,American IPA
+244,American Stout
+245,Saison / Farmhouse Ale
+246,American Stout
+247,American IPA
+248,Fruit / Vegetable Beer
+249,American IPA
+250,Czech Pilsener
+251,American IPA
+252,American IPA
+253,English Pale Ale
+254,American Pale Wheat Ale
+255,American Brown Ale
+256,English Strong Ale
+257,American Brown Ale
+258,American Pale Wheat Ale
+259,American IPA
+260,American Blonde Ale
+261,English Pale Ale
+262,American Pale Wheat Ale
+263,American Brown Ale
+264,American IPA
+265,American Amber / Red Ale
+266,American Pale Ale (APA)
+267,Rye Beer
+268,American Double / Imperial IPA
+269,Oatmeal Stout
+270,American IPA
+271,American Pale Ale (APA)
+272,American Brown Ale
+273,American Pale Ale (APA)
+274,American Blonde Ale
+275,Rye Beer
+276,American Blonde Ale
+277,American IPA
+278,Hefeweizen
+279,American Pale Ale (APA)
+280,American Strong Ale
+281,American Porter
+282,Saison / Farmhouse Ale
+283,American Amber / Red Ale
+284,American Brown Ale
+285,American Amber / Red Ale
+286,Rye Beer
+287,American IPA
+288,Foreign / Export Stout
+289,American Pale Wheat Ale
+290,American Brown Ale
+291,American IPA
+292,Cream Ale
+293,American Pale Wheat Ale
+294,American Pilsner
+295,American Brown Ale
+296,American Amber / Red Ale
+297,American Double / Imperial IPA
+298,German Pilsener
+299,American Double / Imperial IPA
+300,American Stout
+301,Saison / Farmhouse Ale
+302,American Pale Ale (APA)
+303,Extra Special / Strong Bitter (ESB)
+304,Extra Special / Strong Bitter (ESB)
+305,Extra Special / Strong Bitter (ESB)
+306,American Pale Ale (APA)
+307,Mead
+308,Mead
+309,American Double / Imperial IPA
+310,American Pale Ale (APA)
+311,Extra Special / Strong Bitter (ESB)
+312,Euro Pale Lager
+313,American Pale Ale (APA)
+314,Kölsch
+315,American Stout
+316,American Pale Wheat Ale
+317,American Amber / Red Ale
+318,American Pale Ale (APA)
+319,American Black Ale
+320,American White IPA
+321,American Blonde Ale
+322,Vienna Lager
+323,Dortmunder / Export Lager
+324,Altbier
+325,Schwarzbier
+326,Czech Pilsener
+327,Vienna Lager
+328,American IPA
+329,Cream Ale
+330,American Brown Ale
+331,American IPA
+332,Irish Dry Stout
+333,Munich Helles Lager
+334,Munich Helles Lager
+335,American IPA
+336,Scotch Ale / Wee Heavy
+337,Czech Pilsener
+338,Märzen / Oktoberfest
+339,English India Pale Ale (IPA)
+340,American Blonde Ale
+341,American IPA
+342,American Blonde Ale
+343,American Blonde Ale
+344,Extra Special / Strong Bitter (ESB)
+345,Munich Dunkel Lager
+346,American Pale Ale (APA)
+347,Winter Warmer
+348,American Porter
+349,American Pale Ale (APA)
+350,American Brown Ale
+351,Czech Pilsener
+352,American Blonde Ale
+353,American IPA
+354,American Porter
+355,Radler
+356,American IPA
+357,Witbier
+358,Bock
+359,Vienna Lager
+360,Vienna Lager
+361,Märzen / Oktoberfest
+362,American Pale Wheat Ale
+363,Vienna Lager
+364,American Pale Ale (APA)
+365,American Pale Ale (APA)
+366,American Pale Ale (APA)
+367,American IPA
+368,American Pale Ale (APA)
+369,American IPA
+370,English Dark Mild Ale
+371,American Porter
+372,American Porter
+373,American IPA
+374,Hefeweizen
+375,American Amber / Red Ale
+376,American Amber / Red Ale
+377,Kölsch
+378,American Pale Wheat Ale
+379,American Pale Wheat Ale
+380,American IPA
+381,American Amber / Red Ale
+382,Fruit / Vegetable Beer
+383,American IPA
+384,Irish Red Ale
+385,American Pale Wheat Ale
+386,American Pale Ale (APA)
+387,American Amber / Red Ale
+388,Saison / Farmhouse Ale
+389,Belgian Pale Ale
+390,American Double / Imperial Stout
+391,American IPA
+392,Rauchbier
+393,Bière de Garde
+394,Belgian IPA
+395,Doppelbock
+396,Saison / Farmhouse Ale
+397,Witbier
+398,Belgian IPA
+399,Saison / Farmhouse Ale
+400,Belgian IPA
+401,Saison / Farmhouse Ale
+402,Rye Beer
+403,Dunkelweizen
+404,Belgian Strong Pale Ale
+405,Dubbel
+406,Belgian Dark Ale
+407,Belgian Dark Ale
+408,Belgian Pale Ale
+409,Witbier
+410,Oatmeal Stout
+411,American Porter
+412,Quadrupel (Quad)
+413,Rauchbier
+414,Belgian IPA
+415,Belgian Dark Ale
+416,Belgian IPA
+417,Rye Beer
+418,American Stout
+419,Fruit / Vegetable Beer
+420,Belgian Dark Ale
+421,Belgian Dark Ale
+422,Belgian Pale Ale
+423,Bière de Garde
+424,Belgian Dark Ale
+425,Witbier
+426,American Stout
+427,Belgian IPA
+428,American Wild Ale
+429,Fruit / Vegetable Beer
+430,American Double / Imperial IPA
+431,Bière de Garde
+432,American Black Ale
+433,Saison / Farmhouse Ale
+434,Tripel
+435,Belgian Dark Ale
+436,American Amber / Red Ale
+437,Quadrupel (Quad)
+438,American Double / Imperial Stout
+439,American Wild Ale
+440,Bière de Garde
+441,Russian Imperial Stout
+442,American Amber / Red Ale
+443,Saison / Farmhouse Ale
+444,Tripel
+445,Belgian IPA
+446,Belgian Strong Dark Ale
+447,Saison / Farmhouse Ale
+448,Belgian Pale Ale
+449,Belgian IPA
+450,American Pale Ale (APA)
+451,American Pale Wheat Ale
+452,American Amber / Red Ale
+453,American Amber / Red Ale
+454,American Pale Ale (APA)
+455,Cream Ale
+456,American IPA
+457,English India Pale Ale (IPA)
+458,English Pale Mild Ale
+459,English India Pale Ale (IPA)
+460,English Pale Mild Ale
+461,American Amber / Red Lager
+462,American Amber / Red Lager
+463,Belgian IPA
+464,Maibock / Helles Bock
+465,American Black Ale
+466,Schwarzbier
+467,American Amber / Red Ale
+468,Herbed / Spiced Beer
+469,Schwarzbier
+470,Munich Helles Lager
+471,American Pale Ale (APA)
+472,American Blonde Ale
+473,Witbier
+474,American Double / Imperial IPA
+475,American Brown Ale
+476,American Black Ale
+477,Fruit / Vegetable Beer
+478,American Pale Ale (APA)
+479,American Double / Imperial IPA
+480,Cream Ale
+481,American Pale Wheat Ale
+482,American Pale Wheat Ale
+483,American IPA
+484,American IPA
+485,American Pale Ale (APA)
+486,American Pale Lager
+487,American Pale Ale (APA)
+488,Hefeweizen
+489,American IPA
+490,Milk / Sweet Stout
+491,American Pale Ale (APA)
+492,American Double / Imperial Stout
+493,American Brown Ale
+494,American Pale Ale (APA)
+495,Kölsch
+496,American IPA
+497,American Double / Imperial IPA
+498,American Porter
+499,American Blonde Ale
+500,American Amber / Red Ale
+501,American IPA
+502,American Amber / Red Ale
+503,American Blonde Ale
+504,American IPA
+505,American Porter
+506,American Pale Ale (APA)
+507,American Adjunct Lager
+508,American Amber / Red Ale
+509,American IPA
+510,American IPA
+511,American Pale Ale (APA)
+512,American Pale Ale (APA)
+513,American Pale Ale (APA)
+514,American Pale Ale (APA)
+515,American Pale Ale (APA)
+516,American Amber / Red Ale
+517,American IPA
+518,American Pilsner
+519,American IPA
+520,Witbier
+521,American Amber / Red Ale
+522,American Blonde Ale
+523,English Dark Mild Ale
+524,Pumpkin Ale
+525,American Double / Imperial IPA
+526,American IPA
+527,German Pilsener
+528,American Amber / Red Ale
+529,American Amber / Red Ale
+530,American Blonde Ale
+531,American Black Ale
+532,Vienna Lager
+533,Munich Helles Lager
+534,American IPA
+535,Munich Helles Lager
+536,American IPA
+537,Vienna Lager
+538,American Pale Wheat Ale
+539,Vienna Lager
+540,American Pale Ale (APA)
+541,American Pale Lager
+542,American Blonde Ale
+543,American Blonde Ale
+544,American Blonde Ale
+545,Winter Warmer
+546,English India Pale Ale (IPA)
+547,Kölsch
+548,American Black Ale
+549,Berliner Weissbier
+550,American Double / Imperial IPA
+551,American IPA
+552,Cider
+553,Cider
+554,Cream Ale
+555,American IPA
+556,Witbier
+557,Winter Warmer
+558,Witbier
+559,American IPA
+560,Cream Ale
+561,Witbier
+562,Scottish Ale
+563,American Brown Ale
+564,American Porter
+565,American Double / Imperial IPA
+566,
+567,American IPA
+568,Smoked Beer
+569,American Pale Ale (APA)
+570,Cream Ale
+571,American Blonde Ale
+572,American Amber / Red Ale
+573,Altbier
+574,American Amber / Red Lager
+575,Altbier
+576,American Pale Ale (APA)
+577,Herbed / Spiced Beer
+578,American IPA
+579,American Double / Imperial IPA
+580,American Black Ale
+581,Rye Beer
+582,American Stout
+583,Kölsch
+584,American IPA
+585,Kölsch
+586,Fruit / Vegetable Beer
+587,American Pale Ale (APA)
+588,English Brown Ale
+589,American Strong Ale
+590,Märzen / Oktoberfest
+591,American IPA
+592,Fruit / Vegetable Beer
+593,Altbier
+594,American Double / Imperial IPA
+595,American Pilsner
+596,Cider
+597,Cider
+598,Bock
+599,American IPA
+600,American Black Ale
+601,American Brown Ale
+602,Märzen / Oktoberfest
+603,American Porter
+604,American IPA
+605,American IPA
+606,American IPA
+607,American Pale Ale (APA)
+608,American IPA
+609,American IPA
+610,American IPA
+611,American Pale Ale (APA)
+612,American Pale Wheat Ale
+613,American IPA
+614,American IPA
+615,American Porter
+616,American Pale Ale (APA)
+617,English Brown Ale
+618,American Brown Ale
+619,Munich Helles Lager
+620,American Amber / Red Ale
+621,American IPA
+622,Witbier
+623,Light Lager
+624,Pumpkin Ale
+625,Witbier
+626,Munich Helles Lager
+627,American IPA
+628,Light Lager
+629,English Pale Ale
+630,American IPA
+631,American Black Ale
+632,American Pale Wheat Ale
+633,American Blonde Ale
+634,American Brown Ale
+635,Kölsch
+636,American IPA
+637,American Amber / Red Ale
+638,American Amber / Red Ale
+639,Fruit / Vegetable Beer
+640,American IPA
+641,German Pilsener
+642,American Blonde Ale
+643,American Pilsner
+644,American Amber / Red Ale
+645,Oatmeal Stout
+646,Extra Special / Strong Bitter (ESB)
+647,American Pale Lager
+648,Kölsch
+649,American Blonde Ale
+650,Oatmeal Stout
+651,American Black Ale
+652,American Pale Ale (APA)
+653,Belgian Strong Pale Ale
+654,American Stout
+655,American Amber / Red Ale
+656,American Amber / Red Ale
+657,Witbier
+658,American Pale Ale (APA)
+659,American Amber / Red Ale
+660,American IPA
+661,Berliner Weissbier
+662,American Blonde Ale
+663,American Porter
+664,American Pale Ale (APA)
+665,American Amber / Red Ale
+666,Herbed / Spiced Beer
+667,American Brown Ale
+668,American Blonde Ale
+669,Cream Ale
+670,American Porter
+671,American IPA
+672,American Amber / Red Ale
+673,Kölsch
+674,American Blonde Ale
+675,Witbier
+676,Scottish Ale
+677,American IPA
+678,English Pale Ale
+679,Kölsch
+680,Scotch Ale / Wee Heavy
+681,American Blonde Ale
+682,Hefeweizen
+683,American Porter
+684,American Double / Imperial IPA
+685,American IPA
+686,Belgian Pale Ale
+687,American Pale Ale (APA)
+688,American IPA
+689,American IPA
+690,American IPA
+691,American Pale Lager
+692,American Blonde Ale
+693,American Pale Ale (APA)
+694,American Amber / Red Ale
+695,Euro Pale Lager
+696,American Brown Ale
+697,American Double / Imperial IPA
+698,American Pale Ale (APA)
+699,Baltic Porter
+700,Saison / Farmhouse Ale
+701,German Pilsener
+702,American Blonde Ale
+703,American IPA
+704,American IPA
+705,English Pale Mild Ale
+706,Irish Dry Stout
+707,American Blonde Ale
+708,American IPA
+709,Irish Red Ale
+710,American IPA
+711,American Porter
+712,American Pale Ale (APA)
+713,Hefeweizen
+714,Abbey Single Ale
+715,American IPA
+716,Gose
+717,Fruit / Vegetable Beer
+718,American Double / Imperial IPA
+719,Abbey Single Ale
+720,American Pale Ale (APA)
+721,American Pale Ale (APA)
+722,American Amber / Red Ale
+723,American Black Ale
+724,American IPA
+725,Scotch Ale / Wee Heavy
+726,American Pale Ale (APA)
+727,American IPA
+728,American Amber / Red Ale
+729,Hefeweizen
+730,Extra Special / Strong Bitter (ESB)
+731,American Double / Imperial IPA
+732,American Pale Ale (APA)
+733,Irish Dry Stout
+734,English Dark Mild Ale
+735,Cider
+736,Cider
+737,American IPA
+738,Fruit / Vegetable Beer
+739,Hefeweizen
+740,American Amber / Red Ale
+741,American IPA
+742,American Pale Wheat Ale
+743,Pumpkin Ale
+744,American IPA
+745,American Pale Ale (APA)
+746,Pumpkin Ale
+747,Fruit / Vegetable Beer
+748,German Pilsener
+749,American IPA
+750,Extra Special / Strong Bitter (ESB)
+751,American Amber / Red Lager
+752,American Brown Ale
+753,American Adjunct Lager
+754,Fruit / Vegetable Beer
+755,American Pale Ale (APA)
+756,American Pale Lager
+757,American IPA
+758,American IPA
+759,American IPA
+760,American Blonde Ale
+761,Belgian IPA
+762,American Pale Wheat Ale
+763,American Pale Ale (APA)
+764,American Porter
+765,Czech Pilsener
+766,Berliner Weissbier
+767,American Double / Imperial IPA
+768,American Pale Ale (APA)
+769,American IPA
+770,American Pale Ale (APA)
+771,American Pale Ale (APA)
+772,Scottish Ale
+773,American IPA
+774,American Pale Ale (APA)
+775,American IPA
+776,American Stout
+777,Belgian Pale Ale
+778,Roggenbier
+779,Kölsch
+780,American IPA
+781,American Amber / Red Ale
+782,Fruit / Vegetable Beer
+783,American IPA
+784,American Amber / Red Ale
+785,American Double / Imperial IPA
+786,Scottish Ale
+787,American Double / Imperial IPA
+788,American Double / Imperial IPA
+789,American Double / Imperial IPA
+790,American Porter
+791,Kristalweizen
+792,Czech Pilsener
+793,Kölsch
+794,American Double / Imperial IPA
+795,American Black Ale
+796,Belgian Strong Dark Ale
+797,American Pale Wheat Ale
+798,American Stout
+799,American Amber / Red Ale
+800,American Pale Ale (APA)
+801,American IPA
+802,American Pale Ale (APA)
+803,American Blonde Ale
+804,American IPA
+805,American IPA
+806,German Pilsener
+807,American Blonde Ale
+808,American Blonde Ale
+809,Doppelbock
+810,American Blonde Ale
+811,American IPA
+812,American IPA
+813,American Pale Ale (APA)
+814,American IPA
+815,American Pale Lager
+816,American Porter
+817,American IPA
+818,Saison / Farmhouse Ale
+819,American IPA
+820,American Porter
+821,American Blonde Ale
+822,Witbier
+823,American IPA
+824,Belgian Pale Ale
+825,American IPA
+826,American IPA
+827,American IPA
+828,American Black Ale
+829,American IPA
+830,American Pale Ale (APA)
+831,Witbier
+832,American Pale Ale (APA)
+833,American Double / Imperial Stout
+834,American Amber / Red Lager
+835,American IPA
+836,American Amber / Red Ale
+837,American Pale Wheat Ale
+838,American Amber / Red Ale
+839,Kölsch
+840,American IPA
+841,Scotch Ale / Wee Heavy
+842,American IPA
+843,American IPA
+844,American IPA
+845,American Porter
+846,American Blonde Ale
+847,Oatmeal Stout
+848,Belgian Pale Ale
+849,American IPA
+850,American IPA
+851,American Pale Lager
+852,Kölsch
+853,
+854,American Porter
+855,Fruit / Vegetable Beer
+856,American IPA
+857,Scottish Ale
+858,Kölsch
+859,American Porter
+860,American Pale Wheat Ale
+861,American Pale Ale (APA)
+862,American White IPA
+863,American Amber / Red Ale
+864,American IPA
+865,Munich Helles Lager
+866,
+867,American Brown Ale
+868,Witbier
+869,Munich Helles Lager
+870,American Amber / Red Ale
+871,Witbier
+872,American IPA
+873,Berliner Weissbier
+874,American IPA
+875,American Pale Ale (APA)
+876,English Strong Ale
+877,Saison / Farmhouse Ale
+878,American Pale Ale (APA)
+879,American Pale Ale (APA)
+880,American IPA
+881,Kölsch
+882,Scotch Ale / Wee Heavy
+883,Extra Special / Strong Bitter (ESB)
+884,American IPA
+885,American Pale Ale (APA)
+886,American IPA
+887,American Blonde Ale
+888,American Amber / Red Ale
+889,American IPA
+890,American Pale Lager
+891,Saison / Farmhouse Ale
+892,American IPA
+893,American IPA
+894,American IPA
+895,American IPA
+896,Hefeweizen
+897,American IPA
+898,American IPA
+899,Kölsch
+900,American Brown Ale
+901,American IPA
+902,American IPA
+903,American IPA
+904,Hefeweizen
+905,American Porter
+906,American IPA
+907,American Pale Wheat Ale
+908,American Pale Ale (APA)
+909,American Double / Imperial IPA
+910,Oatmeal Stout
+911,American IPA
+912,American Brown Ale
+913,American Pale Ale (APA)
+914,American IPA
+915,American Pale Ale (APA)
+916,American Pale Ale (APA)
+917,American Pale Wheat Ale
+918,American Pale Wheat Ale
+919,American Pale Wheat Ale
+920,American Pale Lager
+921,American Pale Wheat Ale
+922,American Pilsner
+923,American Amber / Red Ale
+924,American IPA
+925,American Pale Wheat Ale
+926,English Brown Ale
+927,American Pale Ale (APA)
+928,American Blonde Ale
+929,Fruit / Vegetable Beer
+930,American Porter
+931,American IPA
+932,Dortmunder / Export Lager
+933,American Blonde Ale
+934,American Porter
+935,Märzen / Oktoberfest
+936,American Brown Ale
+937,Fruit / Vegetable Beer
+938,Dortmunder / Export Lager
+939,American Dark Wheat Ale
+940,Witbier
+941,American Stout
+942,English Stout
+943,American Porter
+944,Euro Dark Lager
+945,English Dark Mild Ale
+946,American IPA
+947,American Blonde Ale
+948,American Pale Ale (APA)
+949,Old Ale
+950,American Pale Wheat Ale
+951,American IPA
+952,Tripel
+953,American IPA
+954,Russian Imperial Stout
+955,Saison / Farmhouse Ale
+956,American IPA
+957,American Pale Lager
+958,American Pale Lager
+959,American Pale Ale (APA)
+960,American Pale Lager
+961,Fruit / Vegetable Beer
+962,American Brown Ale
+963,American Blonde Ale
+964,American Blonde Ale
+965,Vienna Lager
+966,Irish Red Ale
+967,Vienna Lager
+968,Witbier
+969,Irish Red Ale
+970,American Pale Ale (APA)
+971,Rye Beer
+972,American Brown Ale
+973,American IPA
+974,Märzen / Oktoberfest
+975,American Amber / Red Ale
+976,American Stout
+977,American Pale Ale (APA)
+978,Irish Red Ale
+979,American Pale Ale (APA)
+980,American Pale Ale (APA)
+981,American Black Ale
+982,Märzen / Oktoberfest
+983,American Double / Imperial IPA
+984,Märzen / Oktoberfest
+985,American Pale Ale (APA)
+986,Witbier
+987,American Blonde Ale
+988,American Porter
+989,American Pale Ale (APA)
+990,Cream Ale
+991,American Pale Wheat Ale
+992,Winter Warmer
+993,Pumpkin Ale
+994,Czech Pilsener
+995,American Amber / Red Ale
+996,American IPA
+997,American Pale Ale (APA)
+998,American IPA
+999,Tripel
+1000,Altbier
+1001,American IPA
+1002,American Pale Ale (APA)
+1003,American IPA
+1004,American Double / Imperial Pilsner
+1005,German Pilsener
+1006,American Pale Wheat Ale
+1007,English India Pale Ale (IPA)
+1008,American Brown Ale
+1009,American Blonde Ale
+1010,American Pale Ale (APA)
+1011,American IPA
+1012,American Blonde Ale
+1013,Fruit / Vegetable Beer
+1014,Munich Helles Lager
+1015,American IPA
+1016,Cream Ale
+1017,American Pale Ale (APA)
+1018,Herbed / Spiced Beer
+1019,American White IPA
+1020,Cider
+1021,Kölsch
+1022,American IPA
+1023,Pumpkin Ale
+1024,Märzen / Oktoberfest
+1025,American IPA
+1026,Kölsch
+1027,American Pale Wheat Ale
+1028,Kölsch
+1029,American IPA
+1030,American Blonde Ale
+1031,Witbier
+1032,American Blonde Ale
+1033,American Pale Ale (APA)
+1034,American Brown Ale
+1035,American Brown Ale
+1036,Flanders Red Ale
+1037,Belgian IPA
+1038,American Pale Lager
+1039,American Double / Imperial IPA
+1040,American IPA
+1041,Märzen / Oktoberfest
+1042,Cream Ale
+1043,Cream Ale
+1044,American IPA
+1045,American Double / Imperial Stout
+1046,American Pilsner
+1047,American Pale Ale (APA)
+1048,American Pale Wheat Ale
+1049,Fruit / Vegetable Beer
+1050,American Amber / Red Ale
+1051,American Pale Ale (APA)
+1052,Czech Pilsener
+1053,American Blonde Ale
+1054,American Amber / Red Ale
+1055,Saison / Farmhouse Ale
+1056,American White IPA
+1057,Saison / Farmhouse Ale
+1058,American Brown Ale
+1059,American IPA
+1060,American Blonde Ale
+1061,American Strong Ale
+1062,American IPA
+1063,American Blonde Ale
+1064,American Pale Lager
+1065,American IPA
+1066,American IPA
+1067,American Blonde Ale
+1068,American IPA
+1069,American Pale Lager
+1070,Altbier
+1071,American Pale Ale (APA)
+1072,American Porter
+1073,Cider
+1074,Radler
+1075,American Pale Wheat Ale
+1076,American Pale Wheat Ale
+1077,American Pale Wheat Ale
+1078,American Pale Wheat Ale
+1079,American Pale Wheat Ale
+1080,American Pale Wheat Ale
+1081,American Pale Wheat Ale
+1082,American Pale Wheat Ale
+1083,American Pale Wheat Ale
+1084,American Pale Wheat Ale
+1085,American Pale Wheat Ale
+1086,American Pale Wheat Ale
+1087,American Amber / Red Ale
+1088,American Stout
+1089,American IPA
+1090,American Strong Ale
+1091,American White IPA
+1092,American Amber / Red Ale
+1093,American Strong Ale
+1094,Czech Pilsener
+1095,American IPA
+1096,American Pale Wheat Ale
+1097,Hefeweizen
+1098,Märzen / Oktoberfest
+1099,American Pale Ale (APA)
+1100,Vienna Lager
+1101,American IPA
+1102,Winter Warmer
+1103,Fruit / Vegetable Beer
+1104,American Pale Wheat Ale
+1105,American Black Ale
+1106,American Pale Ale (APA)
+1107,American Amber / Red Ale
+1108,American Pale Ale (APA)
+1109,Witbier
+1110,American Pale Ale (APA)
+1111,American IPA
+1112,Cream Ale
+1113,American Blonde Ale
+1114,American IPA
+1115,American Pale Ale (APA)
+1116,American Blonde Ale
+1117,American IPA
+1118,Keller Bier / Zwickel Bier
+1119,American Pale Lager
+1120,American India Pale Lager
+1121,American India Pale Lager
+1122,American India Pale Lager
+1123,Cider
+1124,Cider
+1125,American Pale Ale (APA)
+1126,Fruit / Vegetable Beer
+1127,American IPA
+1128,American IPA
+1129,American Amber / Red Ale
+1130,English Brown Ale
+1131,American IPA
+1132,American Strong Ale
+1133,Hefeweizen
+1134,American Porter
+1135,American Pale Ale (APA)
+1136,American Blonde Ale
+1137,American IPA
+1138,Hefeweizen
+1139,American Pale Ale (APA)
+1140,American Double / Imperial IPA
+1141,American Adjunct Lager
+1142,American IPA
+1143,Doppelbock
+1144,Hefeweizen
+1145,Munich Dunkel Lager
+1146,American Pale Ale (APA)
+1147,Märzen / Oktoberfest
+1148,Kölsch
+1149,Saison / Farmhouse Ale
+1150,American Double / Imperial IPA
+1151,American Amber / Red Lager
+1152,Hefeweizen
+1153,American IPA
+1154,Euro Dark Lager
+1155,American IPA
+1156,Czech Pilsener
+1157,Scottish Ale
+1158,American Blonde Ale
+1159,American IPA
+1160,Scottish Ale
+1161,Scotch Ale / Wee Heavy
+1162,American IPA
+1163,American IPA
+1164,American Pale Ale (APA)
+1165,American IPA
+1166,Scotch Ale / Wee Heavy
+1167,Witbier
+1168,American Pale Ale (APA)
+1169,Scottish Ale
+1170,American Brown Ale
+1171,American Brown Ale
+1172,American Blonde Ale
+1173,American Amber / Red Ale
+1174,American Amber / Red Ale
+1175,Czech Pilsener
+1176,American IPA
+1177,Hefeweizen
+1178,American Blonde Ale
+1179,American IPA
+1180,American Pale Wheat Ale
+1181,American Amber / Red Lager
+1182,American Amber / Red Lager
+1183,American Amber / Red Lager
+1184,American Amber / Red Lager
+1185,American Dark Wheat Ale
+1186,Belgian Strong Dark Ale
+1187,Hefeweizen
+1188,American IPA
+1189,Maibock / Helles Bock
+1190,Kölsch
+1191,Hefeweizen
+1192,American IPA
+1193,American Amber / Red Ale
+1194,English Brown Ale
+1195,Cream Ale
+1196,American Pilsner
+1197,American IPA
+1198,American IPA
+1199,American IPA
+1200,Czech Pilsener
+1201,Kölsch
+1202,American IPA
+1203,American Amber / Red Ale
+1204,Hefeweizen
+1205,Scottish Ale
+1206,German Pilsener
+1207,Saison / Farmhouse Ale
+1208,American Stout
+1209,American Amber / Red Ale
+1210,Fruit / Vegetable Beer
+1211,American IPA
+1212,American Pale Ale (APA)
+1213,American Porter
+1214,American Stout
+1215,American Pale Ale (APA)
+1216,Hefeweizen
+1217,American Brown Ale
+1218,English India Pale Ale (IPA)
+1219,American Amber / Red Ale
+1220,Altbier
+1221,Fruit / Vegetable Beer
+1222,Altbier
+1223,Gose
+1224,German Pilsener
+1225,American IPA
+1226,American IPA
+1227,American IPA
+1228,Czech Pilsener
+1229,American Stout
+1230,Hefeweizen
+1231,American Pale Ale (APA)
+1232,American Blonde Ale
+1233,English Dark Mild Ale
+1234,Belgian Pale Ale
+1235,American Pale Ale (APA)
+1236,American Pilsner
+1237,American IPA
+1238,American Amber / Red Ale
+1239,American Pale Ale (APA)
+1240,American Amber / Red Ale
+1241,American Pale Ale (APA)
+1242,American Brown Ale
+1243,American Double / Imperial IPA
+1244,American Blonde Ale
+1245,Winter Warmer
+1246,Fruit / Vegetable Beer
+1247,Kölsch
+1248,American Pale Ale (APA)
+1249,American IPA
+1250,American Brown Ale
+1251,American Amber / Red Ale
+1252,Fruit / Vegetable Beer
+1253,Hefeweizen
+1254,Fruit / Vegetable Beer
+1255,German Pilsener
+1256,American IPA
+1257,German Pilsener
+1258,American Amber / Red Ale
+1259,Winter Warmer
+1260,Märzen / Oktoberfest
+1261,Belgian Pale Ale
+1262,American IPA
+1263,Pumpkin Ale
+1264,American Pale Wheat Ale
+1265,Tripel
+1266,Fruit / Vegetable Beer
+1267,American Double / Imperial IPA
+1268,American Double / Imperial IPA
+1269,American IPA
+1270,American Blonde Ale
+1271,American Brown Ale
+1272,American Pale Ale (APA)
+1273,German Pilsener
+1274,American IPA
+1275,American IPA
+1276,American Pale Ale (APA)
+1277,Russian Imperial Stout
+1278,American Pale Ale (APA)
+1279,American Double / Imperial IPA
+1280,Saison / Farmhouse Ale
+1281,American Stout
+1282,American Amber / Red Ale
+1283,American Double / Imperial IPA
+1284,American Double / Imperial IPA
+1285,Rye Beer
+1286,Saison / Farmhouse Ale
+1287,American Stout
+1288,American IPA
+1289,Shandy
+1290,American IPA
+1291,German Pilsener
+1292,Light Lager
+1293,Light Lager
+1294,American Pale Lager
+1295,Fruit / Vegetable Beer
+1296,American Blonde Ale
+1297,American IPA
+1298,American Pale Wheat Ale
+1299,English Pale Ale
+1300,English Pale Ale
+1301,American Brown Ale
+1302,Czech Pilsener
+1303,Saison / Farmhouse Ale
+1304,Belgian Strong Dark Ale
+1305,Fruit / Vegetable Beer
+1306,American Amber / Red Ale
+1307,Witbier
+1308,American IPA
+1309,American Pale Wheat Ale
+1310,Munich Helles Lager
+1311,American Porter
+1312,American IPA
+1313,American Porter
+1314,Witbier
+1315,American Pale Ale (APA)
+1316,Cider
+1317,Cider
+1318,Cider
+1319,American IPA
+1320,American IPA
+1321,American Blonde Ale
+1322,American Porter
+1323,American Amber / Red Ale
+1324,American Pale Ale (APA)
+1325,Fruit / Vegetable Beer
+1326,American Brown Ale
+1327,American IPA
+1328,American Blonde Ale
+1329,American Amber / Red Ale
+1330,American IPA
+1331,American IPA
+1332,Witbier
+1333,American Brown Ale
+1334,American IPA
+1335,American Double / Imperial IPA
+1336,American IPA
+1337,Wheat Ale
+1338,American Double / Imperial IPA
+1339,Cream Ale
+1340,Kölsch
+1341,American Double / Imperial IPA
+1342,American IPA
+1343,American IPA
+1344,Belgian IPA
+1345,Saison / Farmhouse Ale
+1346,Berliner Weissbier
+1347,American IPA
+1348,American Pale Ale (APA)
+1349,American Pilsner
+1350,American IPA
+1351,Witbier
+1352,Irish Red Ale
+1353,American Pale Ale (APA)
+1354,American Double / Imperial IPA
+1355,American Amber / Red Ale
+1356,American IPA
+1357,Saison / Farmhouse Ale
+1358,Witbier
+1359,Vienna Lager
+1360,American Amber / Red Ale
+1361,American Malt Liquor
+1362,Bock
+1363,Light Lager
+1364,American Pale Lager
+1365,American Pale Lager
+1366,American Pale Lager
+1367,American Pale Lager
+1368,American Pale Lager
+1369,American Pale Lager
+1370,American Adjunct Lager
+1371,Light Lager
+1372,American Adjunct Lager
+1373,American Adjunct Lager
+1374,Belgian Pale Ale
+1375,American IPA
+1376,American Pale Ale (APA)
+1377,American Double / Imperial IPA
+1378,American Brown Ale
+1379,American Pale Wheat Ale
+1380,California Common / Steam Beer
+1381,American IPA
+1382,English Brown Ale
+1383,American Pale Ale (APA)
+1384,American Pale Ale (APA)
+1385,American IPA
+1386,American IPA
+1387,American Pale Ale (APA)
+1388,American Amber / Red Ale
+1389,Saison / Farmhouse Ale
+1390,American Pale Wheat Ale
+1391,American Stout
+1392,American Amber / Red Ale
+1393,American Amber / Red Ale
+1394,American Brown Ale
+1395,American Double / Imperial IPA
+1396,American Pale Ale (APA)
+1397,American Blonde Ale
+1398,Extra Special / Strong Bitter (ESB)
+1399,Munich Helles Lager
+1400,Märzen / Oktoberfest
+1401,American Pale Wheat Ale
+1402,Schwarzbier
+1403,German Pilsener
+1404,Cream Ale
+1405,American Pale Ale (APA)
+1406,Hefeweizen
+1407,American Blonde Ale
+1408,American IPA
+1409,American Amber / Red Ale
+1410,Witbier
+1411,American IPA
+1412,Light Lager
+1413,Witbier
+1414,Hefeweizen
+1415,American Amber / Red Lager
+1416,American Pale Lager
+1417,American Pale Lager
+1418,American Blonde Ale
+1419,American Pale Wheat Ale
+1420,Light Lager
+1421,American Pilsner
+1422,Milk / Sweet Stout
+1423,German Pilsener
+1424,American Pale Wheat Ale
+1425,Cream Ale
+1426,American Pale Wheat Ale
+1427,American Porter
+1428,Bock
+1429,Märzen / Oktoberfest
+1430,American Blonde Ale
+1431,American Black Ale
+1432,American Double / Imperial IPA
+1433,American Double / Imperial IPA
+1434,American Black Ale
+1435,American Blonde Ale
+1436,Pumpkin Ale
+1437,American IPA
+1438,Hefeweizen
+1439,English Brown Ale
+1440,American Pale Ale (APA)
+1441,American IPA
+1442,German Pilsener
+1443,American IPA
+1444,American IPA
+1445,American Pale Lager
+1446,Euro Dark Lager
+1447,Czech Pilsener
+1448,American Amber / Red Lager
+1449,American Pale Wheat Ale
+1450,American Pale Wheat Ale
+1451,American Amber / Red Ale
+1452,American Pale Lager
+1453,American Amber / Red Ale
+1454,American Pale Lager
+1455,American IPA
+1456,American Amber / Red Ale
+1457,American IPA
+1458,American Pale Wheat Ale
+1459,American Amber / Red Ale
+1460,Berliner Weissbier
+1461,American IPA
+1462,American Pilsner
+1463,American Amber / Red Ale
+1464,Belgian Pale Ale
+1465,American Double / Imperial IPA
+1466,Belgian Pale Ale
+1467,American Double / Imperial IPA
+1468,American Pilsner
+1469,American Amber / Red Ale
+1470,American IPA
+1471,American Pale Ale (APA)
+1472,American Stout
+1473,American Double / Imperial IPA
+1474,American IPA
+1475,English Dark Mild Ale
+1476,American Blonde Ale
+1477,Dunkelweizen
+1478,American Blonde Ale
+1479,American Amber / Red Ale
+1480,English Brown Ale
+1481,Witbier
+1482,Cream Ale
+1483,American IPA
+1484,Witbier
+1485,American Pale Ale (APA)
+1486,American Amber / Red Ale
+1487,American Pale Ale (APA)
+1488,American IPA
+1489,English India Pale Ale (IPA)
+1490,American Stout
+1491,Irish Red Ale
+1492,German Pilsener
+1493,American IPA
+1494,Milk / Sweet Stout
+1495,English Brown Ale
+1496,Pumpkin Ale
+1497,American Porter
+1498,Extra Special / Strong Bitter (ESB)
+1499,American IPA
+1500,American IPA
+1501,American Pale Ale (APA)
+1502,German Pilsener
+1503,American Pale Wheat Ale
+1504,American IPA
+1505,Czech Pilsener
+1506,Pumpkin Ale
+1507,American IPA
+1508,Fruit / Vegetable Beer
+1509,American IPA
+1510,American Amber / Red Ale
+1511,American Stout
+1512,American IPA
+1513,Baltic Porter
+1514,English Bitter
+1515,Keller Bier / Zwickel Bier
+1516,American Pale Ale (APA)
+1517,American Pale Wheat Ale
+1518,Dunkelweizen
+1519,Altbier
+1520,Kölsch
+1521,Belgian Strong Dark Ale
+1522,Scotch Ale / Wee Heavy
+1523,American Porter
+1524,Hefeweizen
+1525,American Pale Ale (APA)
+1526,American Pale Ale (APA)
+1527,Hefeweizen
+1528,Scottish Ale
+1529,American Brown Ale
+1530,Saison / Farmhouse Ale
+1531,American Pale Ale (APA)
+1532,American Stout
+1533,Rye Beer
+1534,American Pale Lager
+1535,American Brown Ale
+1536,American Stout
+1537,American Porter
+1538,Pumpkin Ale
+1539,American Pale Wheat Ale
+1540,American Blonde Ale
+1541,American IPA
+1542,American Pale Ale (APA)
+1543,American Pale Wheat Ale
+1544,American Pale Lager
+1545,American Amber / Red Lager
+1546,American Pale Lager
+1547,Euro Dark Lager
+1548,Light Lager
+1549,Saison / Farmhouse Ale
+1550,Saison / Farmhouse Ale
+1551,American IPA
+1552,American Pale Ale (APA)
+1553,Scotch Ale / Wee Heavy
+1554,
+1555,
+1556,American IPA
+1557,English Brown Ale
+1558,American IPA
+1559,American Pale Ale (APA)
+1560,American Pale Ale (APA)
+1561,Czech Pilsener
+1562,American IPA
+1563,American IPA
+1564,American Pale Ale (APA)
+1565,American Brown Ale
+1566,American Pale Ale (APA)
+1567,American Pale Ale (APA)
+1568,American Double / Imperial IPA
+1569,American Pale Ale (APA)
+1570,American Pale Ale (APA)
+1571,American Double / Imperial IPA
+1572,Belgian Dark Ale
+1573,Belgian Strong Pale Ale
+1574,American Strong Ale
+1575,American Double / Imperial IPA
+1576,American Double / Imperial IPA
+1577,American Double / Imperial IPA
+1578,Russian Imperial Stout
+1579,Czech Pilsener
+1580,American Double / Imperial IPA
+1581,Scottish Ale
+1582,American Double / Imperial IPA
+1583,American Pale Ale (APA)
+1584,American Double / Imperial IPA
+1585,Russian Imperial Stout
+1586,Russian Imperial Stout
+1587,Scottish Ale
+1588,Scottish Ale
+1589,Scottish Ale
+1590,American Pale Ale (APA)
+1591,American Pale Ale (APA)
+1592,American Pale Ale (APA)
+1593,American Pale Ale (APA)
+1594,American Pale Ale (APA)
+1595,American Brown Ale
+1596,American Double / Imperial IPA
+1597,American Double / Imperial IPA
+1598,Russian Imperial Stout
+1599,American Double / Imperial IPA
+1600,Scottish Ale
+1601,American Pale Ale (APA)
+1602,American Pale Ale (APA)
+1603,American White IPA
+1604,American Pale Ale (APA)
+1605,American Pale Ale (APA)
+1606,American IPA
+1607,American Dark Wheat Ale
+1608,Irish Red Ale
+1609,American Pale Ale (APA)
+1610,Kölsch
+1611,English Bitter
+1612,American Porter
+1613,American Pale Ale (APA)
+1614,American IPA
+1615,American Pale Lager
+1616,American Pale Ale (APA)
+1617,American Brown Ale
+1618,Kölsch
+1619,American Pilsner
+1620,American Pale Wheat Ale
+1621,Light Lager
+1622,American Pilsner
+1623,American IPA
+1624,American IPA
+1625,American Pale Wheat Ale
+1626,German Pilsener
+1627,American Brown Ale
+1628,American Blonde Ale
+1629,American Black Ale
+1630,American IPA
+1631,American Pale Ale (APA)
+1632,American IPA
+1633,American Pale Lager
+1634,American Pale Wheat Ale
+1635,Czech Pilsener
+1636,American Pale Ale (APA)
+1637,American Pale Wheat Ale
+1638,American Pale Wheat Ale
+1639,American Pale Wheat Ale
+1640,American Pale Lager
+1641,American Amber / Red Ale
+1642,Dubbel
+1643,American IPA
+1644,American IPA
+1645,American Pale Ale (APA)
+1646,American Amber / Red Ale
+1647,American IPA
+1648,Milk / Sweet Stout
+1649,American Pale Ale (APA)
+1650,Chile Beer
+1651,American Black Ale
+1652,Fruit / Vegetable Beer
+1653,American Blonde Ale
+1654,American Porter
+1655,American Dark Wheat Ale
+1656,American Amber / Red Ale
+1657,American IPA
+1658,American Amber / Red Ale
+1659,American IPA
+1660,American Pale Ale (APA)
+1661,American IPA
+1662,American Amber / Red Ale
+1663,American IPA
+1664,American Pilsner
+1665,American Pale Ale (APA)
+1666,American Barleywine
+1667,American IPA
+1668,American Amber / Red Ale
+1669,American Pale Wheat Ale
+1670,Munich Helles Lager
+1671,Munich Dunkel Lager
+1672,Czech Pilsener
+1673,American Pale Ale (APA)
+1674,Czech Pilsener
+1675,American Pale Wheat Ale
+1676,Hefeweizen
+1677,Hefeweizen
+1678,Belgian Pale Ale
+1679,American Porter
+1680,Munich Helles Lager
+1681,American Pale Ale (APA)
+1682,Gose
+1683,Witbier
+1684,American Black Ale
+1685,American Blonde Ale
+1686,English Pale Ale
+1687,German Pilsener
+1688,American Blonde Ale
+1689,American Blonde Ale
+1690,American Brown Ale
+1691,American IPA
+1692,Czech Pilsener
+1693,American Blonde Ale
+1694,American IPA
+1695,Belgian IPA
+1696,American Porter
+1697,Rye Beer
+1698,Cider
+1699,American IPA
+1700,American IPA
+1701,American Amber / Red Ale
+1702,Mead
+1703,Mead
+1704,Mead
+1705,Witbier
+1706,American Pale Ale (APA)
+1707,Russian Imperial Stout
+1708,American IPA
+1709,American Double / Imperial IPA
+1710,American Blonde Ale
+1711,American IPA
+1712,American Stout
+1713,American Stout
+1714,American Porter
+1715,American Blonde Ale
+1716,Vienna Lager
+1717,American Pale Ale (APA)
+1718,American Amber / Red Ale
+1719,American Blonde Ale
+1720,American Pale Ale (APA)
+1721,Belgian Pale Ale
+1722,Herbed / Spiced Beer
+1723,Herbed / Spiced Beer
+1724,Märzen / Oktoberfest
+1725,American Porter
+1726,American IPA
+1727,Witbier
+1728,American Amber / Red Ale
+1729,American Pale Ale (APA)
+1730,American Amber / Red Ale
+1731,American Porter
+1732,Märzen / Oktoberfest
+1733,American Pale Ale (APA)
+1734,American IPA
+1735,American Blonde Ale
+1736,Cream Ale
+1737,Gose
+1738,American Pale Ale (APA)
+1739,Witbier
+1740,American Amber / Red Ale
+1741,American IPA
+1742,American Pale Ale (APA)
+1743,American IPA
+1744,Märzen / Oktoberfest
+1745,Pumpkin Ale
+1746,American IPA
+1747,Oatmeal Stout
+1748,American White IPA
+1749,American Pale Ale (APA)
+1750,American Amber / Red Ale
+1751,American Amber / Red Ale
+1752,American Blonde Ale
+1753,Scottish Ale
+1754,Witbier
+1755,American Amber / Red Lager
+1756,American IPA
+1757,Fruit / Vegetable Beer
+1758,American Amber / Red Lager
+1759,Czech Pilsener
+1760,American Porter
+1761,American Adjunct Lager
+1762,American Amber / Red Ale
+1763,Milk / Sweet Stout
+1764,American IPA
+1765,American Adjunct Lager
+1766,American Amber / Red Ale
+1767,American Strong Ale
+1768,American IPA
+1769,American Stout
+1770,Saison / Farmhouse Ale
+1771,Belgian Strong Pale Ale
+1772,American Pale Ale (APA)
+1773,English Brown Ale
+1774,American Black Ale
+1775,American IPA
+1776,Kölsch
+1777,American Amber / Red Ale
+1778,American Black Ale
+1779,American Amber / Red Lager
+1780,American Black Ale
+1781,American Amber / Red Ale
+1782,Witbier
+1783,American IPA
+1784,American Pale Ale (APA)
+1785,Kölsch
+1786,American Porter
+1787,Winter Warmer
+1788,American Double / Imperial IPA
+1789,Märzen / Oktoberfest
+1790,American Blonde Ale
+1791,American Pale Wheat Ale
+1792,Belgian IPA
+1793,American Amber / Red Ale
+1794,Hefeweizen
+1795,American IPA
+1796,American Porter
+1797,American Pale Ale (APA)
+1798,Herbed / Spiced Beer
+1799,Fruit / Vegetable Beer
+1800,American Pale Ale (APA)
+1801,American IPA
+1802,Hefeweizen
+1803,American Pale Ale (APA)
+1804,American Amber / Red Ale
+1805,Saison / Farmhouse Ale
+1806,American Black Ale
+1807,American Double / Imperial IPA
+1808,American Brown Ale
+1809,English India Pale Ale (IPA)
+1810,Saison / Farmhouse Ale
+1811,American Black Ale
+1812,Irish Red Ale
+1813,Märzen / Oktoberfest
+1814,Russian Imperial Stout
+1815,German Pilsener
+1816,American IPA
+1817,American Blonde Ale
+1818,Cider
+1819,Cider
+1820,Cider
+1821,American Pale Wheat Ale
+1822,Schwarzbier
+1823,American IPA
+1824,American Brown Ale
+1825,Hefeweizen
+1826,Munich Helles Lager
+1827,Fruit / Vegetable Beer
+1828,American IPA
+1829,Cider
+1830,Cider
+1831,American IPA
+1832,American Porter
+1833,American Strong Ale
+1834,English Brown Ale
+1835,American Amber / Red Ale
+1836,American Pale Ale (APA)
+1837,American IPA
+1838,American Black Ale
+1839,English Pale Ale
+1840,American IPA
+1841,American Pale Wheat Ale
+1842,Pumpkin Ale
+1843,American Blonde Ale
+1844,German Pilsener
+1845,American IPA
+1846,Maibock / Helles Bock
+1847,Rye Beer
+1848,American Pale Ale (APA)
+1849,American Pale Wheat Ale
+1850,Czech Pilsener
+1851,American IPA
+1852,American Pale Ale (APA)
+1853,Cider
+1854,American Brown Ale
+1855,American Amber / Red Ale
+1856,American IPA
+1857,Baltic Porter
+1858,Gose
+1859,Belgian Pale Ale
+1860,Fruit / Vegetable Beer
+1861,American IPA
+1862,American Pale Ale (APA)
+1863,American Double / Imperial IPA
+1864,American Strong Ale
+1865,American IPA
+1866,German Pilsener
+1867,Cream Ale
+1868,Rye Beer
+1869,American IPA
+1870,Baltic Porter
+1871,American Brown Ale
+1872,American Pale Wheat Ale
+1873,Saison / Farmhouse Ale
+1874,American Double / Imperial IPA
+1875,American Stout
+1876,Pumpkin Ale
+1877,German Pilsener
+1878,Cream Ale
+1879,Rye Beer
+1880,American IPA
+1881,American IPA
+1882,Doppelbock
+1883,American IPA
+1884,American Stout
+1885,American Stout
+1886,Foreign / Export Stout
+1887,American Stout
+1888,American Pale Lager
+1889,American Blonde Ale
+1890,American Pale Ale (APA)
+1891,Extra Special / Strong Bitter (ESB)
+1892,American IPA
+1893,American Amber / Red Ale
+1894,American IPA
+1895,Belgian IPA
+1896,Tripel
+1897,English Pale Ale
+1898,American IPA
+1899,Winter Warmer
+1900,Grisette
+1901,American IPA
+1902,Munich Helles Lager
+1903,Winter Warmer
+1904,American Double / Imperial IPA
+1905,Märzen / Oktoberfest
+1906,American IPA
+1907,Munich Dunkel Lager
+1908,Hefeweizen
+1909,German Pilsener
+1910,American Pale Ale (APA)
+1911,American IPA
+1912,American Amber / Red Ale
+1913,Saison / Farmhouse Ale
+1914,American Pilsner
+1915,American Pale Ale (APA)
+1916,Foreign / Export Stout
+1917,English Brown Ale
+1918,Vienna Lager
+1919,American Pale Ale (APA)
+1920,American IPA
+1921,Kölsch
+1922,American Double / Imperial IPA
+1923,American IPA
+1924,American IPA
+1925,Märzen / Oktoberfest
+1926,American Double / Imperial IPA
+1927,American Double / Imperial Stout
+1928,Saison / Farmhouse Ale
+1929,Witbier
+1930,Maibock / Helles Bock
+1931,American Barleywine
+1932,American Blonde Ale
+1933,American Pale Ale (APA)
+1934,American Pale Wheat Ale
+1935,American Porter
+1936,American Strong Ale
+1937,American IPA
+1938,Bock
+1939,American IPA
+1940,Saison / Farmhouse Ale
+1941,Kölsch
+1942,Light Lager
+1943,Czech Pilsener
+1944,American IPA
+1945,American IPA
+1946,American IPA
+1947,Extra Special / Strong Bitter (ESB)
+1948,American Pale Ale (APA)
+1949,American Blonde Ale
+1950,American Amber / Red Ale
+1951,Oatmeal Stout
+1952,American Blonde Ale
+1953,American Pale Ale (APA)
+1954,American Pale Ale (APA)
+1955,Saison / Farmhouse Ale
+1956,Bière de Garde
+1957,American Double / Imperial IPA
+1958,American Double / Imperial IPA
+1959,American Double / Imperial IPA
+1960,Old Ale
+1961,American Blonde Ale
+1962,American Double / Imperial IPA
+1963,Saison / Farmhouse Ale
+1964,Bière de Garde
+1965,Foreign / Export Stout
+1966,American Pale Ale (APA)
+1967,American Blonde Ale
+1968,American IPA
+1969,English India Pale Ale (IPA)
+1970,American Pale Ale (APA)
+1971,American Double / Imperial IPA
+1972,American Porter
+1973,American Double / Imperial IPA
+1974,American Amber / Red Ale
+1975,American Stout
+1976,American Double / Imperial IPA
+1977,American Pale Ale (APA)
+1978,American IPA
+1979,American Pale Ale (APA)
+1980,Irish Red Ale
+1981,American Pale Wheat Ale
+1982,Vienna Lager
+1983,Vienna Lager
+1984,American Pale Ale (APA)
+1985,Cider
+1986,German Pilsener
+1987,American IPA
+1988,Märzen / Oktoberfest
+1989,American IPA
+1990,American Pale Ale (APA)
+1991,Kölsch
+1992,American Amber / Red Lager
+1993,American IPA
+1994,American Adjunct Lager
+1995,American Adjunct Lager
+1996,American Pale Ale (APA)
+1997,American Adjunct Lager
+1998,American Black Ale
+1999,American IPA
+2000,American Adjunct Lager
+2001,American Adjunct Lager
+2002,American Adjunct Lager
+2003,Winter Warmer
+2004,Märzen / Oktoberfest
+2005,American Pale Wheat Ale
+2006,American Pale Wheat Ale
+2007,American Pale Wheat Ale
+2008,American Blonde Ale
+2009,Kölsch
+2010,Märzen / Oktoberfest
+2011,American Brown Ale
+2012,American Pale Wheat Ale
+2013,American Pale Ale (APA)
+2014,American Amber / Red Lager
+2015,American Adjunct Lager
+2016,American Amber / Red Ale
+2017,American Black Ale
+2018,American Black Ale
+2019,Saison / Farmhouse Ale
+2020,American Blonde Ale
+2021,Kölsch
+2022,Milk / Sweet Stout
+2023,American IPA
+2024,American Adjunct Lager
+2025,American Adjunct Lager
+2026,American Amber / Red Lager
+2027,Light Lager
+2028,American Pale Ale (APA)
+2029,Extra Special / Strong Bitter (ESB)
+2030,American Pale Ale (APA)
+2031,American Double / Imperial IPA
+2032,Altbier
+2033,Scottish Ale
+2034,American Porter
+2035,Belgian Pale Ale
+2036,Scotch Ale / Wee Heavy
+2037,Belgian Dark Ale
+2038,Scotch Ale / Wee Heavy
+2039,Scotch Ale / Wee Heavy
+2040,American IPA
+2041,American IPA
+2042,American IPA
+2043,American IPA
+2044,Belgian IPA
+2045,Scotch Ale / Wee Heavy
+2046,Extra Special / Strong Bitter (ESB)
+2047,American IPA
+2048,American Pale Ale (APA)
+2049,Russian Imperial Stout
+2050,Flanders Oud Bruin
+2051,American Porter
+2052,German Pilsener
+2053,Irish Dry Stout
+2054,Scottish Ale
+2055,English Barleywine
+2056,American Brown Ale
+2057,Quadrupel (Quad)
+2058,Märzen / Oktoberfest
+2059,Dortmunder / Export Lager
+2060,Dortmunder / Export Lager
+2061,Belgian Strong Pale Ale
+2062,American Double / Imperial IPA
+2063,Scotch Ale / Wee Heavy
+2064,American IPA
+2065,Märzen / Oktoberfest
+2066,English Barleywine
+2067,Scottish Ale
+2068,Cream Ale
+2069,American Pale Ale (APA)
+2070,American Amber / Red Lager
+2071,American IPA
+2072,American IPA
+2073,Extra Special / Strong Bitter (ESB)
+2074,American Black Ale
+2075,American IPA
+2076,American IPA
+2077,English Bitter
+2078,Rye Beer
+2079,American Brown Ale
+2080,American Brown Ale
+2081,American Double / Imperial IPA
+2082,Keller Bier / Zwickel Bier
+2083,Saison / Farmhouse Ale
+2084,American IPA
+2085,American IPA
+2086,Witbier
+2087,American Pale Ale (APA)
+2088,Oatmeal Stout
+2089,Cream Ale
+2090,Herbed / Spiced Beer
+2091,German Pilsener
+2092,Hefeweizen
+2093,American IPA
+2094,American Pale Ale (APA)
+2095,American Double / Imperial IPA
+2096,Saison / Farmhouse Ale
+2097,American IPA
+2098,American IPA
+2099,Hefeweizen
+2100,American Blonde Ale
+2101,American Blonde Ale
+2102,Hefeweizen
+2103,Tripel
+2104,Saison / Farmhouse Ale
+2105,American Porter
+2106,Saison / Farmhouse Ale
+2107,Oatmeal Stout
+2108,American IPA
+2109,American Brown Ale
+2110,Extra Special / Strong Bitter (ESB)
+2111,Milk / Sweet Stout
+2112,American Pale Wheat Ale
+2113,American Pale Ale (APA)
+2114,Tripel
+2115,American Pale Wheat Ale
+2116,German Pilsener
+2117,American Double / Imperial IPA
+2118,American Brown Ale
+2119,Milk / Sweet Stout
+2120,American IPA
+2121,American IPA
+2122,American Amber / Red Ale
+2123,Altbier
+2124,American IPA
+2125,American Porter
+2126,American IPA
+2127,Witbier
+2128,Dubbel
+2129,American Brown Ale
+2130,American IPA
+2131,American Pale Ale (APA)
+2132,Extra Special / Strong Bitter (ESB)
+2133,Fruit / Vegetable Beer
+2134,English India Pale Ale (IPA)
+2135,American Pale Ale (APA)
+2136,Saison / Farmhouse Ale
+2137,American Brown Ale
+2138,Dunkelweizen
+2139,English India Pale Ale (IPA)
+2140,American Wild Ale
+2141,American Double / Imperial IPA
+2142,American Double / Imperial Stout
+2143,American IPA
+2144,American Double / Imperial IPA
+2145,American Double / Imperial IPA
+2146,American Amber / Red Ale
+2147,American IPA
+2148,English Brown Ale
+2149,American Pale Wheat Ale
+2150,Belgian Pale Ale
+2151,Belgian Pale Ale
+2152,Dubbel
+2153,American Pale Ale (APA)
+2154,American Black Ale
+2155,American Pale Ale (APA)
+2156,American Pale Ale (APA)
+2157,Kölsch
+2158,American IPA
+2159,English Brown Ale
+2160,American Double / Imperial IPA
+2161,American IPA
+2162,American Pilsner
+2163,American Amber / Red Lager
+2164,American Pale Ale (APA)
+2165,American Amber / Red Ale
+2166,American Stout
+2167,American Pale Ale (APA)
+2168,Shandy
+2169,American Pale Wheat Ale
+2170,American Pale Ale (APA)
+2171,Cream Ale
+2172,American Brown Ale
+2173,Fruit / Vegetable Beer
+2174,American Blonde Ale
+2175,American Porter
+2176,American IPA
+2177,Irish Red Ale
+2178,American IPA
+2179,American Pale Wheat Ale
+2180,Oatmeal Stout
+2181,American Pale Ale (APA)
+2182,California Common / Steam Beer
+2183,American Amber / Red Ale
+2184,American IPA
+2185,Braggot
+2186,American Dark Wheat Ale
+2187,American Porter
+2188,Fruit / Vegetable Beer
+2189,Russian Imperial Stout
+2190,Roggenbier
+2191,American Double / Imperial IPA
+2192,American IPA
+2193,Irish Red Ale
+2194,American Porter
+2195,Czech Pilsener
+2196,American Blonde Ale
+2197,American IPA
+2198,American Porter
+2199,Fruit / Vegetable Beer
+2200,American Blonde Ale
+2201,American Pale Ale (APA)
+2202,American Amber / Red Ale
+2203,American IPA
+2204,Vienna Lager
+2205,Shandy
+2206,American IPA
+2207,American IPA
+2208,Milk / Sweet Stout
+2209,American Amber / Red Ale
+2210,American IPA
+2211,Witbier
+2212,Belgian Strong Pale Ale
+2213,Doppelbock
+2214,American Amber / Red Ale
+2215,American Pilsner
+2216,Doppelbock
+2217,American IPA
+2218,American Pale Ale (APA)
+2219,American IPA
+2220,American Amber / Red Lager
+2221,American IPA
+2222,American Adjunct Lager
+2223,American IPA
+2224,American IPA
+2225,American Amber / Red Ale
+2226,American IPA
+2227,Czech Pilsener
+2228,American IPA
+2229,American Pale Ale (APA)
+2230,American Brown Ale
+2231,American Amber / Red Ale
+2232,American IPA
+2233,American IPA
+2234,American Pale Wheat Ale
+2235,American IPA
+2236,American Dark Wheat Ale
+2237,American Dark Wheat Ale
+2238,Dortmunder / Export Lager
+2239,American Pale Ale (APA)
+2240,Märzen / Oktoberfest
+2241,Bière de Garde
+2242,American Pale Ale (APA)
+2243,American Strong Ale
+2244,American IPA
+2245,Munich Helles Lager
+2246,Hefeweizen
+2247,American White IPA
+2248,American Double / Imperial IPA
+2249,Saison / Farmhouse Ale
+2250,German Pilsener
+2251,Pumpkin Ale
+2252,American Amber / Red Lager
+2253,American IPA
+2254,American IPA
+2255,American Blonde Ale
+2256,Schwarzbier
+2257,American IPA
+2258,American Pale Ale (APA)
+2259,American Pale Ale (APA)
+2260,German Pilsener
+2261,American IPA
+2262,Maibock / Helles Bock
+2263,Cider
+2264,Cider
+2265,Cider
+2266,Low Alcohol Beer
+2267,American Brown Ale
+2268,Belgian Pale Ale
+2269,Baltic Porter
+2270,Dubbel
+2271,American Double / Imperial IPA
+2272,Gose
+2273,American Pale Ale (APA)
+2274,Altbier
+2275,American IPA
+2276,Witbier
+2277,American IPA
+2278,Quadrupel (Quad)
+2279,Rye Beer
+2280,American Wild Ale
+2281,American Double / Imperial Stout
+2282,American Brown Ale
+2283,Saison / Farmhouse Ale
+2284,American White IPA
+2285,American Wild Ale
+2286,American Double / Imperial IPA
+2287,Winter Warmer
+2288,Pumpkin Ale
+2289,Belgian Pale Ale
+2290,Foreign / Export Stout
+2291,Vienna Lager
+2292,Vienna Lager
+2293,English Brown Ale
+2294,American Pale Ale (APA)
+2295,American IPA
+2296,American Brown Ale
+2297,American IPA
+2298,American Pale Ale (APA)
+2299,American Double / Imperial IPA
+2300,Doppelbock
+2301,American White IPA
+2302,American White IPA
+2303,Fruit / Vegetable Beer
+2304,American Double / Imperial IPA
+2305,American Pale Ale (APA)
+2306,Cider
+2307,Cider
+2308,Cider
+2309,Cider
+2310,Cider
+2311,American Stout
+2312,Tripel
+2313,Witbier
+2314,American Brown Ale
+2315,Belgian Strong Pale Ale
+2316,American IPA
+2317,American Double / Imperial Pilsner
+2318,American IPA
+2319,American IPA
+2320,American IPA
+2321,Witbier
+2322,American Double / Imperial IPA
+2323,American Pale Wheat Ale
+2324,English Pale Ale
+2325,American IPA
+2326,Pumpkin Ale
+2327,Fruit / Vegetable Beer
+2328,American IPA
+2329,American Amber / Red Ale
+2330,American IPA
+2331,Cream Ale
+2332,Oatmeal Stout
+2333,American IPA
+2334,Herbed / Spiced Beer
+2335,American Porter
+2336,American Amber / Red Ale
+2337,American IPA
+2338,American Pale Ale (APA)
+2339,Gose
+2340,Witbier
+2341,American IPA
+2342,Märzen / Oktoberfest
+2343,American Amber / Red Lager
+2344,American IPA
+2345,American Pale Lager
+2346,Bock
+2347,English Stout
+2348,American IPA
+2349,Cream Ale
+2350,Chile Beer
+2351,American Amber / Red Ale
+2352,Berliner Weissbier
+2353,American IPA
+2354,Berliner Weissbier
+2355,Berliner Weissbier
+2356,American IPA
+2357,Radler
+2358,Hefeweizen
+2359,Hefeweizen
+2360,American Double / Imperial IPA
+2361,Pumpkin Ale
+2362,American Brown Ale
+2363,American Blonde Ale
+2364,American Double / Imperial IPA
+2365,American Double / Imperial IPA
+2366,Witbier
+2367,Oatmeal Stout
+2368,Pumpkin Ale
+2369,American Pale Ale (APA)
+2370,Belgian Pale Ale
+2371,Scotch Ale / Wee Heavy
+2372,American Pilsner
+2373,American Pale Ale (APA)
+2374,Irish Dry Stout
+2375,Bock
+2376,Munich Helles Lager
+2377,American Pale Ale (APA)
+2378,American Blonde Ale
+2379,American IPA
+2380,American Porter
+2381,American Amber / Red Lager
+2382,American IPA
+2383,American Porter
+2384,American IPA
+2385,Saison / Farmhouse Ale
+2386,American IPA
+2387,American Pilsner
+2388,American IPA
+2389,American Brown Ale
+2390,American IPA
+2391,American Pale Lager
+2392,Cider
+2393,American IPA
+2394,American Pilsner
+2395,American IPA
+2396,American IPA
+2397,Kölsch
+2398,American Double / Imperial IPA
+2399,American IPA
+2400,American Pale Ale (APA)
+2401,Chile Beer
+2402,American Strong Ale
+2403,Pumpkin Ale
+2404,American Stout
+2405,Belgian IPA
+2406,American Amber / Red Ale
+2407,Schwarzbier
+2408,American Pale Ale (APA)
+2409,American Amber / Red Ale
