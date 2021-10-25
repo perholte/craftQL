@@ -1,5 +1,5 @@
 type Query {
-    beers: [Beer!]!
+    beers(filter: String, skip: Int, take: Int): [Beer!]!
 }
 
 type Mutation {
