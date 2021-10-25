@@ -8,7 +8,7 @@ const Header: React.FunctionComponent = () => {
             <Flex h={'6em'} justifyContent="space-between" py="1rem" bg="#556B2F" alignItems="center" px="5%">
                 <Beer />
                 <Heading fontSize="1.5rem" w="7rem">
-                    craftQL
+                    CraftQL
                 </Heading>
             </Flex>
         </Box>
