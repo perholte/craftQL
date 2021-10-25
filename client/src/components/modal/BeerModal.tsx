@@ -22,10 +22,11 @@ const BeerModal: React.FC<BeerModalProps> = ({ name, rating }) => {
     return (
         <>
             <div className="ModalDiv" onClick={onOpen}>
-                {name} + Rating + Type
+                {name}
+                <br /> Type & Rating
             </div>
 
-            <Modal size="xl" isOpen={isOpen} onClose={onClose}>
+            <Modal size="4xl" isOpen={isOpen} onClose={onClose}>
                 <ModalOverlay />
                 <ModalContent>
                     <ModalHeader>{name}</ModalHeader>

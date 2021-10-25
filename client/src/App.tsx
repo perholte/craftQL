@@ -3,17 +3,17 @@ import { useSelector } from 'react-redux';
 import './App.css';
 import Search from './components/common/Search';
 import Header from './components/header/Header';
-import SearchPage from './components/searchPage/SearchPage';
+import BeerList from './components/beerList/BeerList';
 import { RootState } from './redux/store';
 
-function App() {
+const App = () => {
     const searchValue = useSelector((state: RootState) => state.search.value);
 
     return (
         <div className="app">
             <Header />
-            <SearchPage />
             <Search />
+            <BeerList />
         </div>
     );
 };
