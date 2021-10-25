@@ -1,0 +1,43 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Beer {
+  BeerID            Int      @id
+  Name              String   @db.VarChar(255)
+  Type              Int?
+  Volume            Float?   @db.Float
+  Brand             Int
+  Brand_BeerToBrand Brand    @relation(fields: [Brand], references: [BrandID], onDelete: NoAction, onUpdate: NoAction, map: "BeerBrand")
+  Type_BeerToType   Type?    @relation(fields: [Type], references: [TypeID], onDelete: NoAction, onUpdate: NoAction, map: "BeerType")
+  Review            Review[]
+
+  @@index([Brand], map: "BeerBrand_idx")
+  @@index([Type], map: "BeerType_idx")
+}
+
+model Brand {
+  BrandID Int    @id @default(autoincrement())
+  Name    String @db.VarChar(255)
+  Beer    Beer[]
+}
+
+model Type {
+  TypeID Int    @id @default(autoincrement())
+  Name   String @db.VarChar(255)
+  Beer   Beer[]
+}
+
+model Review {
+  ReviewID          Int   @id @default(autoincrement())
+  Stars             Float @db.Float
+  Beer              Int?
+  Beer_BeerToReview Beer? @relation(fields: [Beer], references: [BeerID], onDelete: NoAction, onUpdate: NoAction, map: "ReviewOfBeer")
+
+  @@index([Beer], map: "ReviewOfBeer_idx")
+}
