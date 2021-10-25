@@ -12,5 +12,5 @@ type Beer {
     name: String!
     type: String!
     abv: Float!
-    rating: Float!
+    rating: Float
 }
