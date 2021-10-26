@@ -25,7 +25,7 @@ const BeerModal: React.FC<BeerModalProps> = ({ Beer }) => {
     const { isOpen, onOpen, onClose } = useDisclosure();
     return (
         <>
-            <Box className="ModalDiv" onClick={onOpen} color="rgba(117,56,19,255)">
+            <Box className="ModalDiv" onClick={onOpen} color="rgba(117,56,19,255)" aria-label="show more">
                 <b>{Beer.name}</b>
                 <br /> Type & Rating
             </Box>
