@@ -1,9 +1,8 @@
-const {parseBeer, mapOrdering} = require('./utils')
+const {parseBeer, mapOrdering, sortByRating} = require('./utils')
 
 async function beers(parent, args, context, info) {
     let { filter, skip, take, orderBy } = args
-
-    const where = filter
+    let where = filter
         ? {
         OR: [
             { Name: { contains: filter.toLowerCase().trim() } },
@@ -11,14 +10,20 @@ async function beers(parent, args, context, info) {
             { Brand_BeerToBrand: { Name: {contains: filter }} },
         ],
         } : {}
-    return  (await context.prisma.beer.findMany(
-        {   
-            where, 
-            include: {Type_BeerToType: true, Brand_BeerToBrand: true, _count: true}, 
-            take: take || 15, 
-            skip,
-            orderBy: mapOrdering(orderBy) 
-    })).map(parseBeer);
+    let queryParams = {   
+        where, 
+        include: {Type_BeerToType: true, Brand_BeerToBrand: true, _count: true, Review: true},  
+        skip,
+        orderBy: mapOrdering(orderBy) 
+    }
+    if (orderBy && Object.keys(orderBy)[0] == 'rating') {
+        queryParams["where"] = {NOT: [
+            {Review: {none: {}}}
+        ], ...where}
+        return sortByRating((await context.prisma.beer.findMany(queryParams)).map(parseBeer), orderBy['rating'] == 'asc').slice(0, take);
+    } else {
+        return (await context.prisma.beer.findMany({take: take || 15, ...queryParams})).map(parseBeer);
+    }
 }
 
 module.exports = {
