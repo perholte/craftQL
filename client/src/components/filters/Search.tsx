@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Input } from '@chakra-ui/react';
+import { FormControl, Input, FormLabel } from '@chakra-ui/react';
 import useDebounce from '../../hooks/Debounce';
 import { useAppDispatch } from '../../redux/store';
 import { setSearchValue } from '../../redux/slices/searchSlice';
@@ -14,7 +14,15 @@ const Search = () => {
     }, [dispatch, debouncedValue]);
 
     return (
-        <Input variant="filled" placeholder="Seach for beer" value={value} onChange={(e) => setValue(e.target.value)} />
+        <FormControl w="40%" minW="175px">
+            <FormLabel> Search beers by name, label or type: </FormLabel>
+            <Input
+                variant="filled"
+                placeholder="Seach for beer"
+                value={value}
+                onChange={(e) => setValue(e.target.value)}
+            />
+        </FormControl>
     );
 };
 
