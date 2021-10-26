@@ -1,5 +1,6 @@
-import { Grid } from '@chakra-ui/react';
+import { Grid, Box } from '@chakra-ui/react';
 import React, { useState } from 'react';
+import Filters from '../filters/Filters';
 import BeerModal from '../modal/BeerModal';
 
 interface Beer {
@@ -34,22 +35,16 @@ const BEER: Array<Beer> = [
 
 const BeerList: React.FC = () => {
     return (
-        <>
-            <Grid
-                pb="5rem"
-                mt="5rem"
-                mx="auto"
-                w="70vw"
-                templateColumns="repeat( auto-fit, minmax(250px, 1fr))"
-                gap={10}
-            >
+        <Box pb="5rem" mt="5rem" mx="auto" w="70vw">
+            <Filters />
+            <Grid templateColumns="repeat( auto-fit, minmax(250px, 1fr))" gap={10} pt="5rem">
                 {BEER && BEER.length > 0 ? (
                     BEER.map((beer) => <BeerModal key={beer.name} Beer={beer} />)
                 ) : (
                     <h1>No Results</h1>
                 )}
             </Grid>
-        </>
+        </Box>
     );
 };
 
