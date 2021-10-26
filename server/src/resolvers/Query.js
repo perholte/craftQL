@@ -24,7 +24,7 @@ async function beers(parent, args, context, info) {
             orderBy['rating'] == 'asc',
         ).slice(0, take);
     } else {
-        return (await context.prisma.beer.findMany({ take: take || 15, ...queryParams })).map(parseBeer);
+        return (await context.prisma.beer.findMany({ take: take, ...queryParams })).map(parseBeer);
     }
 }
 
