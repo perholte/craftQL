@@ -1,6 +1,7 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 import './App.css';
+import './Header-svg.css';
 import Search from './components/common/Search';
 import Header from './components/header/Header';
 import BeerList from './components/beerList/BeerList';
