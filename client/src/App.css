@@ -1,9 +1,10 @@
 html,
 body {
     margin: 0px;
+    height: 100%;
 }
 
-body,
 #root {
     background-color: rgba(232, 205, 102, 255);
+    height: 100%;
 }
