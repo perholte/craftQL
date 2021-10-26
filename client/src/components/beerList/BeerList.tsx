@@ -35,9 +35,16 @@ const BEER: Array<Beer> = [
 const BeerList: React.FC = () => {
     return (
         <>
-            <Grid my="5rem" mx="auto" w="70vw" templateColumns="repeat( auto-fit, minmax(250px, 1fr))" gap={10}>
+            <Grid
+                pb="5rem"
+                mt="5rem"
+                mx="auto"
+                w="70vw"
+                templateColumns="repeat( auto-fit, minmax(250px, 1fr))"
+                gap={10}
+            >
                 {BEER && BEER.length > 0 ? (
-                    BEER.map((beer) => <BeerModal key={beer.name} name={beer.name} rating={beer.rating} />)
+                    BEER.map((beer) => <BeerModal key={beer.name} Beer={beer} />)
                 ) : (
                     <h1>No Results</h1>
                 )}

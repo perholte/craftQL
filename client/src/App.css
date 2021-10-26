@@ -7,6 +7,16 @@
     stroke-miterlimit: 10;
 }
 
+html,
+body {
+    margin: 0px;
+}
+
+body,
+#root {
+    background-color: rgba(232, 205, 102, 255);
+}
+
 .schaum {
     fill: #f15a24;
 }
