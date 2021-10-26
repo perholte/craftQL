@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 import './App.css';
-import Search from './components/common/Search';
+import Filters from './components/filters/Filters';
 import Header from './components/header/Header';
 import Homepage from './components/homepage/Homepage';
 import SearchPage from './components/searchPage/SearchPage';
@@ -14,7 +14,7 @@ function App() {
         <div className="app">
             <Header />
             <SearchPage />
-            <Search />
+            <Filters />
         </div>
     );
 }
