@@ -1,4 +1,3 @@
-
 function parseBeer(beer) {
     let rating = null
     if (beer["Review"].length > 0) {
@@ -22,19 +21,19 @@ function mapOrdering(ordering) {
     let ord = ordering[column]
     switch (column) {
         case 'brand':
-            return {Brand_BeerToBrand: { Name: ord}}
+            return { Brand_BeerToBrand: { Name: ord } };
         case 'type':
-            return {Type_BeerToType: {Name: ord}}
+            return { Type_BeerToType: { Name: ord } };
         case 'name':
-            return {Name: ord}
+            return { Name: ord };
         case 'abv':
-            return {Volume: ord}
+            return { Volume: ord };
         case 'rating':
             return {Review: { 
                 _count: ord }
             }
         default:
-            return {Volume: ord}
+            return { Volume: ord };
     }
 }
 
