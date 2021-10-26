@@ -1,22 +1,20 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 import './App.css';
-import Filters from './components/filters/Filters';
+import './Header-svg.css';
 import Header from './components/header/Header';
-import Homepage from './components/homepage/Homepage';
-import SearchPage from './components/searchPage/SearchPage';
+import BeerList from './components/beerList/BeerList';
 import { RootState } from './redux/store';
 
-function App() {
+const App = () => {
     const searchValue = useSelector((state: RootState) => state.search.value);
 
     return (
         <div className="app">
             <Header />
-            <SearchPage />
-            <Filters />
+            <BeerList />
         </div>
     );
-}
+};
 
 export default App;
