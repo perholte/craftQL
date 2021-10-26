@@ -8,11 +8,21 @@ type Mutation {
 
 type Beer {
     id: ID!
-    brand: String!
+    brand: Brand!
     name: String!
-    type: String!
+    type: Type!
     abv: Float!
     rating: Float
+}
+
+type Brand {
+    id: ID!
+    name: String!
+}
+
+type Type {
+    id: ID!
+    name: String!
 }
 
 input BeerOrder {
