@@ -6,7 +6,7 @@ async function rateBeer(parent, args, context, info) {
     const rating = parseInt(args.rating);
     const beer = await context.prisma.beer.findUnique({
         where: { BeerID },
-        include: {Type_BeerToType: true, Brand_BeerToBrand: true }
+        include: { Type_BeerToType: true, Brand_BeerToBrand: true },
     });
     if (!beer) {
         return undefined;
