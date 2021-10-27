@@ -4,7 +4,7 @@ import useDebounce from '../../hooks/Debounce';
 import { useAppDispatch } from '../../redux/store';
 import { setSearchValue } from '../../redux/slices/searchSlice';
 
-const Search = () => {
+const Search: React.FC = () => {
     const dispatch = useAppDispatch();
     const [value, setValue] = useState<string>('');
     const debouncedValue = useDebounce(value, 500);
