@@ -9,12 +9,12 @@ async function type(parent, args, context, info) {
 async function rating(parent, args, context, info) {
     return context.prisma.review.aggregate({
         _avg: {
-            rating,
+            rating: true,
         },
         where: {
             beerId: parent.id,
         },
-    });
+    })._avg;
 }
 
 module.exports = {
