@@ -1,3 +1,5 @@
+const { UserInputError } = require('apollo-server-errors');
+
 async function rateBeer(parent, args, context, info) {
     const { beerId, rating } = args;
     const beerIdInt = parseInt(beerId);
@@ -7,7 +9,7 @@ async function rateBeer(parent, args, context, info) {
         },
     });
     if (!beer) {
-        throw Error('No beer with this id');
+        throw new UserInputError('No beer with this id');
     }
     const newReview = await context.prisma.review.create({
         data: {
