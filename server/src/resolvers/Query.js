@@ -1,5 +1,5 @@
 async function beers(parent, args, context, info) {
-    const { filter, skip, take } = args;
+    const { filter, skip, take, orderBy } = args;
     const where = filter
         ? {
               OR: [
@@ -13,6 +13,7 @@ async function beers(parent, args, context, info) {
         where,
         skip,
         take,
+        orderBy,
     });
 }
 
