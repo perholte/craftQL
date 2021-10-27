@@ -10,7 +10,7 @@ stages:
 build-frontend:
     stage: build
     script:
-        - yarn workspace frontend build
+        - yarn workspace client build
 
     cache:
         key: frontend
@@ -20,7 +20,7 @@ build-frontend:
 test-frontend:
     stage: test
     script:
-        - yarn workspace frontend test
+        - yarn workspace client test
 
     cache:
         key: frontend
