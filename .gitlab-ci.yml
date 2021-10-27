@@ -2,13 +2,10 @@ image: node:14.13.1
 
 before_script:
     - yarn
-    - apt-get update -qq && apt-get install -y -qq rsync
 
 stages:
     - build
     - test
-    - lint
-    - deploy
 
 build-frontend:
     stage: build
