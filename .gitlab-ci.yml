@@ -1,0 +1,31 @@
+image: node:14.13.1
+
+before_script:
+    - yarn
+    - apt-get update -qq && apt-get install -y -qq rsync
+
+stages:
+    - build
+    - test
+    - lint
+    - deploy
+
+build-frontend:
+    stage: build
+    script:
+        - yarn workspace frontend build
+
+    cache:
+        key: frontend
+        paths:
+            - packages/frontend/node_modules/
+
+test-frontend:
+    stage: test
+    script:
+        - yarn workspace frontend test
+
+    cache:
+        key: frontend
+        paths:
+            - packages/frontend/node_modules/
