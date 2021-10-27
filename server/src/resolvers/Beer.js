@@ -1,4 +1,4 @@
-async function brand(parent, args, context, info) {
+async function brand(parent, args, context) {
     return await context.prisma.beer.findUnique({ where: { id: parent.id } }).brand();
 }
 
