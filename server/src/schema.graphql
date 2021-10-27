@@ -3,7 +3,7 @@ type Query {
 }
 
 type Mutation {
-    rateBeer(beerID: ID!, rating: Int!): Beer
+    rateBeer(beerId: ID!, rating: Int!): Beer
 }
 
 type Beer {
@@ -30,7 +30,7 @@ input BeerOrder {
     name: Sort
     type: Sort
     abv: Sort
-    rating: Sort
+    # rating: Sort
 }
 
 enum Sort {

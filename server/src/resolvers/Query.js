@@ -1,5 +1,6 @@
 async function beers(parent, args, context, info) {
     const { filter, skip, take, orderBy } = args;
+    console.log(orderBy);
     const where = filter
         ? {
               OR: [
