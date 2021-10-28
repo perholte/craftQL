@@ -1,0 +1,28 @@
+image: node:14.17.0
+
+before_script:
+    - yarn
+
+stages:
+    - build
+    - test
+
+build-frontend:
+    stage: build
+    script:
+        - yarn workspace client build
+
+    cache:
+        key: frontend
+        paths:
+            - packages/frontend/node_modules/
+
+test-frontend:
+    stage: test
+    script:
+        - yarn workspace client test
+
+    cache:
+        key: frontend
+        paths:
+            - packages/frontend/node_modules/

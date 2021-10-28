@@ -1,5 +1,5 @@
 {
-  "name": "craftql",
+  "name": "client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -55,8 +55,12 @@
     ]
   },
   "devDependencies": {
+    "@types/enzyme": "^3.10.10",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.5",
+    "cypress": "^8.7.0",
+    "enzyme": "^3.11.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.26.1",

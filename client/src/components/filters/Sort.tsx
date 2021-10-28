@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux';
 import { setSortingChoice, SortOptions } from '../../redux/slices/sortSlice';
 import { RootState, useAppDispatch } from '../../redux/store';
 
-const Sort = () => {
+const Sort: React.FC = () => {
     const dispatch = useAppDispatch();
     const selected = useSelector((state: RootState) => state.sort.value);
 
