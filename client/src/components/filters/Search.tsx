@@ -18,7 +18,7 @@ const Search: React.FC = () => {
             <FormLabel> Search beers by name, label or type: </FormLabel>
             <Input
                 variant="filled"
-                placeholder="Seach for beer"
+                placeholder="Search for beer"
                 value={value}
                 onChange={(e) => setValue(e.target.value)}
             />

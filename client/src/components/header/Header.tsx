@@ -13,7 +13,7 @@ const Header: React.FunctionComponent = () => {
                 alignItems="center"
                 px="5%"
             >
-                <Beer />
+                <Beer id="beerSVG" />
                 <Heading fontSize="1.5rem" w="7rem" color="rgba(220,179,53,255)">
                     CraftQL
                 </Heading>
