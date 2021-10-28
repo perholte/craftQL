@@ -10,8 +10,9 @@ import {
     ModalContent,
     Box,
 } from '@chakra-ui/react';
-import React from 'react';
+import React, { useState } from 'react';
 import './BeerModal.css';
+import { Rating } from 'react-simple-star-rating';
 
 type BeerType = {
     name: string;
@@ -23,6 +24,7 @@ interface BeerModalProps {
 
 const BeerModal: React.FC<BeerModalProps> = ({ Beer }) => {
     const { isOpen, onOpen, onClose } = useDisclosure();
+    const [rating, setRating] = useState<number>(0);
     return (
         <>
             <Box className="ModalDiv" onClick={onOpen} color="rgba(117,56,19,255)" aria-label="show more">
@@ -61,6 +63,7 @@ const BeerModal: React.FC<BeerModalProps> = ({ Beer }) => {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam suscipit, veritatis illo
                         pariatur placeat eum provident recusandae facere ratione animi sequi esse perspiciatis
                         reiciendis aspernatur nobis aut doloremque debitis commodi.
+                        <Rating onClick={setRating} ratingValue={rating}></Rating>
                     </ModalBody>
 
                     <ModalFooter>
