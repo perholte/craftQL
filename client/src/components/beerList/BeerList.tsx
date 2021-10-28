@@ -3,7 +3,7 @@ import React from 'react';
 import Filters from '../filters/Filters';
 import BeerModal from '../modal/BeerModal';
 
-interface Beer {
+export interface Beer {
     name: string;
     rating: number;
 }
