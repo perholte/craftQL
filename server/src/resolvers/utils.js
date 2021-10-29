@@ -3,7 +3,7 @@ function parseOrderBy(orderBy) {
     switch (key) {
         case 'name':
             return orderBy;
-        case 'abc':
+        case 'abv':
             return orderBy;
         case 'type':
             return { type: { name: orderBy.type } };
