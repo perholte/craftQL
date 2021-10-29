@@ -7,14 +7,26 @@ import { ChakraProvider } from '@chakra-ui/react';
 import theme from './components/style/theme';
 import { store } from './redux/store';
 import { Provider } from 'react-redux';
+import { ApolloClient, ApolloProvider, createHttpLink, InMemoryCache } from '@apollo/client';
+
+const link = createHttpLink({
+    uri: 'http://129.241.104.92:4000',
+});
+
+const client = new ApolloClient({
+    link,
+    cache: new InMemoryCache(),
+});
 
 ReactDOM.render(
     <React.StrictMode>
-        <Provider store={store}>
-            <ChakraProvider theme={theme}>
-                <App />
-            </ChakraProvider>
-        </Provider>
+        <ApolloProvider client={client}>
+            <Provider store={store}>
+                <ChakraProvider theme={theme}>
+                    <App />
+                </ChakraProvider>
+            </Provider>
+        </ApolloProvider>
     </React.StrictMode>,
     document.getElementById('root'),
 );

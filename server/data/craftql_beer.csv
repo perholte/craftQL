@@ -1,0 +1,2349 @@
+BeerID,Name,Volume,Type,Brand
+2266,Scotty K NA,0.001,1170,557
+769,Bikini Beer,0.027,2167,396
+1074,Totally Radler,0.027,480,311
+2394,Summer Brew,0.028,1877,303
+138,Rocket Girl,0.032,112,85
+1860,Rad,0.032,185,456
+2027,American Light,0.032,1276,52
+1460,Weiss Trash Culture,0.034,1140,363
+42,Passion Fruit Prussia,0.035,89,391
+190,Banner American Ale,0.035,1275,353
+544,Carolina Blonde Light (2005),0.035,2308,225
+1737,Gose,0.035,1245,39
+1942,Montauk Light,0.035,403,164
+2008,Drop Dead Blonde,0.035,1032,411
+1313,Pit Stop Chocolate Porter,0.037,733,338
+1314,Pace Setter Belgian Style Wit,0.037,1960,266
+1315,Back in the Saddle Rye Pale Ale,0.037,687,468
+1420,Gansett Light,0.037,913,40
+61,Wolfman's Berliner,0.038,962,359
+183,Even Keel,0.038,2074,72
+628,Sankaty Light Lager,0.038,2112,235
+647,Chester's Beer (2005),0.038,1675,433
+1233,Pub Ale,0.038,198,175
+1736,Smooth Operator,0.038,605,65
+507,Lawnmower Lager,0.039,893,103
+549,Monkey Chased the Weasel,0.039,789,125
+1075,Nonstop Hef Hop,0.039,733,346
+1076,Nonstop Hef Hop,0.039,1923,392
+1077,Nonstop Hef Hop,0.039,2162,503
+1078,Nonstop Hef Hop,0.039,1180,408
+1079,Nonstop Hef Hop,0.039,898,324
+1080,Nonstop Hef Hop,0.039,1695,521
+1081,Nonstop Hef Hop,0.039,749,281
+1082,Nonstop Hef Hop,0.039,1415,430
+1083,Nonstop Hef Hop,0.039,1629,257
+1084,Nonstop Hef Hop,0.039,805,137
+1085,Nonstop Hef Hop,0.039,1514,33
+1086,Nonstop Hef Hop,0.039,2124,82
+1475,NOLA Brown Ale,0.039,1682,131
+75,Sho'nuff,0.04,352,470
+85,P-Town Pilsner,0.04,682,28
+325,Cherny Bock,0.04,1267,426
+332,Lucky Buck,0.04,1367,293
+542,Carolina Lighthouse (2007),0.04,150,315
+766,Nomader Weiss,0.04,320,61
+816,Flying Mouse 8,0.04,151,80
+851,Leprechaun Lager,0.04,1703,295
+874,77 Fremont Select Spring Session IPA,0.04,1142,208
+986,Hazy Day Belgian-Style Wit,0.04,520,361
+998,Norm's Gateway IPA,0.04,1094,95
+1185,Choc Beer (2003),0.04,1166,215
+1221,Blackbeary Wheat,0.04,1218,439
+1363,Minhas Light (2012),0.04,453,465
+1378,Squeaky Bike Nut Brown Ale,0.04,713,201
+1379,Dead Horse Amber,0.04,521,285
+1380,Rocket Bike American Lager,0.04,2056,182
+1381,Johnny's American IPA,0.04,459,198
+1416,Mustang '33,0.04,1768,555
+1417,Session '33 (2011),0.04,1728,18
+1505,Notch Session Pils,0.04,2263,73
+1605,Ozark American Pale Ale,0.04,720,400
+1621,Lobo Lito,0.04,2331,415
+2077,Bitter Brewer,0.04,2351,130
+2133,Greenwood Beach,0.04,1792,350
+2174,Knotty Blonde Ale,0.04,1635,511
+2252,Yard Sale Winter Lager,0.04,2332,546
+2253,Trader Session IPA,0.04,729,210
+2255,SUM'R,0.04,977,4
+2256,Organic Baba Black Lager,0.04,712,210
+2258,Cutthroat Pale Ale,0.04,1544,385
+2259,WYLD Extra Pale Ale,0.04,1085,292
+2298,Squatters Full Suspension Pale Ale,0.04,315,286
+2303,Wasatch Apricot Hefeweizen,0.04,790,241
+2305,Squatters Full Suspension Pale Ale,0.04,748,284
+2318,Wachusett Light IPA,0.04,2090,349
+2325,Wachusett Light IPA (2013),0.04,1996,155
+2339,Westbrook Gose,0.04,1867,532
+241,West Portal Colorado Common Summer Ale,0.041,709,239
+403,Mind Games,0.041,61,252
+1548,Havanüther,0.041,1582,517
+1640,Sparkle,0.041,1330,308
+1825,Schlafly Hefeweizen,0.041,1654,451
+2025,American Lager,0.041,267,153
+2026,American Amber,0.041,1966,84
+2171,Rise to the Top,0.041,1359,290
+2223,Day Hike Session,0.041,2224,71
+65,Purple Haze,0.042,1794,182
+72,A Beer,0.042,647,25
+101,Blood Orange Gose,0.042,2031,310
+102,Keebarlin' Pale Ale,0.042,1090,265
+331,Longhop IPA,0.042,2029,535
+378,Agave Wheat,0.042,1473,116
+538,Island Wheat,0.042,1927,445
+551,Boat Beer,0.042,815,532
+855,Four Peaks Peach Ale,0.042,394,174
+869,Bat Outta Helles,0.042,2010,156
+871,Rye Wit,0.042,684,447
+917,312 Urban Wheat Ale,0.042,278,502
+918,312 Urban Wheat Ale,0.042,907,215
+919,312 Urban Wheat Ale (2012),0.042,838,126
+945,Great Crescent Mild Ale,0.042,1789,169
+1009,Gossamer Golden Ale,0.042,47,424
+1056,White Cap White IPA,0.042,1700,519
+1057,Provision,0.042,60,334
+1255,High Country Pilsner (Current),0.042,1494,471
+1257,Golden Trout Pilsner,0.042,179,525
+1289,Saranac Shandy,0.042,382,288
+1321,Humpback Blonde Ale,0.042,1469,361
+1371,Boxer Light,0.042,1244,15
+1384,Monkadelic,0.042,2164,24
+1412,Up River Light,0.042,2256,326
+1424,Narragansett Summer Ale,0.042,1551,133
+1426,Narragansett Summer Ale,0.042,1502,317
+1482,Cream Ale,0.042,1696,126
+1547,Brünette,0.042,1311,372
+1613,Rodeo Rye Pale Ale,0.042,966,13
+1625,Farmer's Daughter Wheat,0.042,2190,478
+1854,Bear Ass Brown,0.042,2215,227
+1858,Jammer,0.042,1777,162
+1888,Mexican Logger,0.042,1130,150
+1986,Starr Pils,0.042,701,266
+2272,Old Pro,0.042,2067,556
+2366,Wild Onion Summer Wit,0.042,2325,70
+2401,Patty's Chile Beer,0.042,2268,429
+91,Kentucky Kölsch,0.043,49,245
+491,Porkslap Pale Ale,0.043,995,117
+739,Dry Dock Hefeweizen,0.043,1388,495
+758,Little Sister India Style Session Ale,0.043,1935,331
+925,Monarch Classic American Wheat,0.043,1217,232
+1014,Hangar 24 Helles Lager,0.043,1553,283
+1244,Sol Drifter,0.043,1970,205
+1346,Daft Funk,0.043,2317,244
+1504,Left of the Dial IPA,0.043,146,472
+1733,Zen,0.043,2182,218
+1738,Maine Island Trail Ale,0.043,1717,353
+1932,Galena Golden,0.043,72,207
+24,Bitter American,0.044,2153,406
+33,Bitter American (2011),0.044,1966,214
+181,Field 41 Pale Ale,0.044,379,359
+223,Moar,0.044,1047,376
+321,Blue Point Summer Ale,0.044,1168,311
+632,Wheat the People,0.044,1435,474
+720,Bravo Four Point,0.044,1156,316
+873,Yo Soy Un Berliner,0.044,1912,29
+1016,Hardywood Cream Ale,0.044,165,370
+1048,Tonganoxie Honey Wheat,0.044,159,557
+1611,Car 21,0.044,1141,276
+1615,North Fork Lager,0.044,758,306
+1682,18th Anniversary Gose,0.044,497,341
+2109,Tallgrass Pub Ale,0.044,1703,272
+2118,Tallgrass Ale,0.044,1846,68
+2168,Curious Traveler Shandy,0.044,503,345
+6,Lake Street Express,0.045,1006,538
+43,Send Help,0.045,1041,148
+66,Abita Amber,0.045,1221,428
+98,Summer Wheat,0.045,598,231
+153,Dirty Blonde Ale,0.045,2309,131
+188,All Nighter Ale,0.045,1977,416
+189,Banner American Rye,0.045,317,391
+193,Barrio Tucson Blonde,0.045,2218,266
+276,Deception,0.045,1398,342
+302,543 Skull Creek Fresh Hopped Pale Ale,0.045,794,326
+334,Bomb Lager (Old Recipe),0.045,2148,280
+355,Porch Rocker,0.045,1421,478
+379,SummerBright Ale,0.045,1256,480
+425,Belgian Wit,0.045,466,265
+458,Brooklyn Summer Ale,0.045,2250,477
+460,Brooklyn Summer Ale (2011),0.045,1733,384
+471,Painted Turtle,0.045,2135,448
+574,Chin Music Amber Lager,0.045,1072,142
+585,Enlighten,0.045,475,340
+588,Englishman,0.045,178,557
+604,Happening Now,0.045,374,519
+625,Grey Lady,0.045,1520,263
+661,Athena,0.045,1690,84
+668,Easy Livin' Summer Ale,0.045,1104,133
+678,Geary's Pale Ale,0.045,1084,240
+704,Thrasher Session India Pale Ale,0.045,548,67
+726,12 Man Pale Ale,0.045,901,39
+742,Dundee Summer Wheat Beer,0.045,291,454
+748,Boater Beer,0.045,628,84
+772,Stone's Throw IPA,0.045,892,173
+791,Weiss Weiss Baby,0.045,1236,192
+804,Easy Jack,0.045,1687,270
+821,Barstool American Golden Ale,0.045,873,511
+826,Suicide Squeeze IPA,0.045,1409,195
+875,Fremont Organic Pale Ale,0.045,2298,115
+936,Great Crescent Brown Ale,0.045,110,8
+957,Black Star Double Hopped Golden Lager (24 oz.),0.045,1293,86
+958,Black Star Double Hopped Golden Lager (12 oz.),0.045,33,435
+991,Mr. Blue Sky,0.045,1804,146
+1049,Oregon Trail Unfiltered Raspberry Wheat,0.045,1059,528
+1051,The 12th Can™,0.045,1478,337
+1113,Jon Boat Coastal Ale,0.045,879,112
+1133,Healani,0.045,845,359
+1191,Beach Cruiser,0.045,1749,414
+1226,Lost Galaxy,0.045,2401,154
+1258,Real McCoy Amber Ale (Current),0.045,1202,74
+1261,Belgian Style Session Ale,0.045,1529,226
+1292,Saranac Adirondack Light (2002),0.045,267,209
+1293,DAX Light (1998),0.045,622,336
+1310,Bikini Blonde Lager,0.045,97,223
+1443,Slow Ride,0.045,623,490
+1492,Slimy Pebble Pils,0.045,1691,371
+1493,Get Together,0.045,440,390
+1502,Walter's Premium Pilsener Beer,0.045,1551,150
+1503,Floppin' Crappie,0.045,20,205
+1520,Occidental Kölsch,0.045,2334,105
+1539,Endless Sun Ale,0.045,2324,515
+1610,Old Town Ale,0.045,1546,256
+1626,People's Pilsner,0.045,770,498
+1653,Float Trip Ale,0.045,1004,504
+1655,Black Walnut Wheat,0.045,2082,344
+1661,PONTO S.I.P.A.,0.045,80,204
+1678,Golden Fleece,0.045,735,251
+1758,Track 1 Amber Lager,0.045,392,294
+1776,Dog Days Summer Ale,0.045,1182,507
+1812,Santa Fe Irish Red Ale,0.045,420,456
+1823,Schlafly IPA,0.045,1704,140
+1826,Schlafly Summer Lager,0.045,289,73
+1881,Rudie Session IPA,0.045,1594,95
+2019,Classique,0.045,1197,374
+2020,Sunsplash Golden Ale (2004),0.045,1718,95
+2070,Dam Lager,0.045,361,210
+2090,Bermuda Triangle Ginger Beer,0.045,1963,288
+2162,Lionshead,0.045,1001,288
+2195,Circuit Bohemian Pilsner,0.045,1229,71
+2200,Tin Roof Blonde Ale,0.045,335,380
+2202,Perfect Tin Amber,0.045,436,505
+2215,Sunshine Pils,0.045,2407,234
+2241,Testudo,0.045,1046,434
+2245,The Gilded Age,0.045,247,433
+2275,Campside Session IPA,0.045,854,471
+2276,Upland Wheat Ale,0.045,1863,544
+2327,Wachusett Blueberry Ale,0.045,2196,227
+2361,Pumpkin Ale,0.045,703,413
+2368,Wild Onion Pumpkin Ale (2010),0.045,1655,230
+2372,Wild Wolf American Pilsner,0.045,22,547
+2387,Tiny Bomb,0.045,1429,444
+2389,Edward’s Portly Brown,0.045,806,176
+2397,Easy Day Kolsch,0.045,1414,452
+55,Honey Kolsch,0.046,1701,528
+186,Longfin Lager,0.046,1953,273
+285,Bomber Mountain Amber Ale,0.046,119,142
+306,834 Happy As Ale,0.046,1157,316
+533,Lake House,0.046,404,475
+535,Lake House,0.046,179,172
+635,Rhode Island Blueberry,0.046,584,193
+701,Rye Pils Session Lager,0.046,2015,377
+782,Peaches & Cream,0.046,1786,99
+839,KSA,0.046,836,476
+896,Golden Road Hefeweizen,0.046,1935,389
+904,Golden Road Hefeweizen (2012),0.046,1810,17
+1013,Orange Wheat,0.046,1673,34
+1104,Shenanigans Summer Ale,0.046,589,494
+1181,Longboard Island Lager,0.046,2123,376
+1182,Longboard Island Lager,0.046,1487,280
+1183,Longboard Island Lager,0.046,999,216
+1184,Longboard Island Lager,0.046,1857,31
+1219,Long Trail Ale,0.046,664,551
+1222,Long Trail Ale (1),0.046,1505,437
+1223,Gose,0.046,1342,23
+1402,Black Bear Dark Lager,0.046,2084,443
+1481,White Ale,0.046,512,7
+1538,Old Forge Pumpkin Ale,0.046,1622,237
+1619,Fresh Cut Pilsner,0.046,1136,261
+1680,Rahr's Blonde,0.046,1906,167
+1683,White (2015),0.046,1113,542
+1716,Vienna Lager,0.046,884,201
+1934,Woolybugger Wheat,0.046,1612,491
+2146,Bomber Mountain Amber Ale (2013),0.046,539,382
+2161,Just IPA,0.046,412,449
+2234,Panorama Wheat Ale,0.046,1501,126
+121,Oaky's Oatmeal Stout,0.047,1602,503
+129,Honey Badger Blonde,0.047,543,61
+163,Avery Joe’s Premium American Pilsner,0.047,1702,138
+205,Summer Swelter,0.047,2315,188
+208,Celsius Summer Ale (2012),0.047,191,87
+235,Tejas Lager,0.047,2133,172
+260,Summer Honey,0.047,222,446
+340,Slow & Steady Golden Ale,0.047,876,50
+342,Moe's Original Bar B Que 'Bama Brew Golden Ale,0.047,1590,526
+343,Live Local Golden Ale,0.047,1373,245
+370,Passenger,0.047,2190,398
+556,White Zombie Ale,0.047,677,18
+558,White Zombie Ale,0.047,2337,346
+633,Tybee Island Blonde,0.047,2045,129
+803,Golden Wing Blonde Ale,0.047,2218,228
+807,805 Blonde Ale,0.047,218,497
+808,805,0.047,1293,424
+815,Underdog Atlantic Lager,0.047,27,196
+837,Park,0.047,2275,99
+843,All Day IPA,0.047,2108,332
+1002,Hale's Pale American Ale,0.047,916,176
+1058,One Nut Brown,0.047,2118,528
+1148,Love Street Summer Seasonal (2014),0.047,2196,493
+1247,LIFT,0.047,1512,53
+1273,Marble Pilsner,0.047,914,274
+1295,Pomegranate Wheat (2008),0.047,2139,128
+1298,Saranac Summer Ale (2011),0.047,2241,129
+1390,Fortunate Islands,0.047,512,444
+1401,Honey Wheat,0.047,305,205
+1517,Occidental Hefeweizen,0.047,15,429
+1524,Heliocentric Hefeweizen,0.047,153,70
+1527,Helios Hefeweizen (2013),0.047,1249,430
+1634,Pete's Wicked Summer Brew (1995),0.047,219,1
+1637,Pete's Wicked Summer Brew (2002),0.047,788,182
+1638,Pete's Wicked Summer Brew (1997),0.047,1357,175
+1639,Pete's Wicked Summer Brew (1996),0.047,1318,244
+1696,Vanilla Porter,0.047,1194,509
+1827,Sea Dog Wild Blueberry Wheat Ale,0.047,2201,522
+1842,Pumpkinhead Ale,0.047,213,368
+1862,Sensi Harvest,0.047,2029,168
+1968,Baby Daddy Session IPA,0.047,1260,188
+1994,Point Special (Current),0.047,2253,185
+1995,Point Special,0.047,1519,54
+1997,Point Special,0.047,538,219
+2000,Point Special (2013),0.047,2002,538
+2001,Point Special (2012),0.047,1735,77
+2002,Point Special Lager,0.047,789,475
+2014,Point Amber Classic,0.047,2091,10
+2015,Point Special Lager,0.047,2328,5
+2030,Hopvale Organic Ale,0.047,2096,52
+2135,RecreationAle,0.047,564,392
+2167,Will Power Pale Ale,0.047,448,18
+2262,Humbucker Helles,0.047,1322,377
+2321,Strawberry White,0.047,1866,39
+2323,Wachusett Summer,0.047,418,150
+2329,T-6 Red Ale (2004),0.047,1814,314
+2391,Wolverine Premium Lager,0.047,1056,11
+103,"the Kimmie, the Yink and the Holy Gose",0.048,49,149
+141,Aslan Kölsch,0.048,977,127
+169,Mad Beach,0.048,368,304
+216,Bunker Hill Blueberry Ale,0.048,1601,468
+284,Saddle Bronc Brown Ale,0.048,1297,191
+287,Nordskye,0.048,482,345
+337,Wood Splitter Pilsner,0.048,740,12
+344,Screaming Eagle Special Ale ESB,0.048,702,39
+351,Wood Splitter Pilsner (2012),0.048,800,330
+352,Brush Creek Blonde,0.048,668,475
+455,Chugach Session Ale,0.048,1637,8
+495,32°/50° Kölsch,0.048,1750,349
+561,Whitecap Wit,0.048,771,300
+623,Shark Tracker Light lager,0.048,1121,557
+641,Capital Gold Golden Lager,0.048,503,372
+649,Trigger Blonde Ale,0.048,847,112
+700,Farmhouse Wit,0.048,1896,446
+764,Voodoo,0.048,2228,528
+793,FMB 101,0.048,278,394
+963,Great River Golden Ale,0.048,1283,349
+964,Dirty Blonde Chocolate Ale,0.048,2325,133
+965,Dos Pistolas,0.048,924,269
+975,40th Annual Bix Street Fest Copper Ale (Current),0.048,220,253
+1020,Honey Cider,0.048,1695,499
+1027,UFO White,0.048,1339,465
+1031,Beltian White,0.048,1318,207
+1064,541 American Lager,0.048,765,309
+1107,Oklahoma Suks,0.048,759,409
+1119,Leisure Time,0.048,374,108
+1180,Blackberry Wheat,0.048,944,135
+1190,Lancaster German Style Kölsch,0.048,606,386
+1196,Two-One Niner,0.048,1636,302
+1224,Vermont Pilsner,0.048,2385,435
+1232,The Farmer's Daughter,0.048,2005,104
+1294,Saranac Traditional Lager (2000),0.048,850,209
+1332,Snowshoe White Ale,0.048,856,214
+1351,SNO White Ale,0.048,1092,147
+1352,BRIK Irish Red Ale,0.048,719,133
+1359,Flaming Damsel Lager (2010),0.048,161,183
+1376,El Conquistador Extra Pale Ale,0.048,1774,75
+1438,EOS Hefeweizen,0.048,1511,207
+1439,Brunette Nut Brown Ale,0.048,2143,443
+1442,Trauger Pilsner,0.048,920,327
+1447,Blue Paddle,0.048,1799,282
+1450,Sunshine Wheat Beer,0.048,2225,390
+1458,Sunshine Wheat Beer (2009),0.048,1914,501
+1495,Wall's End,0.048,864,365
+1515,Luchesa Lager,0.048,1124,261
+1516,Slow Ride,0.048,944,419
+1543,Endless Summer Ale (2011),0.048,524,78
+1606,Hula Hoppie Session IPA,0.048,1233,555
+1616,Payette Pale Ale,0.048,865,536
+1628,Gold,0.048,302,269
+1735,Cougar,0.048,1832,423
+1749,OH-PA Session Pale Ale,0.048,820,480
+1757,Hala Kahiki Pineapple Beer,0.048,2047,258
+1779,Ruhstaller's Gilt Edge Lager Beer,0.048,515,123
+1785,Saint Archer Blonde,0.048,1151,104
+1849,Old Chico Crystal Wheat,0.048,817,219
+1943,Na Zdraví Pilsner,0.048,1543,509
+1988,Festie,0.048,1399,488
+2104,Ginger Peach Saison,0.048,2290,133
+2132,Smittytown,0.048,1998,475
+2148,Saddle Bronc Brown Ale (2013),0.048,1990,282
+2169,Hunny Do Wheat,0.048,560,204
+2224,Trailhead ISA,0.048,23,6
+2227,Presidential Pils,0.048,1104,485
+2233,Trailhead India Style Session Ale (2011),0.048,1145,329
+2249,Workers Comp Saison,0.048,598,380
+2291,Top Rope Mexican-style Craft Lager,0.048,1079,86
+2292,Upslope Craft Lager,0.048,2338,131
+2384,#004 Session I.P.A.,0.048,106,402
+25,Hell or High Watermelon Wheat (2009),0.049,2237,385
+26,Hell or High Watermelon Wheat (2009),0.049,264,0
+27,21st Amendment Watermelon Wheat Beer (2006),0.049,182,94
+38,Hell or High Watermelon Wheat,0.049,2228,100
+99,California Lager,0.049,179,420
+175,Back East Golden Ale,0.049,867,465
+194,Hop in the ‘Pool Helles,0.049,511,352
+210,Pamola Xtra Pale Ale,0.049,18,89
+314,Kölsch 151,0.049,1330,541
+345,Dirtbag Dunkel,0.049,515,400
+359,Boston Lager,0.049,1105,479
+360,Boston Lager,0.049,448,449
+363,Boston Lager,0.049,1755,409
+364,Hazed & Infused,0.049,314,35
+366,Hazed & Infused (2010),0.049,1279,547
+488,Heinnieweisse Weissebier,0.049,1571,106
+490,Moo Thunder Stout,0.049,2227,69
+530,Beach Blonde,0.049,1475,402
+595,Churchkey Pilsner Style Beer,0.049,861,489
+662,Aviator Raspberry Blonde,0.049,1947,213
+674,Lost River Blonde Ale,0.049,1235,525
+714,Abbey's Single (2015- ),0.049,798,492
+719,Abbey's Single Ale (Current),0.049,1652,519
+735,Cranberry Blend,0.049,687,348
+751,Dottie Seattle Lager,0.049,1506,362
+760,Blonde Czich,0.049,2090,231
+887,Boathouse Blonde,0.049,1582,231
+926,Sir William's English Brown Ale,0.049,2149,342
+990,Flagship Ale,0.049,838,229
+1032,Kaua'i Golden Ale,0.049,2261,335
+1053,Hilliard's Blonde,0.049,699,52
+1060,Double D Blonde,0.049,1342,406
+1063,Double D Blonde (2013),0.049,2383,414
+1067,Double D Blonde (2011),0.049,211,156
+1116,Summer Ale,0.049,2169,122
+1122,Calyptra,0.049,1423,515
+1151,Sympathy for the Lager,0.049,1087,279
+1178,King Street Blonde Ale,0.049,861,325
+1400,Morgan Street Oktoberfest,0.049,996,95
+1476,NOLA Blonde Ale,0.049,869,397
+1494,Maggie's Leap,0.049,1342,213
+1514,London Homesick Ale,0.049,705,429
+1551,Pinner Throwback IPA,0.049,2110,444
+1635,Pete's Wicked Bohemian Pilsner (1997),0.049,730,511
+1662,Chronic Ale,0.049,2368,498
+1692,Long Day Lager,0.049,1859,326
+1873,Harbinger,0.049,1293,533
+1897,Urban Wilderness Pale Ale,0.049,1925,73
+1902,Helles Golden Lager,0.049,351,157
+1909,Pikeland Pils,0.049,1704,111
+1991,Colorado Kölsch,0.049,560,551
+2009,Three Kings Ale,0.049,1946,319
+2099,TailGate Hefeweizen,0.049,489,222
+2102,TailGate Hefeweizen,0.049,1768,487
+2172,Lost Trout Brown Ale,0.049,2247,223
+2350,L'il Lucy's Hot Pepper Ale,0.049,1048,334
+2357,Hefe Lemon,0.049,1581,182
+2358,Hefe Black,0.049,1774,218
+2359,Widmer Brothers Hefeweizen,0.049,2361,551
+0,Pub Beer,0.05,1806,502
+40,Beach Blonde,0.05,2018,198
+49,Contact High,0.05,197,477
+51,Citrafest,0.05,2390,406
+68,The Brown Note,0.05,609,45
+73,Rules are Rules,0.05,1082,285
+81,The Brown Note,0.05,2045,254
+83,Oatmeal PSA,0.05,2326,332
+122,Angry Orchard Apple Ginger,0.05,2226,258
+123,Angry Orchard Crisp Apple,0.05,2008,476
+124,Angry Orchard Crisp Apple,0.05,143,23
+154,Grand Circus IPA,0.05,2004,36
+155,Atwater's Lager,0.05,461,511
+177,Back East Ale,0.05,1173,23
+197,Lost Meridian Wit,0.05,955,229
+201,Stargrazer,0.05,2088,402
+213,Watermelon Ale,0.05,1027,13
+219,Winter White,0.05,853,230
+231,Venture Pils,0.05,1903,211
+250,Big River Pilsner,0.05,1085,227
+253,Scape Goat Pale Ale,0.05,50,83
+254,Montana Trout Slayer Ale,0.05,1861,182
+258,Montana Trout Slayer Ale (2012),0.05,2066,368
+261,Scape Goat Pale Ale (2010),0.05,884,71
+262,Montana Trout Slayer Ale (2009),0.05,266,332
+278,Black Market Hefeweizen,0.05,128,56
+293,1800 Big Log Wheat (2012),0.05,748,197
+300,467 Ethan's Stout,0.05,2212,363
+326,Czech Pilsner,0.05,656,223
+327,Viennese Lager,0.05,611,33
+377,Post Time Kölsch,0.05,890,12
+382,"You're My Boy, Blue",0.05,410,187
+384,Rollin Dirty Red Ale,0.05,1482,395
+398,Nuit Serpent,0.05,1679,24
+422,Coq D'Or,0.05,717,322
+432,Black Rabbit,0.05,474,491
+453,Northern Lights Amber Ale,0.05,1803,114
+486,Couch Select Lager,0.05,695,171
+518,Remain in Light,0.05,2303,70
+540,U.S. Pale Ale,0.05,2313,412
+543,Carolina Blonde (2006),0.05,1698,442
+570,The Lawn Ranger,0.05,1678,183
+571,All American Blonde Ale,0.05,967,462
+572,All American Red Ale,0.05,2341,237
+573,Main St. Virginia Ale,0.05,1682,67
+575,Main St. Virginia Ale,0.05,1422,56
+583,Killer Kolsch,0.05,578,440
+596,First Press,0.05,875,425
+597,Magic Apple,0.05,1216,290
+616,Invasion Pale Ale,0.05,1641,432
+619,Hotter Than Helles Lager,0.05,2114,394
+622,Florida Cracker Belgian Wit,0.05,1673,553
+643,Behemoth,0.05,1203,527
+648,Heiner Brau Kölsch,0.05,1974,176
+681,The Tradition,0.05,669,523
+692,Sprocket Blonde Ale (2006),0.05,1392,369
+693,Sprocket Pale Ale (2006),0.05,56,312
+705,Gutch English Style Mild Ale,0.05,1520,109
+711,Graham Cracker Porter,0.05,155,493
+712,Mirror Pond Pale Ale,0.05,1407,209
+716,Here Gose Nothin',0.05,1859,236
+717,Strawberry Blonde,0.05,2181,494
+743,Pumpkin Patch Ale,0.05,572,434
+746,Pumpkin Patch Ale (2012),0.05,1474,141
+753,Underachiever,0.05,2356,421
+756,Hop Syndrome,0.05,641,57
+771,Iron Horse Pale Ale,0.05,1494,236
+777,Parcae Belgian Style Pale Ale,0.05,1425,492
+778,Norns Roggenbier,0.05,2342,517
+779,Laimas Kölsch Style Ale,0.05,1959,113
+786,Fearless Scottish Ale,0.05,1555,318
+797,Wet Hot American Wheat Ale,0.05,1735,87
+810,Hinchtown Hammer Down,0.05,894,212
+822,What the Butler Saw,0.05,179,376
+848,Father's Beer,0.05,542,393
+860,Suncaster Summer Wheat,0.05,2187,36
+885,Cack-A-Lacky,0.05,2020,545
+888,Cedar Point,0.05,188,18
+899,Cabrillo Kölsch,0.05,197,76
+921,White Water Wheat,0.05,2108,297
+948,Denver Pale Ale (Artist Series No. 1),0.05,1262,98
+953,Lasso,0.05,1768,201
+961,Chickawawa Lemonale,0.05,738,7
+966,Owney Irish Style Red Ale,0.05,729,460
+979,Pablo Beach Pale Ale,0.05,978,197
+993,Screamin’ Pumpkin,0.05,1440,351
+994,Grand Trunk Bohemian Pils,0.05,56,351
+997,Grind Line,0.05,1102,346
+1021,Harpoon Summer Beer,0.05,1633,59
+1026,Harpoon Summer Beer (2012),0.05,954,93
+1028,Harpoon Summer Beer (2010),0.05,1889,118
+1103,Sweet Yamma Jamma Ale,0.05,1996,108
+1123,Helen's Blend,0.05,1644,83
+1129,Firefly Amber Ale,0.05,467,0
+1138,Weize Guy,0.05,1088,430
+1139,Fox Tail Gluten Free Ale,0.05,1980,382
+1158,Peninsula Brewers Reserve (PBR),0.05,17,312
+1193,Schoolhouse Honey,0.05,1033,85
+1195,Laughing Dog Cream Ale,0.05,1541,476
+1200,Lazy Monk Bohemian Pilsner,0.05,2326,244
+1203,Lewis & Clark Amber Ale,0.05,1901,273
+1204,Miner's Gold Hefeweizen,0.05,1989,148
+1239,Mac's Highlander Pale Ale (2000),0.05,326,495
+1241,Macon Progress Ale,0.05,2368,471
+1248,SPRYE,0.05,1980,232
+1264,Summer Paradise,0.05,1898,225
+1276,Tug Pale Ale,0.05,2065,441
+1280,River House,0.05,582,100
+1282,Rubberneck Red,0.05,1190,207
+1285,Day Break 4-Grain Breakfast Beer,0.05,1167,141
+1286,River House Saison,0.05,263,154
+1296,Blueberry Blonde Ale,0.05,2005,10
+1303,Lemongrass Saison,0.05,2348,254
+1307,La Perouse White,0.05,65,377
+1333,Kodiak Brown Ale,0.05,2034,356
+1349,Keeper (Current),0.05,567,105
+1364,Huber,0.05,782,522
+1370,Boxer,0.05,1928,494
+1373,Boxer,0.05,91,437
+1374,Cortez Gold,0.05,2123,197
+1393,Wapiti Amber Ale,0.05,867,55
+1403,Golden Pilsner,0.05,2311,394
+1405,Second Wind Pale Ale,0.05,421,508
+1406,Sunny Haze,0.05,1025,188
+1415,Mustang Sixty-Six,0.05,38,238
+1425,Narragansett Cream Ale,0.05,1045,32
+1445,Shift,0.05,1919,84
+1452,Shift (1),0.05,2283,289
+1454,Shift,0.05,1587,363
+1462,Elm City Pilsner,0.05,2103,131
+1463,Atlantic Amber Ale (2004),0.05,1991,358
+1468,Elm City Lager (2007),0.05,1017,360
+1469,Atlantic Amber Ale (2007),0.05,824,461
+1471,Rebirth Pale Ale,0.05,1596,270
+1519,Occidental Altbier,0.05,973,141
+1531,Boji Blue Pale Ale,0.05,1597,114
+1533,Boji Beach Golden Rye Ale,0.05,142,139
+1557,One Nut Brown,0.05,197,43
+1612,Cache La Porter,0.05,792,218
+1618,Side Kick Kölsch,0.05,708,540
+1620,Summer Session Ale,0.05,2351,512
+1622,Robert Earl Keen Honey Pils,0.05,1301,249
+1631,Veteran’s Pale Ale (VPA),0.05,2185,294
+1632,Grapefruit IPA,0.05,2126,201
+1648,Black Bay Milk Stout,0.05,1971,20
+1649,Atom Splitter Pale Ale,0.05,2236,395
+1664,New Cleveland Palesner,0.05,978,484
+1705,Blood Orange Wit,0.05,1445,228
+1706,Consilium,0.05,1884,285
+1710,5:00 O'Clock Afternoon Ale,0.05,198,48
+1715,Miner's Gold,0.05,1335,468
+1727,Bottom Up Belgian Wit,0.05,936,502
+1739,River North White Ale,0.05,269,541
+1740,River North Ale,0.05,1051,250
+1741,Lil SIPA,0.05,1099,518
+1743,Jah Mon,0.05,79,135
+1746,Dayman IPA,0.05,560,446
+1763,Milkshake Stout,0.05,1299,252
+1782,Saint Archer White Ale,0.05,615,103
+1790,SunSpot Golden Ale,0.05,1607,101
+1794,SanTan HefeWeizen,0.05,857,322
+1799,Mr. Pineapple,0.05,832,209
+1802,SanTan HefeWeizen (2010),0.05,509,393
+1817,Oval Beach Blonde Ale,0.05,1337,109
+1821,Schlafly Yakima Wheat Ale,0.05,1935,16
+1822,Schlafly Black Lager,0.05,987,191
+1824,Schlafly American Brown Ale,0.05,460,381
+1839,Archer's Ale (2004),0.05,2028,386
+1850,Summerfest,0.05,1032,498
+1914,Monarch Pilsner,0.05,449,330
+1917,OB-1 Organic Ale,0.05,1302,44
+1918,Snake River Lager,0.05,1640,77
+1921,Thanksgiving Ale,0.05,467,507
+1929,Sockeye Belgian Style Summer Ale,0.05,1489,263
+1941,Kol' Beer,0.05,925,485
+1949,Suzy B Dirty Blonde Ale,0.05,1536,248
+1952,Suzy B Dirty Blonde Ale,0.05,751,208
+1961,Bombshell Blonde,0.05,1069,65
+1967,Bombshell Blonde,0.05,2094,264
+1982,Special Amber,0.05,923,220
+1983,Special Amber,0.05,967,291
+2006,Point Nude Beach Summer Wheat,0.05,270,535
+2007,Point Nude Beach Summer Wheat (2011),0.05,2121,423
+2012,Point Nude Beach Summer Wheat (2010),0.05,2403,145
+2017,Brontide,0.05,1040,276
+2018,Brontide,0.05,678,21
+2022,Lily Flagg Milk Stout,0.05,35,437
+2024,Straub Beer (Current),0.05,354,513
+2086,Cotton Mouth,0.05,2105,415
+2088,Midnight Oil,0.05,185,434
+2096,TailGate Saison,0.05,761,540
+2097,TailGate IPA,0.05,821,61
+2098,TailGate IPA,0.05,636,275
+2100,Blacktop Blonde,0.05,2231,224
+2101,Blacktop Blonde,0.05,970,187
+2107,Vanilla Bean Buffalo Sweat,0.05,628,283
+2111,Buffalo Sweat,0.05,1227,372
+2112,Halcyon Unfiltered Wheat,0.05,1015,58
+2115,Halcyon Unfiltered Wheat,0.05,1300,100
+2116,Köld Lager (2010),0.05,1437,262
+2119,Buffalo Sweat (2010),0.05,295,104
+2150,Birdhouse Pale Ale,0.05,2409,175
+2158,South Bay Session IPA,0.05,518,517
+2199,Tin Roof Watermelon Wheat,0.05,26,473
+2205,Big Island Shandy,0.05,1704,374
+2211,Triangle White Ale,0.05,1187,319
+2246,No Limits Hefeweizen,0.05,1907,45
+2250,Ol' Factory Pils,0.05,2034,4
+2251,PUNK'N,0.05,293,138
+2340,White Thai,0.05,42,413
+2353,Hop Session,0.05,596,206
+2362,Big Bowl Blonde Ale,0.05,1494,509
+2376,Ambitious Lager,0.05,2352,38
+2378,Wind River Blonde Ale,0.05,1592,214
+2392,Woodchuck Amber Hard Cider,0.05,1509,542
+78,Coq de la Marche,0.051,1153,9
+135,Greenbelt Farmhouse Ale,0.051,1970,389
+158,Peacemaker,0.051,1197,555
+198,Celestial Meridian Cascadian Dark Lager,0.051,196,393
+255,Moose Drool Brown Ale,0.051,1734,553
+257,Moose Drool Brown Ale (2011),0.051,1467,166
+263,Moose Drool Brown Ale (2009),0.051,661,482
+333,Bomb Lager (New Recipe),0.051,1082,32
+413,Smoky Wheat,0.051,493,19
+547,Sky Blue Golden Ale,0.051,882,211
+568,Scruffy's Smoked Alt,0.051,1134,320
+569,Elliott's Phoned Home Pale Ale,0.051,2394,355
+577,Chai Ale,0.051,1309,336
+736,Orignal Blend,0.051,2042,107
+738,Apricot Blonde,0.051,1890,211
+762,Bobblehead,0.051,1870,122
+783,Quaff India Style Session Ale,0.051,750,379
+834,1811 Lager,0.051,1411,129
+854,Pumpkin Porter,0.051,501,124
+940,Great Crescent Belgian Style Wit,0.051,2069,390
+1069,The One They Call Zoe,0.051,2350,47
+1070,Alteration,0.051,108,261
+1094,HUB Lager,0.051,2295,99
+1097,Laka Laka Pineapple,0.051,1384,332
+1124,Jack's Hard Cider,0.051,697,481
+1174,Amber Ale,0.051,9,540
+1201,Yellowstone Golden Ale,0.051,1934,117
+1234,Ballistic Blonde,0.051,2029,134
+1240,Mac's Scottish Style Amber Ale (2000),0.051,59,276
+1252,#9,0.051,1994,148
+1254,#9,0.051,342,516
+1291,Saranac Golden Pilsener (2003),0.051,50,317
+1301,Lahaina Town Brown,0.051,1490,341
+1355,Louie's Demise Amber Ale,0.051,920,177
+1360,Louie’s Demise Immort-Ale (2010),0.051,102,456
+1487,Jam Session,0.051,1016,503
+1508,O'Fallon Wheach,0.051,450,65
+1518,Occidental Dunkel,0.051,2019,272
+1525,Ghose Drifter Pale Ale,0.051,845,62
+1526,Ghost Rider Pale Ale (2013),0.051,744,49
+1633,Pete's ESP Lager (1998),0.051,1011,224
+1685,Firemans #4 Blonde Ale (2013),0.051,875,13
+1689,Firemans #4 Blonde Ale (2015),0.051,1691,183
+1693,Farmer's Daughter Blonde,0.051,667,301
+1753,Maxwell's Scottish Ale,0.051,2220,270
+1766,Rogue American Amber Ale,0.051,813,456
+1772,Fear of a Brett Planet,0.051,1561,60
+1841,Shipyard Summer Ale,0.051,1172,167
+1843,Shipyard Export,0.051,805,128
+1910,Phoenix Pale Ale,0.051,737,98
+2016,Wisco Disco,0.051,338,140
+2021,Sand Island Lighthouse,0.051,93,379
+2079,Coffee Bender,0.051,88,262
+2080,Bender,0.051,887,122
+2082,Hell,0.051,892,120
+2173,Watermelon Ale,0.051,877,277
+2193,Rivet Irish Red Ale,0.051,714,291
+2222,Twisted X,0.051,103,112
+2238,Dog Days Lager,0.051,2361,137
+2239,Sidekick Extra Pale Ale,0.051,966,434
+2324,Country Pale Ale,0.051,2149,105
+2373,Alpha Ale,0.051,1646,462
+56,Copperhead Amber,0.052,605,432
+84,Pre Flight Pilsner,0.052,916,481
+133,On-On Ale (2008),0.052,675,458
+136,Mo's Gose,0.052,1982,209
+152,Michelada,0.052,276,235
+160,Black Thunder,0.052,1772,64
+184,Ballast Point Pale Ale,0.052,1925,533
+272,Blown Out Brown,0.052,1504,60
+289,Honey Lav,0.052,1491,401
+298,6-4-3 Double Play Pilsner,0.052,939,459
+376,Evil Owl,0.052,1393,15
+454,Polar Pale Ale,0.052,958,292
+461,Brooklyn Lager (16 oz.),0.052,2334,64
+462,Brooklyn Lager (12 oz.),0.052,1992,343
+469,Black Noddy Lager (Current),0.052,1830,208
+498,Gran Sport,0.052,523,456
+532,Wisconsin Amber,0.052,1951,451
+537,Wisconsin Amber (1998),0.052,1671,539
+539,Wisconsin Amber (2013),0.052,388,60
+555,Firewater India Pale Ale,0.052,1103,535
+559,Firewater India Pale Ale,0.052,2397,226
+576,Ray Ray’s Pale Ale,0.052,953,126
+593,Lighthouse Amber,0.052,2142,216
+612,Tropical Heatwave,0.052,1996,538
+637,Hurricane Amber Ale (2004),0.052,1537,163
+638,Hurricane Amber Ale,0.052,107,553
+644,Arkansas Red,0.052,37,71
+657,Lava Lake Wit,0.052,2080,215
+659,Crazy Mountain Amber Ale,0.052,1003,34
+673,Summertime Ale,0.052,2047,471
+702,Dallas Blonde,0.052,2173,347
+713,Weissenheimer,0.052,1219,374
+721,Striped Bass Pale Ale,0.052,894,525
+754,Lil' Brainless Raspberries,0.052,2243,45
+755,Element 29,0.052,310,542
+763,Lucky Dog,0.052,1060,167
+824,Quick WIT,0.052,1705,33
+831,Quick Wit Belgianesque Ale,0.052,1055,1
+846,Local Buzz,0.052,1130,400
+852,Sunbru Kölsch,0.052,1904,162
+858,Sunbru Kölsch,0.052,1329,508
+883,13 Rebels ESB,0.052,1925,159
+920,Beaver Logger,0.052,1255,536
+922,Grand Canyon American Pilsner,0.052,1448,197
+959,Commotion APA,0.052,2001,542
+960,Southern Drawl Pale Lager,0.052,1073,130
+1010,Daisy Cutter Pale Ale,0.052,1521,366
+1012,Half Full Bright Ale,0.052,849,56
+1018,UFO Gingerland,0.052,1872,269
+1118,House Lager,0.052,619,73
+1141,Joseph James American Lager,0.052,671,462
+1144,Weisse Versa (2012),0.052,1242,107
+1152,Weisse Versa,0.052,1884,64
+1206,Getaway,0.052,784,104
+1210,Schweet Ale,0.052,631,233
+1229,Slow Hand Stout,0.052,2185,386
+1231,Ride Again Pale Ale,0.052,847,297
+1322,Hawaiian Crow Porter,0.052,1334,125
+1323,Volcano Red Ale,0.052,246,212
+1387,Oneida,0.052,1725,216
+1404,Cali Creamin',0.052,1392,97
+1407,Towhead,0.052,208,201
+1421,Bohemian Pils,0.052,2357,3
+1449,Snapshot,0.052,636,154
+1451,Fat Tire Amber Ale,0.052,425,543
+1453,Fat Tire Amber Ale (2011),0.052,1903,255
+1456,Fat Tire Amber Ale,0.052,115,380
+1459,Fat Tire Amber Ale (2008),0.052,1469,388
+1479,Dammit Jim!,0.052,649,235
+1552,Centennial State Pale Ale,0.052,1078,529
+1595,Leroy (2005),0.052,1040,264
+1608,Rustic Red,0.052,1567,294
+1676,Pyramid Hefeweizen (2011),0.052,984,317
+1677,Haywire Hefeweizen (2010),0.052,2332,540
+1732,Franz,0.052,2339,427
+1784,Saint Archer Pale Ale,0.052,88,120
+1844,Nooner,0.052,1389,496
+1867,Sweet Action,0.052,2056,493
+1872,Apollo,0.052,1275,415
+1878,Sweet Action (2011),0.052,1541,417
+1919,Snake River Pale Ale,0.052,183,376
+1933,Hell-Diver Pale Ale,0.052,2233,115
+1985,Gunga Din,0.052,990,108
+1998,Onyx Black Ale,0.052,2257,60
+2005,Point Nude Beach Summer Wheat,0.052,2323,446
+2032,Tip Off,0.052,718,490
+2059,Indianapolis Indians Lager,0.052,1590,162
+2060,Indians Victory Lager (2012),0.052,262,56
+2113,8-Bit Pale Ale,0.052,534,464
+2153,Bronx Summer Pale Ale,0.052,123,490
+2156,Surfrider,0.052,8,257
+2164,G. B. Russo’s Italian Pistachio Pale Ale,0.052,1277,276
+2170,Three Way Pale Ale,0.052,1555,81
+2183,Leatherhead Red,0.052,308,204
+2188,Damascene Apricot Sour,0.052,1688,335
+2194,3 Gear Robust Porter,0.052,1699,250
+2225,Immersion Amber,0.052,1831,548
+2231,Immersion Amber Ale (2011),0.052,1621,205
+2311,Nitro Can Coffee Stout,0.052,2070,96
+2326,Pumpkan,0.052,1150,407
+2330,Self Starter,0.052,1149,336
+2343,Pop's Old Fashioned Lager,0.052,1958,112
+2351,Drop Kick Ale,0.052,1566,9
+2363,Phat Chance,0.052,1524,415
+2383,#003 Brown & Robust Porter,0.052,587,114
+2406,Rail Yard Ale,0.052,1297,497
+2409,Rail Yard Ale (2009),0.052,2163,372
+82,Maylani's Coconut Stout,0.053,442,497
+86,Klickitat Pale Ale,0.053,1117,160
+88,Freeride APA,0.053,389,355
+89,Alaskan Amber,0.053,1591,5
+139,Ninja Porter,0.053,788,438
+159,Pearl-Snap,0.053,1587,396
+203,Tarnation California-Style Lager,0.053,801,527
+233,Steel Rail Extra Pale Ale,0.053,1478,537
+266,Jack Pine Savage,0.053,2157,338
+312,Blue Mountain Classic Lager,0.053,1460,267
+324,Altus Bohemes Altbier,0.053,352,61
+346,Kindler Pale Ale,0.053,897,486
+361,Samuel Adams Octoberfest,0.053,1143,164
+362,Samuel Adams Summer Ale,0.053,1679,378
+387,Manitou Amber,0.053,900,298
+416,W.I.P.A Snappa,0.053,863,273
+470,Cleveland Beer Week 2013,0.053,785,374
+499,Horny Toad Cerveza,0.053,2146,489
+503,Horny Toad Cerveza (2013),0.053,1641,137
+682,El Hefe Speaks,0.053,1341,295
+798,Secret Stache Stout,0.053,114,87
+806,Pivo Pils,0.053,1284,535
+866,OktoberFiesta,0.053,1564,180
+881,Gateway Kolsch Style Ale,0.053,1314,145
+928,Beer Agent Re-Ignition,0.053,930,304
+933,Great Crescent Blonde Ale,0.053,1954,354
+947,Great Crescent Blonde Ale (2011),0.053,1731,349
+970,483 Pale Ale,0.053,1579,420
+977,483 Pale Ale (2010),0.053,2202,181
+1115,People's Pale Ale,0.053,2270,270
+1236,Lumberyard Pilsner,0.053,668,458
+1325,Shark Bait,0.053,1093,421
+1326,Gator Tail Brown Ale,0.053,1372,45
+1328,Big Rod Coconut Ale,0.053,300,212
+1348,Spin Doctor,0.053,702,336
+1418,Mustang Golden Ale,0.053,1999,104
+1419,Washita Wheat,0.053,1065,448
+1422,Autocrat Coffee Milk Stout,0.053,1991,123
+1430,Undun Blonde Ale,0.053,2293,514
+1435,Undun Blonde Ale (2012),0.053,1856,178
+1544,Clem's Gold,0.053,2365,112
+1550,Atalanta,0.053,959,48
+1561,Mama's Little Yella Pils,0.053,410,186
+1579,Mama's Little Yella Pils,0.053,1247,335
+1607,Dirty Hippie Dark Wheat,0.053,1949,105
+1609,Stimulator Pale Ale,0.053,1563,361
+1687,Hans' Pils (2015),0.053,2096,196
+1752,Babbling Blonde,0.053,1465,30
+1759,Pine Knob Pilsner,0.053,1760,138
+1834,Stone Fort Brown Ale,0.053,1330,440
+1889,True Blonde Ale,0.053,1408,70
+1907,Dunkel Lager,0.053,1847,272
+1947,Jack the Sipper,0.053,554,444
+2028,Extra Pale Ale,0.053,2021,14
+2029,Make It So,0.053,801,15
+2039,Port Barrel Wee Mac,0.053,800,311
+2068,Sunlight Cream Ale,0.053,54,411
+2177,Hydraulion Red,0.053,902,533
+2182,Yoshi's Nectar,0.053,1418,274
+2296,Common Sense Kentucky Common Ale,0.053,1510,462
+58,British Pale Ale (2010),0.054,190,201
+59,British Pale Ale,0.054,1371,125
+93,Dusty Trail Pale Ale,0.054,1043,448
+120,River Pig Pale Ale,0.054,560,161
+199,Wagon Party,0.054,676,143
+202,Wonderstuff,0.054,687,156
+274,Sawtooth Ale,0.054,1476,146
+381,Avalanche Ale,0.054,293,518
+508,Ashland Amber Ale (2009),0.054,834,495
+516,Ashland Amber Ale,0.054,888,482
+527,Fisherman's Pils,0.054,1956,109
+564,King Coconut,0.054,873,148
+675,Monon Wheat,0.054,2394,1
+722,Deadicated Amber,0.054,172,485
+765,General George Patton Pilsner,0.054,2125,99
+915,312 Urban Pale Ale,0.054,429,64
+916,312 Urban Pale Ale,0.054,2069,25
+923,Grand Canyon Sunset Amber Ale,0.054,691,127
+969,Roller Dam Red Ale,0.054,1972,225
+978,Roller Dam Red Ale (2010),0.054,222,457
+1033,Sunset Amber,0.054,1554,372
+1106,Day Tripper Pale Ale,0.054,2206,338
+1187,A Slice of Hefen,0.054,1269,222
+1235,Knotty Pine,0.054,843,29
+1324,Mauna Kea Pale Ale,0.054,826,535
+1362,Huber Bock (2014),0.054,2048,400
+1394,Sweet Georgia Brown,0.054,358,82
+1480,Nut Brown Ale,0.054,251,240
+1484,Plum Island Belgian White,0.054,529,139
+1510,Oakshire Amber Ale,0.054,1870,525
+1523,Psycho Penguin Vanilla Porter,0.054,1097,418
+1665,Mazzie,0.054,679,100
+1808,Dread Brown Ale,0.054,1674,335
+1866,The Crisp,0.054,2300,75
+1877,The Crisp (2011),0.054,348,195
+1916,Zonker Stout,0.054,1015,138
+1996,Point Cascade Pale Ale (2013),0.054,15,518
+2011,2012 Black Ale,0.054,523,188
+2013,Point Cascade Pale Ale,0.054,2270,400
+2033,Java Mac,0.054,725,25
+2034,Cowbell,0.054,915,250
+2052,Popcorn Pilsner,0.054,449,215
+2054,Bourbon Barrel Wee Mac,0.054,2357,200
+2067,Wee Mac Scottish-Style Ale,0.054,2144,5
+2094,420 Extra Pale Ale,0.054,1532,360
+2181,Pale,0.054,153,270
+2220,Cow Creek,0.054,766,260
+2230,SoDo Brown Ale,0.054,2046,382
+2331,Ermal's,0.054,2165,371
+2374,Mystical Stout,0.054,279,105
+8,Jade,0.055,589,302
+44,Cast Iron Oatmeal Brown,0.055,105,219
+46,Alter Ego,0.055,1391,255
+62,Colorado Native,0.055,1563,518
+63,Colorado Native (2011),0.055,1691,318
+76,Bloody Show,0.055,921,425
+110,El Steinber Dark Lager,0.055,1250,68
+118,Poleeko Gold Pale Ale (2009),0.055,1061,556
+151,Vanilla Java Porter,0.055,1158,114
+166,Ellie’s Brown Ale,0.055,1000,354
+209,Amber Road,0.055,1575,184
+232,Lost Sailor IPA,0.055,29,372
+269,Morning Wood,0.055,1021,311
+271,Jalapeno Pale Ale,0.055,880,195
+292,Grand Rabbits,0.055,1684,205
+295,Brewerhood Brown Ale,0.055,1736,228
+322,Toasted Lager,0.055,509,480
+329,Killer Whale Cream Ale,0.055,889,409
+357,Cold Snap,0.055,2374,450
+375,Bozone Select Amber Ale,0.055,1176,466
+385,Are Wheat There Yet?,0.055,810,191
+400,The Grand Army,0.055,420,166
+447,Farm Hand,0.055,805,243
+478,Pale Alement,0.055,1593,179
+485,Pale Alement,0.055,1850,116
+526,Fisherman's IPA,0.055,906,287
+528,Fisherman's Brew,0.055,903,234
+529,Cape Cod Red,0.055,1321,312
+587,Pail Ale,0.055,838,495
+590,Oktoberfest,0.055,652,15
+598,Cubano Espresso,0.055,618,354
+601,Sugar Plum,0.055,1466,275
+602,Oktoberfest,0.055,84,236
+611,Gwar Beer,0.055,2065,513
+617,Maduro Brown Ale,0.055,1433,68
+618,Maduro Brown Ale,0.055,2081,309
+663,3 Picket Porter,0.055,858,350
+667,Bear Butte Nut Brown Ale,0.055,292,280
+669,Canyon Cream Ale,0.055,662,363
+683,Penn Quarter Porter,0.055,282,258
+691,BrewFarm Select Golden Lager,0.055,657,441
+747,Mountain Fairy Raspberry Wheat,0.055,424,307
+768,Hipster Ale (Two Roads Brewing),0.055,649,294
+770,Hipster Ale (Westbrook Brewing),0.055,1805,438
+790,Hodad Porter,0.055,1168,521
+792,Czech Yo Self,0.055,617,241
+800,Cut Throat Pale Ale,0.055,1006,419
+802,Cut Throat Pale Ale (2011),0.055,1852,159
+813,Moped Traveler,0.055,425,82
+832,Sunrise Oatmeal Pale Ale,0.055,1293,170
+847,Feel Like Maplin' Love,0.055,2055,494
+865,Twisted Helles Summer Lager,0.055,976,402
+900,Get Up Offa That Brown,0.055,1700,254
+913,Mountain Rescue Pale Ale,0.055,2185,244
+927,Lakefire Rye Pale Ale,0.055,671,492
+968,Widespread Wit,0.055,2403,536
+987,Bring Back the Beach Blonde Ale,0.055,2056,449
+1006,Akari Shogun American Wheat Ale,0.055,1001,194
+1024,Harpoon Octoberfest,0.055,672,11
+1050,Annie's Amber Ale,0.055,412,335
+1052,Hilliard's Pils,0.055,1154,381
+1054,Hilliard's Amber Ale,0.055,1047,92
+1100,Action Man Lager,0.055,2183,153
+1108,Power & Light,0.055,2374,141
+1112,Hijack,0.055,731,457
+1125,Thunder Ann,0.055,1867,355
+1126,Razz Wheat,0.055,422,362
+1134,Yabba Dhaba Chai Tea Porter,0.055,285,211
+1135,A Capella Gluten Free Pale Ale,0.055,1328,228
+1146,Weekend Warrior Pale Ale,0.055,260,107
+1147,Karbachtoberfest,0.055,2010,357
+1156,KelSo Pilsner,0.055,365,430
+1164,Eddy Out Pale Ale,0.055,1287,354
+1175,King Street Pilsner,0.055,1227,387
+1194,10 Degrees of Separation,0.055,1890,100
+1225,Mosaic Single Hop IPA,0.055,317,294
+1242,Macon History Ale,0.055,107,249
+1253,Elder Betty,0.055,1587,192
+1262,Manayunk IPA,0.055,513,81
+1263,Yunkin' Punkin',0.055,1762,410
+1299,Saranac Pale Ale (12 oz.),0.055,1518,247
+1300,Saranac Pale Ale (16 oz.),0.055,880,540
+1302,Pau Hana Pilsner,0.055,2020,118
+1309,Mana Wheat,0.055,1619,1
+1367,Mountain Crest,0.055,992,237
+1368,Mountain Crest,0.055,118,99
+1369,Mountain Creek (2013),0.055,1584,86
+1372,Boxer Ice,0.055,2130,532
+1382,Boneshaker Brown Ale,0.055,110,539
+1389,Lomaland,0.055,1854,376
+1414,Dry Heat Hefeweizen (2006),0.055,394,206
+1429,Narragansett Fest Lager,0.055,1444,514
+1448,California Route,0.055,834,280
+1485,Newburyport Pale Ale,0.055,355,111
+1486,Marblehead,0.055,1879,391
+1491,Station 33 Firehouse Red,0.055,1767,289
+1506,O'Fallon Pumpkin Beer,0.055,1847,366
+1537,Plowshare Porter,0.055,1605,131
+1542,T-Rail Pale Ale,0.055,781,367
+1545,Lizzy's Red,0.055,1915,330
+1603,Fresh Slice White IPA,0.055,1818,252
+1604,Overgrown American Pale Ale,0.055,1138,544
+1617,Mutton Buster,0.055,209,308
+1627,Hotbox Brown,0.055,2168,368
+1654,Old Tom Porter,0.055,144,176
+1656,McKinney Eddy Amber Ale,0.055,1997,62
+1679,Smoking Mirror,0.055,891,112
+1694,Pump House IPA,0.055,2190,236
+1698,Happy Cider,0.055,1806,392
+1720,Fist City,0.055,2202,234
+1729,Pure Fury,0.055,202,95
+1742,Hop Bomber Rye Pale Ale,0.055,281,265
+1755,RT Lager,0.055,2001,310
+1761,Lazy Daze Lager,0.055,661,5
+1765,Lazy Daze Lager,0.055,2194,416
+1789,Oktoberfest,0.055,1989,510
+1793,Epicenter Amber Ale,0.055,1931,164
+1797,Devil’s Ale,0.055,1430,74
+1800,American Idiot Ale (2012),0.055,2144,520
+1803,Devil’s Ale (2010),0.055,1474,203
+1804,Epicenter Amber Ale (2010),0.055,1261,170
+1810,Saison 88,0.055,1316,196
+1815,Freestyle Pilsner,0.055,1072,553
+1899,Sly Fox Christmas Ale 2013,0.055,882,265
+1903,Sly Fox Christmas Ale 2012 (2012),0.055,396,387
+1928,Boise Co-Op Two Score Ale,0.055,2094,163
+1939,Texas Pale Ale (TPA),0.055,408,81
+1944,Nice Rack IPA,0.055,1518,54
+1955,Walloon,0.055,2042,98
+1963,Walloon (2014),0.055,633,59
+1975,Freedom Fries,0.055,753,499
+1981,In the Weeds,0.055,236,45
+2058,Sun King Oktoberfest,0.055,488,39
+2065,Sun King Oktoberfest (2011),0.055,1131,382
+2078,SurlyFest,0.055,1635,225
+2091,Take Two Pils,0.055,1974,252
+2123,Loafin Bräu,0.055,1190,188
+2131,Bridal Veil Rye Pale Ale,0.055,2146,420
+2136,First Stand,0.055,888,22
+2157,Kolschtal Eddy,0.055,1890,382
+2179,Citra Faced,0.055,1411,401
+2180,Pole Barn Stout,0.055,415,297
+2190,Klingon Warnog Roggen Dunkel,0.055,1793,239
+2196,Turnrow Harvest Ale,0.055,428,491
+2201,Voodoo Bengal Pale Ale,0.055,2032,495
+2204,Ornery Amber Lager (2003),0.055,1866,233
+2218,Greenville Pale Ale,0.055,20,338
+2260,Pilsner Ukiah,0.055,1680,193
+2273,Duckpin Pale Ale,0.055,221,367
+2336,West Sixth Amber Ale,0.055,1985,268
+2338,One Claw,0.055,1844,284
+2352,Raspberry Berliner Weisse,0.055,577,187
+2354,Blueberry Berliner Weisse,0.055,1150,34
+2355,Berliner Weisse,0.055,1337,384
+2381,#001 Golden Amber Lager,0.055,2147,349
+2403,Wynkoop Pumpkin Ale,0.055,2337,491
+2407,B3K Black Lager,0.055,2235,402
+2408,Silverback Pale Ale,0.055,2108,139
+100,Brotherhood Steam,0.056,892,65
+106,Summer Solstice,0.056,2205,405
+112,Summer Solstice Cerveza Crema (2009),0.056,1266,195
+117,Summer Solstice (2011),0.056,1290,194
+144,This Season's Blonde,0.056,2163,131
+164,White Rascal,0.056,1576,296
+228,14° ESB,0.056,936,520
+237,Big Bend Hefeweizen,0.056,1202,55
+303,1327 Pod's ESB,0.056,2283,111
+304,1327 Pod's ESB,0.056,709,428
+305,1327 Pod's ESB,0.056,851,478
+338,Gyptoberfest,0.056,285,317
+358,Samuel Adams Winter Lager,0.056,138,476
+411,Rye Porter,0.056,38,110
+429,Maize & Blueberry,0.056,1039,79
+487,Mucho Aloha Hawaiian Pale Ale,0.056,206,546
+506,Caldera Pale Ale,0.056,1378,197
+511,Caldera Pale Ale (2010),0.056,1463,173
+512,Caldera Pale Ale (2009),0.056,1136,251
+513,Caldera Pale Ale (2005),0.056,952,107
+514,Caldera Pale Ale (2007),0.056,1739,539
+515,Caldera Pale Ale (2011),0.056,1438,61
+534,Ghost Ship White IPA,0.056,627,234
+554,Farmer Ted's Cream Ale,0.056,126,351
+560,Farmer Ted's Farmhouse Cream Ale,0.056,2186,276
+629,Whale's Tale Pale Ale,0.056,1787,393
+642,Farmer John's Multi-Grain Ale,0.056,2005,54
+664,Rusty Nail Pale Ale,0.056,550,183
+707,Mother Ale,0.056,467,282
+838,Westfalia,0.056,1743,409
+863,Old Detroit,0.056,2336,421
+879,Universale Pale Ale,0.056,2278,519
+908,Good People Pale Ale,0.056,384,393
+930,Bourbon Barrel Aged Coconut Porter,0.056,1503,81
+934,Great Crescent Coconut Porter,0.056,1038,407
+943,Great Crescent Coconut Porter (2012),0.056,1215,203
+1017,Capital Trail Pale Ale,0.056,330,549
+1096,Watermelon Wheat,0.056,1218,115
+1199,Duluchan India Pale Ale,0.056,873,396
+1228,Rhino Chasers Pilsner,0.056,702,532
+1329,Mickey Finn's Amber Ale,0.056,1735,248
+1383,Iron Mike Pale Ale,0.056,1157,333
+1397,Montauk Summer Ale,0.056,985,430
+1399,When Helles Freezes Over,0.056,1856,320
+1446,1554 Black Lager,0.056,807,437
+1477,Skylight,0.056,1697,135
+1478,Kadigan,0.056,2203,200
+1498,Parapet ESB,0.056,1736,323
+1645,Local 5 Pale Ale,0.056,1897,510
+1717,Jessie's Garage,0.056,1580,531
+1773,Original Slacker Ale,0.056,3,261
+1777,1881 California Red,0.056,927,277
+1781,1881 California Red Ale,0.056,929,348
+1848,Sierra Nevada Pale Ale,0.056,2400,486
+1852,Sierra Nevada Pale Ale,0.056,256,145
+1900,Grisette,0.056,738,218
+1908,Royal Weisse Ale,0.056,1374,282
+1984,Seven Gates Pale Ale,0.056,829,16
+2048,Osiris Pale Ale,0.056,1409,523
+2069,Osiris Pale Ale (2010),0.056,2184,102
+2087,Stump Knocker Pale Ale,0.056,2119,170
+2106,Wild Plum Farmhouse Ale,0.056,331,350
+2122,Yard Sale Amber Ale,0.056,2360,483
+2138,Broken Bridge,0.056,2401,463
+2320,Wachusett IPA,0.056,2140,364
+2369,Paddy Pale Ale,0.056,1051,396
+90,Hopalicious,0.057,1561,103
+105,Barney Flats Oatmeal Stout,0.057,504,372
+109,Barney Flats Oatmeal Stout,0.057,1150,24
+113,Barney Flats Oatmeal Stout (2012),0.057,2208,329
+146,Trolley Stop Stout,0.057,1620,369
+225,Nordic Blonde,0.057,2062,25
+365,Hoopla Pale Ale,0.057,2283,208
+372,Plum St. Porter,0.057,2182,256
+546,Flagship IPA,0.057,1817,223
+591,IPA #11,0.057,846,398
+592,Blood Orange Honey,0.057,648,209
+645,Core Oatmeal Stout,0.057,2111,232
+750,Bleeding Buckeye Red Ale,0.057,1532,479
+845,Block Party Robust Porter,0.057,1863,13
+861,Brass Knuckle Pale Ale,0.057,1584,140
+929,Cherry Ale,0.057,702,501
+932,Aurora Lager,0.057,340,480
+935,Great Crescent Oktoberfest Lager,0.057,2355,42
+937,Cherry Ale (1),0.057,1875,66
+938,Aurora Lager (2011),0.057,2293,540
+944,Great Crescent Dark Lager,0.057,1131,354
+980,Wild Trail Pale Ale,0.057,1245,335
+1005,Pony Pilsner,0.057,255,364
+1154,KelSo Nut Brown Lager,0.057,748,333
+1177,King Street Hefeweizen,0.057,2297,357
+1202,Tumbleweed IPA,0.057,714,127
+1205,Back Country Scottish Ale,0.057,2168,477
+1209,American Hero,0.057,958,241
+1212,Peach Pale Ale,0.057,1925,322
+1215,Peacemaker Pale Ale,0.057,105,343
+1311,CoCoNut Porter,0.057,1518,187
+1334,Sockeye Red IPA,0.057,777,147
+1440,Cardinal Pale Ale,0.057,803,356
+1532,Winter Games Select #32 Stout,0.057,1245,471
+1660,Pisgah Pale Ale,0.057,2277,170
+1673,Over the Rail Pale Ale,0.057,592,206
+1724,Oktoberfest Revolution,0.057,472,315
+1728,Hustle,0.057,330,358
+1891,ESB Special Ale,0.057,353,542
+1935,Power House Porter,0.057,2382,332
+1992,Steam Engine Lager,0.057,1229,426
+2004,Point Oktoberfest,0.057,2160,317
+2010,Point Oktoberfest,0.057,2048,488
+2073,Doomtree,0.057,14,110
+2092,Waterkeeper,0.057,2279,249
+2127,Mr. Orange,0.057,1430,425
+2129,Face Down Brown Ale,0.057,1466,239
+2154,Bronx Black Pale Ale,0.057,1696,286
+2210,Triangle India Pale Ale,0.057,37,161
+2229,Persnickety Pale,0.057,216,306
+2342,Westfield Octoberfest,0.057,530,68
+2371,Wild Wolf Wee Heavy Scottish Style Ale,0.057,1862,428
+108,Boont Amber Ale,0.058,2173,226
+111,Boont Amber Ale (2010),0.058,955,231
+116,Boont Amber Ale (2011),0.058,624,248
+214,Fenway American Pale Ale,0.058,2318,392
+217,Oberon,0.058,458,267
+220,Oberon,0.058,1815,516
+222,Best Brown,0.058,417,304
+265,Wavemaker,0.058,1789,451
+279,Aftermath Pale Ale,0.058,1103,291
+349,Awry Rye Pale Ale,0.058,1362,218
+350,Demshitz Brown Ale,0.058,848,198
+369,Mango Ginger,0.058,642,227
+386,Insert Hop Reference,0.058,418,262
+468,Original Orange Blossom Ale (Current),0.058,1015,111
+563,Peanut Butter Jelly Time,0.058,48,407
+639,Big Blue Van,0.058,700,274
+709,Single Engine Red,0.058,530,214
+740,Dry Dock Amber Ale,0.058,17,109
+830,Tender Loving Empire NWPA,0.058,801,203
+891,Saison Pamplemousse,0.058,197,154
+912,Good People American Brown Ale,0.058,732,519
+982,Autumn Winds Fest Beer,0.058,1257,45
+984,Autumn Winds,0.058,1112,247
+1059,Hop Farm IPA,0.058,1203,220
+1087,Rise Up Red,0.058,996,396
+1088,Survival Stout,0.058,583,437
+1092,Rise-Up Red (2014),0.058,521,400
+1110,Tribute,0.058,267,530
+1145,Mother in Lager,0.058,1967,457
+1157,Skilak Scottish Ale,0.058,760,400
+1160,Skilak Scottish Ale (2011),0.058,1624,411
+1208,Adam's Stout,0.058,1214,198
+1216,Shotgun Betty,0.058,191,529
+1238,Lumberyard Red Ale,0.058,329,239
+1340,Claritas,0.058,73,170
+1391,Black House,0.058,823,306
+1396,Monkey Paw Oatmeal Pale Ale,0.058,35,306
+1511,Overcast Espresso Stout,0.058,1916,446
+1629,Black,0.058,275,266
+1672,Peacemaker Pilsner,0.058,1152,53
+1674,Pallavicini Pilsner (2009),0.058,1428,378
+1681,Pride of Texas Pale Ale,0.058,454,327
+1697,Honey Rye,0.058,94,104
+1701,Copper Hook (2011),0.058,1332,517
+1722,Rosa Hibiscus Ale,0.058,1606,190
+1731,Panther,0.058,224,532
+1805,Sanitas Saison Ale,0.058,1870,285
+1884,Estival Cream Stout,0.058,2026,218
+1885,Vernal Minthe Stout,0.058,2341,362
+1893,Iron Butt Red Ale,0.058,235,30
+1905,Oktoberfest Lager,0.058,776,63
+1912,Murphy's Law,0.058,1580,34
+1948,Devil's Harvest Extra Pale Ale,0.058,983,119
+1951,Hipster Breakfast,0.058,1614,105
+1953,Devil's Harvest Extra Pale Ale,0.058,711,531
+1970,Ball & Chain (2014),0.058,636,69
+1980,Fat Badger,0.058,191,92
+2035,Hop Up Offa That Brett (2014),0.058,619,232
+2165,Northern Hawk Owl Amber,0.058,773,475
+2187,Cafe Leche,0.058,78,95
+2192,Alloy,0.058,628,494
+2236,Night Cat,0.058,1649,502
+2237,Night Cat (2014),0.058,442,156
+2294,Upslope Pale Ale,0.058,2100,517
+2344,Charlie in the Rye,0.058,139,242
+2388,Train Hopper,0.058,1101,219
+41,Rod Bender Red,0.059,15,237
+57,Rude Parrot IPA,0.059,1837,73
+96,Liberty Ale,0.059,1069,176
+307,Yellow Collar,0.059,1477,281
+308,Green Collar,0.059,1119,219
+310,Full Nelson Pale Ale,0.059,1132,256
+313,Full Nelson Pale Ale (2010),0.059,2384,161
+401,Acidulated Trip,0.059,67,37
+545,Santa's Secret,0.059,1150,312
+654,Snowcat Coffee Stout,0.059,2071,155
+706,Chuli Stout,0.059,807,387
+872,Soul Doubt,0.059,1674,365
+895,Point the Way IPA,0.059,1748,29
+898,Point the Way IPA,0.059,204,114
+903,Point the Way IPA (2012),0.059,87,229
+914,Goose Island India Pale Ale,0.059,845,515
+974,Oktoberfest,0.059,1864,535
+1022,Harpoon IPA,0.059,52,535
+1023,UFO Pumpkin,0.059,1671,450
+1025,Harpoon IPA (2012),0.059,1550,342
+1029,Harpoon IPA (2010),0.059,2383,375
+1109,White Rabbit,0.059,2210,164
+1218,Long Trail IPA,0.059,587,221
+1641,North 45 Amber Ale,0.059,502,333
+1669,Morning Wood Wheat (Current),0.059,2345,141
+1675,Morning Wood Wheat (Current),0.059,2194,340
+1686,The Sword Iron Swan Ale,0.059,840,77
+1762,Rochester Red Ale,0.059,1993,385
+1871,Brownstone,0.059,198,487
+2089,Wild Night,0.059,1873,252
+2149,Wagon Box Wheat Beer,0.059,1843,63
+2166,CEO Stout,0.059,1381,533
+2385,Tarasque,0.059,380,27
+2390,Troopers Alley IPA,0.059,966,116
+15,Ginja Ninja,0.06,1828,67
+16,Cherried Away,0.06,1127,335
+17,Rhubarbarian,0.06,1517,278
+18,BrightCider,0.06,2216,57
+45,Reprise Centennial Red,0.06,1139,362
+80,Pile of Face,0.06,1576,272
+104,Fall Hornin',0.06,611,541
+119,Charlie's Rye IPA,0.06,2130,190
+126,Arjuna,0.06,1032,427
+130,Porter (a/k/a Black Gold Porter),0.06,752,202
+131,Sky High Rye,0.06,138,62
+140,Shiva IPA,0.06,2257,344
+149,Old Red Beard Amber Ale,0.06,1070,64
+174,Back East Porter,0.06,676,346
+178,Truck Stop Honey Brown Ale,0.06,1951,358
+179,Naked Pig Pale Ale,0.06,1525,225
+192,Barrio Blanco,0.06,824,60
+218,Smitten,0.06,1855,401
+226,Cold Press,0.06,1701,214
+230,Bent Paddle Black Ale,0.06,840,491
+238,Terlingua Gold,0.06,1441,92
+245,413 Farmhouse Ale,0.06,1714,160
+248,Blueberry Blonde,0.06,1984,157
+251,House Brand IPA,0.06,766,78
+288,North Third Stout,0.06,1206,457
+320,Blue Point White IPA,0.06,709,469
+323,Bohemian Export Lager,0.06,1208,261
+330,Duke's Cold Nose Brown Ale,0.06,1135,316
+371,Plum St. Porter,0.06,746,313
+374,Bozone Hefe Weizen,0.06,370,9
+389,Star Runner,0.06,2031,344
+391,Linnaeus Mango IPA,0.06,2259,83
+423,North French,0.06,1746,289
+436,Big Red Coq,0.06,371,189
+448,Solitude,0.06,1097,163
+472,1836,0.06,1825,460
+473,Summer's Wit,0.06,449,348
+480,Kreamed Corn,0.06,453,499
+494,Dead Arm,0.06,1893,349
+505,Pilot Rock Porter,0.06,1281,155
+582,Black Me Stout,0.06,2354,29
+603,Puppy's Breath Porter,0.06,328,347
+624,Pumple Drumkin,0.06,1902,303
+631,Cascadian Dark Ale,0.06,1617,97
+652,Neomexicanus Native,0.06,311,6
+658,Mountain Livin' Pale Ale,0.06,2149,177
+671,11th Hour IPA,0.06,215,278
+672,South Ridge Amber Ale,0.06,2180,528
+679,Geary's Summer Ale,0.06,949,103
+687,The Public,0.06,1856,349
+695,Neato Bandito,0.06,1643,442
+698,Deep Ellum Pale Ale,0.06,1983,127
+745,River Runners Pale Ale,0.06,479,290
+811,Half Cycle IPA,0.06,2227,525
+819,Backyahd IPA,0.06,1239,87
+849,The 26th,0.06,1736,289
+853,Kilt Lifter Scottish-Style Ale,0.06,1702,481
+857,Kilt Lifter Scottish-Style Ale (2009),0.06,598,549
+859,Four String Vanilla Porter,0.06,63,443
+868,Pinata Protest,0.06,1787,467
+907,Sweet As Pacific Ale,0.06,160,533
+910,Coffee Oatmeal Stout,0.06,1801,158
+911,Good People IPA,0.06,1070,389
+939,Frosted Fields Winter Wheat,0.06,1690,304
+967,Aaah Bock Lager,0.06,1833,463
+976,Redband Stout,0.06,1280,518
+985,Flying Jenny Extra Pale Ale,0.06,386,185
+988,Leaning Chimney Smoked Porter,0.06,1815,131
+989,Flying Jenny Extra Pale Ale (2012),0.06,1010,205
+1007,Meat Wave,0.06,1109,84
+1008,Over Ale,0.06,1999,163
+1041,AARGHtoberfest!,0.06,579,203
+1042,Davy Jones Lager,0.06,1043,228
+1071,Pale Dog,0.06,306,273
+1091,Pigwar White India Pale Ale,0.06,1300,552
+1098,Oktoberfest,0.06,728,294
+1136,Casper White Stout,0.06,1148,309
+1137,JP's Ould Sod Irish Red IPA,0.06,2062,98
+1155,KelSo India Pale Ale,0.06,1822,443
+1176,King Street IPA,0.06,1867,548
+1207,Farm Girl Saison,0.06,2167,434
+1213,Deadeye Jack,0.06,1636,517
+1251,Happy Amber,0.06,39,460
+1266,Schuylkill Punch,0.06,1345,81
+1270,Riverwalk Blonde Ale,0.06,1443,282
+1297,Saranac White IPA,0.06,1560,162
+1306,Sobrehumano Palena'ole,0.06,1761,181
+1337,Jucundus,0.06,2044,174
+1398,Driftwood Ale,0.06,997,7
+1489,Paleo IPA,0.06,481,188
+1496,Pumpion,0.06,148,72
+1497,Stronghold,0.06,1661,223
+1530,Midwest Charm Farmhouse Ale,0.06,706,55
+1534,Hopsmith Pale Lager,0.06,595,40
+1650,Hot Date Ale,0.06,2243,333
+1652,Sweet Potato Ale,0.06,1257,92
+1671,Dead Eye Dunkel,0.06,2379,439
+1688,Four Squared (2015),0.06,1866,540
+1730,Dad,0.06,2247,66
+1791,I.W.A. (2011),0.06,517,66
+1836,Humulus Nimbus Super Pale Ale,0.06,973,252
+1846,Yonder Bock,0.06,348,46
+1847,CANfusion Rye Bock,0.06,1758,456
+1855,Red Mountain Ale,0.06,161,432
+1876,Autumnation (2011-12) (2011),0.06,1610,171
+1898,Homefront IPA,0.06,1332,104
+1915,Snow King Pale Ale,0.06,909,356
+1925,Socktoberfest,0.06,1773,204
+1974,Angry Adam,0.06,257,224
+1979,Alley Time,0.06,1805,477
+2140,Petit Mutant,0.06,264,535
+2178,40 Mile IPA,0.06,1710,98
+2209,Farmer's Tan Red Ale,0.06,485,133
+2247,Honeyspot Road White IPA,0.06,744,52
+2261,The Green Room,0.06,338,153
+2274,Balt Altbier,0.06,972,504
+2277,Dragonfly IPA,0.06,966,61
+2283,Blood Orange Saison,0.06,115,167
+2301,Wasatch Ghostrider White IPA,0.06,551,356
+2302,Wasatch Ghostrider White IPA (2014),0.06,1661,78
+2319,Green Monsta IPA,0.06,2249,67
+2328,Green Monsta IPA,0.06,2126,401
+2356,Super G IPA,0.06,38,99
+2367,Jack Stout,0.06,87,531
+2400,Worthy Pale,0.06,1402,408
+14,Bitter Bitch,0.061,2382,484
+172,Hot Rod Red,0.061,427,18
+348,Tent Pole Vanilla Porter,0.061,1466,18
+409,Ski Patrol,0.061,520,445
+452,Broad Brook Ale,0.061,1216,249
+456,Fairweather IPA,0.061,399,127
+509,Caldera IPA (2009),0.061,2380,107
+510,Caldera IPA (2007),0.061,491,39
+517,Caldera IPA,0.061,487,400
+646,Core ESB,0.061,2205,267
+741,Category 3 IPA,0.061,1179,76
+950,Whitewater,0.061,1944,11
+1217,Sweet Josie,0.061,1,507
+1237,Lumberyard IPA,0.061,159,441
+1436,Wick For Brains,0.061,2092,445
+1490,Buck Snort Stout,0.061,863,468
+1507,5 Day IPA,0.061,78,441
+1644,Camelback,0.061,2201,128
+1723,Fistmas Ale,0.061,1302,524
+1754,Grateful White,0.061,998,366
+1890,Euphoria Pale Ale,0.061,1680,430
+94,Damnesia,0.062,1513,304
+95,Desolation IPA,0.062,354,365
+132,Whitsun,0.062,726,263
+148,Poop Deck Porter,0.062,2111,237
+157,Fire Eagle IPA,0.062,2408,81
+167,Pumpkin Beast,0.062,2147,422
+229,Bent Hop Golden IPA,0.062,307,512
+247,Ryecoe,0.062,2391,57
+252,Big Sky IPA,0.062,1064,107
+259,Big Sky IPA (2012),0.062,2402,271
+367,Heavy Lifting,0.062,945,75
+380,Lucky U IPA,0.062,1911,133
+406,Psychopomp,0.062,1925,325
+414,BRIPA,0.062,1111,236
+415,Mela,0.062,1973,243
+442,Big Red Coq (2012),0.062,200,331
+467,Tule Duck Red Ale (Current),0.062,1240,385
+493,Rye Knot,0.062,2291,453
+536,Mutiny IPA,0.062,2289,69
+599,Operation Homefront,0.062,2204,410
+626,Summer of Lager,0.062,1629,430
+634,Savannah Brown Ale,0.062,365,465
+757,Escape to Colorado,0.062,1972,14
+759,Country Boy IPA,0.062,2308,55
+825,The Optimist,0.062,1360,450
+828,Next Adventure Black IPA,0.062,234,498
+931,Great Crescent IPA,0.062,1809,424
+946,Great Crescent IPA (2011),0.062,1139,275
+1019,The Long Thaw White IPA,0.062,2362,178
+1038,Pt. Bonita Rustic Lager,0.062,1489,405
+1227,Face Plant IPA,0.062,1622,246
+1230,Hips Don't Lie,0.062,874,374
+1274,Marble India Pale Ale,0.062,1017,279
+1312,Big Swell IPA,0.062,161,534
+1365,Clear Creek Ice,0.062,2333,336
+1366,Clear Creek Ice,0.062,1629,536
+1461,Sea Hag IPA,0.062,2357,314
+1470,Sea Hag IPA (Current),0.062,1855,16
+1614,Outlaw IPA,0.062,1245,161
+1624,Amazon Princess IPA,0.062,566,377
+1691,Gangway IPA,0.062,1918,373
+1718,Colorado Red Ale,0.062,1665,227
+1744,Oktoberfest,0.062,1876,554
+1748,Hop Lace,0.062,246,259
+1756,Old Wylie's IPA,0.062,162,525
+1901,360° India Pale Ale,0.062,1935,107
+1913,Alter Ego,0.062,2201,177
+1978,Spiteful IPA,0.062,1793,23
+2003,St. Benedict's Winter Ale,0.062,929,544
+2084,Furious,0.062,1907,483
+2105,Zombie Monkie,0.062,605,102
+2175,Fivepine Chocolate Porter,0.062,557,371
+2176,Hoodoo Voodoo IPA,0.062,1643,161
+2207,Almanac IPA,0.062,1616,176
+2219,Hoppy Boy,0.062,2298,532
+2226,Evo IPA,0.062,859,478
+2228,Evolutionary IPA (2012),0.062,1435,10
+2232,Evolutionary IPA (2011),0.062,1049,57
+2386,Ananda India Pale Ale,0.062,1968,55
+165,Avery India Pale Ale,0.063,681,556
+273,Single Hop Ale,0.063,1496,167
+410,Viking Ice Hole,0.063,1706,5
+417,Pepper in the Rye,0.063,622,466
+426,Pothole Stout,0.063,15,173
+500,Native Amber,0.063,107,131
+502,Native Amber (2013),0.063,1389,346
+607,Wiregrass Post-Prohibition Ale,0.063,2299,384
+677,Half Court IPA,0.063,385,503
+694,Dead Armadillo Amber Ale,0.063,1499,426
+715,Vertex IPA,0.063,605,387
+774,Trail Head,0.063,1863,310
+840,Villager,0.063,650,447
+1000,Little Red Cap,0.063,1282,521
+1043,Grazias,0.063,1361,49
+1046,The Golden One,0.063,2393,296
+1062,Proxima IPA,0.063,95,21
+1179,India Pale Ale,0.063,1316,160
+1278,Ace Hole American Pale Ale,0.063,531,172
+1330,Pleasure Town,0.063,458,546
+1331,Pleasure Town IPA,0.063,655,166
+1339,Grazias,0.063,664,167
+1500,Hoppy Bitch IPA,0.063,1510,134
+1501,Three Skulls Ale Pale Ale,0.063,1307,424
+1775,Kiss Off IPA,0.063,866,475
+1868,Righteous Ale,0.063,1125,25
+1875,Diesel,0.063,1172,254
+1879,Righteous Ale (2011),0.063,2090,223
+1923,Dagger Falls IPA,0.063,83,325
+1924,Dagger Falls IPA,0.063,1682,425
+1937,Dagger Falls IPA,0.063,1971,488
+1999,Beyond The Pale IPA,0.063,2286,120
+2041,Fistful of Hops Orange,0.063,2355,555
+2050,Stupid Sexy Flanders,0.063,1395,426
+2120,Tallgrass IPA,0.063,2055,348
+2137,Battle LIne,0.063,2031,544
+2155,Bronx Pale Ale,0.063,1672,115
+2235,Wobble,0.063,2332,138
+162,Perzik Saison,0.064,1226,407
+236,Number 22 Porter,0.064,219,343
+301,1335 Wicked Snout,0.064,35,148
+347,Mistress Winter Wheat,0.064,1316,467
+418,Moe Lasses',0.064,1327,298
+850,The Gadget,0.064,902,184
+1034,Hapa Brown Ale,0.064,1902,13
+1035,Hapa Brown Ale,0.064,1163,545
+1197,Laughing Dog IPA,0.064,566,492
+1198,Madra Allta,0.064,1430,56
+1712,Stout Ol' Friend,0.064,1020,74
+1713,Stout Ol' Friend (2012),0.064,830,117
+1869,Bengali Tiger,0.064,440,291
+1880,Bengali Tiger (2011),0.064,723,460
+1930,Sockeye Maibock,0.064,422,555
+2040,Fistful Of Hops Red,0.064,1323,543
+2042,Fistful Of Hops Blue,0.064,160,476
+2043,Fistful of Hops Green,0.064,882,354
+2093,SweetWater IPA,0.064,326,100
+2130,Tempter IPA,0.064,1224,301
+2268,Golden State Ale,0.064,1210,284
+7,Foreman,0.065,1870,125
+47,Divided Sky,0.065,1561,545
+48,Resurrected,0.065,368,266
+50,Galaxyfest,0.065,1490,443
+64,Jockamo IPA,0.065,609,453
+79,Kamen Knuddeln,0.065,857,400
+92,Kentucky IPA,0.065,2186,418
+97,IPA,0.065,1839,339
+244,Gerry Dog Stout,0.065,1151,479
+311,Steel Wheels ESB,0.065,138,482
+328,Mad Manatee IPA,0.065,908,334
+356,Rebel IPA,0.065,1769,507
+368,1492,0.065,1390,145
+394,Barrel Aged Triomphe,0.065,1197,90
+395,Cherry Doppelbock,0.065,2272,474
+396,Tropical Saison,0.065,1460,318
+397,Beach Patrol,0.065,438,235
+405,Dubbelicious,0.065,1979,541
+424,Agent a Deux,0.065,172,123
+431,Contemplation,0.065,529,457
+440,Contemplation (2012),0.065,170,93
+449,Triomphe,0.065,1436,472
+475,Wrath of Pele,0.065,651,466
+481,Coconoats,0.065,103,34
+519,Flower Child (2014),0.065,163,126
+531,Dark Voyage Black IPA (2013),0.065,1754,36
+586,Ale Cider,0.065,85,530
+627,Indie Pale Ale,0.065,806,10
+636,Newport Storm IPA,0.065,791,136
+660,Tropicalia,0.065,1670,116
+665,Red Water Irish Style Red,0.065,526,234
+685,The Corruption,0.065,1850,65
+688,Dank IPA,0.065,1901,280
+689,Dank IPA (2012),0.065,1873,58
+708,Twister Creek India Pale Ale,0.065,634,204
+727,Filthy Hoppin' IPA,0.065,23,413
+809,Deflator,0.065,1481,361
+820,Raincloud Robust Porter,0.065,379,426
+827,Java the Hop,0.065,945,549
+867,Texicali,0.065,1987,402
+877,Harvest Ale,0.065,614,137
+878,Fremont Summer Ale,0.065,1215,465
+880,Interurban IPA,0.065,500,174
+992,3 Scrooges,0.065,301,460
+995,El Rojo,0.065,903,238
+1065,Alphadelic IPA,0.065,2340,195
+1066,Alphadelic IPA (2011),0.065,558,127
+1072,Porter Culture,0.065,2056,494
+1099,Trail Maker Pale Ale,0.065,2144,363
+1102,Stir Crazy Winter Ale,0.065,502,197
+1105,Midnight Ryder,0.065,363,60
+1127,Hop Ryot,0.065,1054,324
+1161,Cold Smoke Scotch Ale (2007),0.065,1781,373
+1162,Double Haul IPA (2009),0.065,1394,233
+1163,Double Haul IPA (2006),0.065,152,404
+1165,Double Haul IPA,0.065,713,216
+1166,Cold Smoke Scotch Ale,0.065,935,3
+1211,Irregardless IPA,0.065,109,320
+1256,Epic IPA,0.065,1589,127
+1281,Pretzel Stout,0.065,1612,86
+1287,There Will Be Stout,0.065,1849,399
+1288,Our Legacy IPA,0.065,2023,287
+1290,Our Legacy IPA,0.065,1182,186
+1345,En Parfaite Harmonie,0.065,339,314
+1357,Booyah Farmhouse Ale,0.065,282,460
+1392,Blazing World,0.065,2261,509
+1428,Narragansett Bock,0.065,1456,533
+1437,Nebraska India Pale Ale,0.065,1822,147
+1444,Ranger IPA,0.065,1813,250
+1455,Ranger IPA,0.065,1170,404
+1457,Ranger IPA (Current),0.065,1284,129
+1474,Hopitoulas IPA,0.065,343,167
+1529,33 Select Brown Ale,0.065,492,471
+1535,Falling Down Brown Ale,0.065,2130,81
+1540,Celestial Blonde Ale,0.065,2089,292
+1549,Lyric Ale,0.065,1467,216
+1559,Dale's Pale Ale,0.065,294,15
+1560,Dale's Pale Ale,0.065,791,134
+1564,Dale's Pale Ale,0.065,1137,353
+1566,Dale's Pale Ale (10 Year Anniversary),0.065,1131,119
+1567,Dale's Pale Ale (2012),0.065,2144,138
+1569,Dale's Pale Ale (2011),0.065,170,104
+1570,Dale's Pale Ale (2010),0.065,321,225
+1583,Dale's Pale Ale,0.065,2334,120
+1590,Dale's Pale Ale (2008),0.065,2211,485
+1591,Dale's Pale Ale (2006),0.065,2237,228
+1592,Dale's Pale Ale (2004),0.065,2229,100
+1593,Dale's Pale Ale (2003),0.065,263,251
+1594,Dale's Pale Ale (2002),0.065,2342,527
+1601,Dale's Pale Ale,0.065,1341,42
+1602,Dale's Pale Ale,0.065,1994,539
+1623,Mound Builder IPA,0.065,810,390
+1630,98 Problems (Cuz A Hop Ain't One),0.065,1207,554
+1658,Blood of the Unicorn,0.065,431,278
+1699,Long Hammer IPA,0.065,495,230
+1700,Long Hammer IPA,0.065,1501,295
+1726,Anti-Hero IPA,0.065,1767,186
+1792,Supermonk I.P.A.,0.065,1109,527
+1818,Oak Aged Cider,0.065,1688,287
+1819,Ginger Cider,0.065,1803,398
+1820,Schilling Hard Cider,0.065,334,309
+1829,Dry Cider,0.065,126,457
+1830,Dry Hard Cider,0.065,2195,214
+1861,Bengali,0.065,2184,15
+1954,Pine Belt Pale Ale,0.065,1842,422
+1966,Pine Belt Pale Ale,0.065,406,172
+1987,Northern Lights India Pale Ale,0.065,1924,502
+1989,Northern Lights India Pale Ale,0.065,292,93
+1990,Third Eye Enlightened Pale Ale,0.065,1711,398
+1993,Third Eye Pale Ale,0.065,885,359
+2046,Royal Brat,0.065,67,178
+2125,Peck's Porter,0.065,389,292
+2184,Cropduster Mid-American IPA,0.065,2001,511
+2208,Milk Mustachio Stout,0.065,2042,298
+2242,Hobnob B & B Pale Ale,0.065,1679,288
+2244,Outlaw IPA (2015),0.065,540,458
+2263,Uncle John's Apple Cherry Cider,0.065,1434,61
+2264,Uncle John's Apricot Apple Cider,0.065,784,27
+2265,Draught Hard Apple Cider,0.065,337,143
+2284,Thai Style White IPA,0.065,2040,242
+2297,Upstate I.P.W.,0.065,1853,30
+2393,4000 Footer IPA,0.065,1531,497
+2395,Be Hoppy IPA,0.065,1360,139
+1,Devil's Cup,0.066,2137,81
+74,Flesh Gourd'n,0.066,1509,549
+207,Hayride Autumn Ale,0.066,432,72
+270,Bark Bite IPA,0.066,486,541
+283,Colorado Red Ale,0.066,961,527
+335,Firestarter India Pale Ale,0.066,2305,540
+353,Firestarter India Pale Ale,0.066,862,250
+402,Root Stock,0.066,297,484
+666,Mjöllnir,0.066,244,208
+737,Hop Abomination,0.066,1525,365
+1055,Hilliard's Saison,0.066,2288,325
+1089,Hopworks IPA,0.066,1063,482
+1095,Hopworks IPA (2012),0.066,652,482
+1149,Barn Burner Saison,0.066,1455,46
+1153,Hopadillo India Pale Ale,0.066,1926,136
+1189,Rumspringa Golden Bock,0.066,1706,519
+1272,Manzanita Pale Ale,0.066,1307,203
+1441,County Line IPA,0.066,851,177
+1816,Happy Camper IPA,0.066,1473,412
+2134,Gatecrasher,0.066,552,241
+170,Hog Wild India Pale Ale,0.067,67,322
+195,Ultra Gnar Gnar IPA,0.067,1001,43
+200,Sky-Five,0.067,2299,362
+242,Disconnected Red,0.067,818,412
+388,Belfort,0.067,326,423
+420,Undertaker,0.067,2150,26
+421,Undertaker (2014),0.067,1556,535
+630,Jacaranada Rye IPA,0.067,1952,268
+773,Wood Chipper India Pale Ale,0.067,166,275
+829,3-Way IPA (2013),0.067,1354,273
+856,Hop Knot IPA,0.067,895,59
+889,Clean Shave IPA,0.067,1813,385
+981,Mothman Black IPA,0.067,2187,369
+1121,Hoponius Union,0.067,474,210
+1130,Chomolungma Honey Nut Brown Ale,0.067,426,103
+1260,Manayunk Oktoberfest,0.067,801,373
+1388,Aurora,0.067,1954,375
+1509,Watershed IPA,0.067,114,552
+1512,Watershed IPA (2013),0.067,1912,476
+1546,Orlison India Pale Lager,0.067,1814,27
+1643,Mind's Eye PA,0.067,958,172
+1865,Autumnation (2013),0.067,1176,10
+2083,CynicAle,0.067,632,75
+2293,Upslope Brown Ale,0.067,1105,257
+2405,Belgorado,0.067,134,327
+35,Back in Black,0.068,1845,409
+125,Golden One,0.068,2367,235
+180,Topcutter India Pale Ale,0.068,19,425
+196,In-Tents India Pale Lager,0.068,787,202
+206,Phantom Punch Winter Stout,0.068,1628,238
+215,Back Bay IPA,0.068,212,478
+290,Coconut Brown Ale,0.068,1280,94
+341,Pink-I Raspberry IPA,0.068,998,298
+457,East India Pale Ale,0.068,2071,514
+459,East India Pale Ale,0.068,772,399
+476,Black Beer'd,0.068,122,202
+482,Joey Wheat,0.068,1204,141
+484,MCA,0.068,1658,283
+489,Snapperhead IPA,0.068,966,244
+501,F5 IPA,0.068,1548,4
+504,Hopportunity Knocks IPA,0.068,941,520
+567,Dankosaurus,0.068,1191,104
+640,Des Moines IPA,0.068,805,159
+870,Original,0.068,1652,483
+897,Heal the Bay IPA,0.068,2295,35
+1073,Hard Cider,0.068,389,424
+1101,Let It Ride IPA,0.068,277,131
+1114,I-10 IPA,0.068,452,203
+1159,Sunken Island IPA,0.068,1161,442
+1192,I.P. Eh!,0.068,78,316
+1308,Flyin' HI.P.Hay,0.068,1374,111
+1350,Better Half,0.068,565,439
+1375,Mission IPA,0.068,1150,446
+1386,Booming Rollers,0.068,1741,21
+1472,Irish Channel Stout,0.068,2017,449
+1536,Resolution Rye Stout,0.068,2340,303
+1663,Swami's India Pale Ale,0.068,1196,164
+1721,A Little Crazy,0.068,1399,300
+1725,Eugene Porter,0.068,1567,444
+1783,Saint Archer IPA,0.068,1145,331
+1806,Sanitas Black IPA,0.068,143,205
+1838,Black Hop IPA,0.068,943,103
+1856,Ice Pick Ale,0.068,1763,519
+1883,Modus Hoperandi,0.068,1502,481
+1892,Modus Hoperandi,0.068,761,254
+1920,Pako’s EyePA,0.068,112,100
+2108,Ethos IPA,0.068,1719,9
+2121,Hat Trick Hop IPA,0.068,1890,281
+2206,Preservation IPA,0.068,1033,509
+2267,Bacon Brown Ale,0.068,2314,492
+2280,Lee Hill Series Vol. 2 - Wild Saison,0.068,1314,228
+2306,Nunica Pine,0.068,944,98
+2308,Totally Roasted,0.068,267,4
+2309,Blue Gold,0.068,1186,190
+2310,Hard Apple,0.068,1567,318
+2341,Westbrook IPA,0.068,1965,507
+2370,Blonde Hunny,0.068,2036,194
+12,Garce Selé,0.069,64,86
+53,Scarecrow,0.069,731,290
+114,Winter Solstice,0.069,1825,172
+211,Stowaway IPA,0.069,1858,395
+264,Arcus IPA,0.069,350,157
+552,Granny Smith Hard Apple Cider,0.069,1764,93
+553,Dry Hard Apple Cider,0.069,16,131
+670,Pile O'Dirt Porter,0.069,2136,172
+785,Mjolnir Imperial IPA,0.069,1002,154
+823,1916 Shore Shiver,0.069,576,271
+864,Batch 69 IPA,0.069,1657,218
+1001,Supergoose IPA,0.069,914,344
+1131,Welcome to Scoville,0.069,2082,15
+1249,Psychopathy,0.069,914,451
+1316,Bushwhacker Cider,0.069,2378,157
+1317,Weim-R-Iner,0.069,168,99
+1318,Cherry Bomb,0.069,540,384
+1499,Blue Boots IPA,0.069,934,11
+1642,Horny Monk,0.069,1055,458
+1659,GreyBeard™ IPA,0.069,513,352
+1670,Hideout Helles,0.069,1197,29
+1786,Sex Panther,0.069,664,33
+1796,Sex Panther (2014),0.069,1578,361
+1840,Monkey Fist IPA,0.069,311,194
+1853,Sietsema Red Label,0.069,2107,225
+1956,Le Mort Vivant,0.069,241,373
+1964,Le Mort Vivant (2011),0.069,2311,346
+2159,Grandma's Pecan,0.069,2202,545
+2290,Upslope Foreign Style Stout,0.069,787,0
+2307,Ginger Peach,0.069,1815,458
+2396,Worthy IPA,0.069,2020,247
+2399,Worthy IPA (2013),0.069,1358,194
+28,21st Amendment IPA (2006),0.07,2112,420
+29,Brew Free! or Die IPA (2008),0.07,2133,83
+30,Brew Free! or Die IPA (2009),0.07,1080,277
+37,Brew Free! or Die IPA,0.07,2167,524
+39,Bimini Twist,0.07,2049,448
+107,Hop Ottin' IPA,0.07,1891,60
+115,Hop Ottin' IPA (2011),0.07,1228,272
+137,Green Bullet Organic India Pale Ale,0.07,968,475
+145,Independence Pass Ale,0.07,1969,178
+156,Heavy Machinery IPA Series #1: Heavy Fist,0.07,1978,173
+176,Misty Mountain IPA,0.07,2256,351
+182,Grapefruit Sculpin,0.07,2158,105
+185,Big Eye India Pale Ale,0.07,2115,229
+187,Sculpin IPA,0.07,2092,201
+191,Thai.p.a,0.07,1760,340
+204,On the Count of 3 (2015),0.07,1937,405
+221,Two Hearted,0.07,2132,433
+243,Big Elm IPA,0.07,363,265
+291,51K IPA,0.07,451,520
+319,Toxic Sludge,0.07,1115,539
+339,Farmer Wirtz India Pale Ale,0.07,834,424
+373,Bozone HopZone IPA,0.07,2365,116
+392,Beasts A'Burnin',0.07,1200,485
+419,Pumpkin Tart,0.07,993,219
+557,King Winterbolt Winter Ale,0.07,513,62
+581,Stickin' In My Rye,0.07,2308,525
+584,Missile IPA,0.07,1357,110
+605,Hopped on the High Seas (Hop #529),0.07,1421,173
+606,Hopped on the High Seas (Calypso),0.07,2049,224
+608,Dry-Hopped On The High Seas Caribbean-Style IPA,0.07,1501,509
+609,Hopped on the High Seas (Citra),0.07,905,487
+610,Hopped on the High Seas (Ahtanum),0.07,2291,151
+686,The Citizen,0.07,989,267
+699,Double Brown Stout,0.07,626,8
+703,Deep Ellum IPA,0.07,1040,358
+710,Incredible Pedal IPA,0.07,2140,500
+752,Nut Sack Imperial Brown Ale,0.07,446,496
+761,White Reaper,0.07,435,332
+775,Hop Stalker Fresh Hop IPA,0.07,396,381
+776,Sudice American Stout,0.07,845,179
+780,Moirai India Pale Ale,0.07,1372,274
+817,Flying Mouse 4,0.07,819,61
+862,Big Star White IPA,0.07,590,48
+882,Wee-Heavy-Er Scotch Ale,0.07,762,288
+884,Salamander Slam,0.07,1037,135
+905,Vanilla Porter,0.07,795,205
+906,Descender IPA,0.07,2285,121
+962,Barrel Aged Farmer,0.07,97,58
+972,Farmer Brown Ale,0.07,322,416
+973,Big Cock IPA,0.07,1057,100
+1003,Heyoka IPA,0.07,1591,391
+1011,Pursuit,0.07,522,246
+1047,The Power of Zeus,0.07,792,539
+1068,Green House India Pale Ale,0.07,2349,509
+1111,Infamous IPA,0.07,844,279
+1128,Mystic Mama IPA,0.07,601,152
+1250,Gnarly Brown,0.07,1532,482
+1304,Aloha B’ak’tun,0.07,171,341
+1408,Lil' Helper,0.07,1113,123
+1427,Narragansett Porter,0.07,1251,522
+1565,The Deuce,0.07,2094,427
+1647,Elephant Rock IPA,0.07,1632,116
+1651,Masked Bandit IPA,0.07,1580,553
+1657,Missouri Mule India Pale Ale,0.07,1739,100
+1695,Suicide Blonde IPA,0.07,253,384
+1708,Redacted Rye IPA,0.07,2287,238
+1711,Ryeteous Rye IPA (2012),0.07,975,173
+1764,Cornerstone IPA,0.07,2060,206
+1768,RoughTail IPA,0.07,951,310
+1795,Hop Shock IPA,0.07,1231,144
+1801,Hop Shock IPA (2010),0.07,268,275
+1809,Casinos IPA,0.07,1769,35
+1831,Frankenlou's IPA,0.07,1608,23
+1832,Becky's Black Cat Porter,0.07,1069,494
+1837,Golden Ratio IPA,0.07,582,260
+1864,Global Warmer,0.07,203,515
+1906,113 IPA,0.07,620,87
+1911,Rule G IPA,0.07,1515,113
+1938,LuckenBock,0.07,2281,59
+2056,The Deuce,0.07,659,504
+2071,Red Clay IPA,0.07,621,11
+2124,Old Elephant Foot IPA,0.07,2041,517
+2126,Reactor,0.07,1685,548
+2143,Focal Banger,0.07,708,377
+2147,Indian Paintbrush IPA,0.07,14,336
+2152,Resurrection,0.07,2048,480
+2197,Juke Joint IPA,0.07,433,474
+2198,Parade Ground Coffee Porter,0.07,471,449
+2243,Cane and Ebel,0.07,2192,326
+2332,10 Ton,0.07,1043,402
+2333,Flyin' Rye,0.07,2179,245
+2335,Pay It Forward Cocoa Porter,0.07,988,34
+2,Rise of the Phoenix,0.071,324,81
+128,Long Leaf,0.071,104,312
+280,American India Red Ale,0.071,342,235
+281,American Red Porter,0.071,2070,497
+354,Noche Dulce,0.071,2102,295
+724,California Sunshine Rye IPA,0.071,2125,523
+814,Snake Dog IPA,0.071,720,252
+951,Rumble,0.071,380,375
+956,Titan IPA,0.071,505,18
+1142,Sucha Much IPA,0.071,1334,235
+1327,Miami Vice IPA,0.071,964,5
+1747,All Aboard! Anniversary Stout,0.071,1205,153
+1770,Sundown,0.071,2136,298
+1811,Black IPA,0.071,763,381
+1894,Initial Point India Pale Ale,0.071,897,511
+2053,Ring of Dingle,0.071,1146,233
+2139,Brutus,0.071,36,42
+2382,#002 American I.P.A.,0.071,2232,406
+10,Sophomoric Saison,0.072,1942,401
+168,OktoberBeast,0.072,1839,248
+227,Harness the Winter,0.072,2087,88
+256,Powder Hound Winter Ale,0.072,1481,162
+275,Saucy Intruder,0.072,273,31
+383,Last Stop IPA,0.072,407,458
+483,3:33 Black IPA,0.072,874,88
+578,Lucky Day IPA,0.072,1932,262
+620,Tocobaga Red Ale,0.072,1478,268
+690,Lift Off IPA,0.072,836,1
+842,Centennial IPA,0.072,1166,178
+886,No Wake IPA,0.072,3,471
+890,Might As Well IPL,0.072,2396,5
+1040,Loose Cannon,0.072,2189,251
+1120,Excess IPL,0.072,1415,446
+1188,Elevated IPA,0.072,1003,142
+1220,Double Bag,0.072,989,147
+1259,Festivus (1),0.072,291,53
+1275,Toughcats IPA,0.072,968,87
+1319,Tsunami IPA,0.072,677,344
+1320,Tsunami IPA,0.072,1983,208
+1411,Desert Magic IPA,0.072,355,124
+1483,Green Head IPA,0.072,826,209
+1488,Hop Drop 'N Roll IPA,0.072,2137,484
+1690,Watership Brown Ale,0.072,1877,207
+1734,Truth,0.072,1437,423
+1774,Alpha Blackback,0.072,1689,87
+1845,Torpedo,0.072,977,228
+1851,Torpedo,0.072,2395,369
+1960,Old Potentate,0.072,454,317
+2023,Monkeynaut IPA,0.072,446,13
+2072,Todd the Axe Man,0.072,1997,208
+2110,Oasis,0.072,253,74
+2117,Oasis (2010),0.072,1181,51
+2248,Road 2 Ruin Double IPA,0.072,353,543
+2295,Upslope India Pale Ale,0.072,2040,460
+2377,Wyoming Pale Ale,0.072,698,171
+11,Regional Ring Of Fire,0.073,74,302
+286,Flying Sailor,0.073,2223,453
+428,Le Flaneur Ale,0.073,766,224
+465,Black Adder IBA (Current),0.073,1223,477
+955,Colette,0.073,392,82
+1090,Abominable Winter Ale,0.073,2155,90
+1093,Abominable Winter Ale (2012),0.073,831,291
+1646,Devils Head Red Ale,0.073,851,432
+1778,CAPT Black IPA,0.073,231,255
+1780,CAPT Black IPA,0.073,1329,555
+1977,Ghost Bike Pale Ale,0.073,2074,207
+2075,Overrated! West Coast Style IPA,0.073,841,405
+2085,Big Nose,0.073,46,272
+2151,Ozzy,0.073,158,317
+2203,IPA & a Half,0.073,1003,359
+2254,Hop Nosh IPA,0.073,1652,71
+2257,Hop Notch IPA (2013),0.073,1513,300
+2316,Good Vibes IPA,0.073,1745,291
+725,Full Boar Scotch Ale,0.074,951,162
+835,Vortex IPA,0.074,952,267
+892,2020 IPA,0.074,272,151
+1431,CuDa Cascadian Dark Ale,0.074,146,30
+1434,CuDa Cascadian Dark Ale (2012),0.074,1515,345
+1828,Blur India Pale Ale,0.074,753,403
+1882,Taster's Choice,0.074,356,98
+2379,Ace IPA,0.074,1240,451
+4,Sex and Candy,0.075,31,453
+150,Hop A-Peel,0.075,1624,105
+249,Galaxy IPA,0.075,584,311
+277,Blackmarket Rye IPA,0.075,697,13
+336,Kilt Dropper Scotch Ale,0.075,12,56
+580,Catch 23,0.075,1717,348
+613,Humidor Series India Pale Ale,0.075,151,506
+614,Jai Alai IPA Aged on White Oak,0.075,40,170
+621,Jai Alai IPA,0.075,1176,549
+650,Crabtree Oatmeal Stout,0.075,1427,126
+653,Old Soul,0.075,2134,39
+696,Oak Cliff Coffee Ale,0.075,152,470
+781,Loki Red Ale,0.075,2266,458
+784,Loki Red Ale (2013),0.075,286,95
+801,Threadless IPA,0.075,1782,272
+805,Union Jack,0.075,1353,110
+941,Bourbon's Barrel Stout,0.075,2118,27
+996,Norm's Raggedy Ass IPA,0.075,2126,243
+1015,The Great Return,0.075,651,383
+1143,Lewbricator Wheat Dopplebock,0.075,755,544
+1214,Pistols at Dawn,0.075,789,333
+1336,Solis,0.075,1257,485
+1343,Misty Mountain Hop,0.075,993,145
+1344,One-Hit Wonderful,0.075,646,437
+1347,Love In An Ellavator,0.075,1923,83
+1356,Hop Happy,0.075,1525,455
+1385,City of the Sun,0.075,1942,93
+1541,Overbite IPA,0.075,1785,41
+1945,2014 IPA Cicada Series,0.075,1044,355
+2047,Grapefruit Jungle (GFJ),0.075,2382,441
+2064,Grapefruit Jungle (GFJ) (2011),0.075,1141,425
+2076,WET,0.075,139,52
+2185,Golden Frau Honey Wheat,0.075,1706,542
+2214,Nugget Nectar,0.075,2226,523
+2217,Perpetual IPA,0.075,125,44
+2221,Chupahopra,0.075,1769,65
+2285,Ferus Fluxus Wild Belgian Pale Ale,0.075,1764,297
+2289,Upslope Belgian Style Pale Ale,0.075,1210,448
+2314,Wynona's Big Brown Ale,0.075,1285,123
+2317,Pilzilla,0.075,713,68
+2348,O’Malley’s IPA,0.075,1971,557
+2375,Bodacious Bock,0.075,2401,532
+2404,Rocky Mountain Oyster Stout,0.075,198,210
+77,Rico Sauvin,0.076,1771,383
+844,El Chingon IPA,0.076,508,43
+1037,Groupe G,0.076,920,504
+1767,12th Round,0.076,328,190
+2282,Lee Hill Series Vol. 1 - Barrel Aged Brown Ale,0.076,1400,135
+5,Black Exodus,0.077,809,330
+71,35 K,0.077,1364,343
+142,Aslan IPA,0.077,2216,499
+143,Aslan Amber,0.077,1222,530
+393,Verdun,0.077,1528,70
+496,HopArt,0.077,1422,231
+651,Eclipse Black IPA,0.077,145,312
+1833,Seventh Son of a Seventh Son,0.077,1097,310
+1835,Seventh Son Hopped Red Ale,0.077,1545,437
+1946,Sinister Minister Black IPA,0.077,135,356
+2240,Atom Smasher,0.077,1178,16
+2288,Upslope Pumpkin Ale,0.077,1234,295
+2398,Lights Out Vanilla Cream Extra Stout,0.077,2308,170
+234,La Frontera Premium IPA,0.078,2069,347
+282,American Red Saison,0.078,267,521
+477,Mr. Tea,0.078,2390,48
+550,077XX,0.078,1855,476
+562,Seiche Scottish Ale,0.078,1375,30
+744,Crank Yanker IPA,0.078,2018,428
+749,Crank Yanker IPA (2011),0.078,1502,487
+818,La Ferme Urbaine Farmhouse Ale,0.078,1006,445
+1061,Festeroo Winter Ale,0.078,1147,488
+2269,Baltic Porter,0.078,1022,81
+22,Fireside Chat,0.079,664,75
+23,Marooned On Hog Island,0.079,63,311
+34,Fireside Chat (2010),0.079,521,484
+1246,The Great Pumpcan,0.079,2306,108
+1926,Hopnoxious Imperial IPA,0.079,626,19
+1973,Working for the Weekend,0.079,635,134
+2313,White Magick of the Sun,0.079,1470,323
+69,Citra Ass Down,0.08,1584,368
+161,Raja,0.08,963,385
+246,Dark Star,0.08,102,242
+296,Last Call Imperial Amber Ale,0.08,1540,163
+309,Quarter Mile Double IPA,0.08,1050,405
+463,Tour de Nez Belgian IPA (Current),0.08,2406,249
+589,8 Barrel,0.08,124,308
+615,José Martí American Porter,0.08,1074,422
+676,Floyd's Folly,0.08,2248,537
+680,Stone of Arbroath,0.08,715,554
+795,Sobek & Set,0.08,916,202
+799,Fascist Pig Ale,0.08,702,116
+876,Abominable Ale,0.08,616,34
+893,Wolf Among Weeds IPA,0.08,1693,125
+901,Burning Bush Smoked IPA,0.08,1447,431
+902,Wolf Among Weeds IPA (2012),0.08,401,377
+942,Great Crescent Stout,0.08,50,377
+1004,Guest Lager,0.08,580,346
+1044,Habitus IPA,0.08,323,143
+1186,Bellingham Beer Week 2013 Collaboration,0.08,1590,385
+1269,Manzanita IPA,0.08,1861,38
+1283,The Imperial Texan,0.08,1825,149
+1284,The Imperial Texan,0.08,1332,277
+1335,Habitus (2014),0.08,4,217
+1338,Habitus,0.08,777,124
+1342,Disco Superfly,0.08,2328,431
+1553,Old Chub NITRO,0.08,1766,91
+1573,Chaka,0.08,1519,130
+1574,HGH (Home Grown Hops): Part Duh,0.08,1631,214
+1575,Deviant Dale's IPA,0.08,418,488
+1581,Old Chub,0.08,2331,208
+1587,Old Chub (2008),0.08,269,8
+1588,Old Chub (2004),0.08,1870,271
+1589,Old Chub (2003),0.08,70,418
+1599,Deviant Dale's IPA,0.08,1343,462
+1600,Old Chub,0.08,1957,236
+1702,Nectar of the Hops,0.08,309,55
+1703,Sunshine Nectar,0.08,2208,65
+1704,Black Raspberry Nectar,0.08,1433,264
+1745,Headless Wylie,0.08,1766,116
+1750,Patrick's Poison,0.08,557,374
+1769,Polar Night Stout,0.08,107,43
+1814,Imperial Java Stout,0.08,121,231
+1859,Abigale,0.08,9,442
+1886,Hibernal Vinifera Stout,0.08,2182,15
+1940,6 String Saison,0.08,2344,313
+1950,Mississippi Fire Ant,0.08,1648,121
+2061,Chaka,0.08,396,488
+2095,Dodgy Knight Imperial IPA,0.08,2217,501
+2128,Deduction,0.08,1649,155
+2142,Beelzebub,0.08,1416,190
+2144,Heady Topper,0.08,49,214
+2145,Heady Topper,0.08,1380,188
+2212,Triangle Belgian Golden Ale,0.08,1523,93
+2300,Devastator Double Bock,0.08,2229,450
+2346,Rip Van Winkle (Current),0.08,986,505
+2380,P-51 Porter,0.08,415,357
+239,Aprè Shred,0.081,1346,271
+787,Mastermind,0.081,631,250
+1751,Rudolph's Red,0.081,1481,286
+1798,Rail Slide Imperial Spiced Ale,0.081,929,85
+19,He Said Baltic-Style Porter,0.082,1935,16
+20,He Said Belgian-Style Tripel,0.082,201,100
+67,Citra Ass Down,0.082,155,215
+87,Yellow Wolf Imperial IPA,0.082,1034,505
+147,Bitter Bitch Imperial IPA,0.082,576,212
+404,Sous Chef,0.082,2169,93
+434,Vivant Tripel,0.082,1487,554
+600,Wandering Pelican,0.082,1110,373
+788,Hyzer Flip,0.082,1684,456
+789,Second Fiddle,0.082,2357,516
+1305,Liquid Breadfruit,0.082,1208,403
+1409,Train Wreck,0.082,836,419
+1513,Lake Monster,0.082,1930,29
+1896,Tripel Deke,0.082,1280,445
+1972,God Damn Pigeon Porter,0.082,1798,155
+2213,Troegenator,0.082,594,452
+2216,Troegenator Doublebock,0.082,1873,542
+2287,Upslope Christmas Ale,0.082,2377,282
+2360,Hop Slayer Double IPA,0.082,2135,506
+2364,Hop Slayer Double IPA (2011),0.082,17,445
+2365,Hop Slayer Double IPA (2011),0.082,1133,310
+2402,Colorojo Imperial Red Ale,0.082,2384,529
+36,Monk's Blood,0.083,1737,261
+224,Uber Lupin Schwarz IPA,0.083,162,537
+952,Orabelle,0.083,696,92
+1036,Southern Cross,0.083,1344,115
+1341,Vinyl Frontier,0.083,2071,184
+1965,Buried Hatchet Stout,0.083,1831,346
+2031,Unchained #18 Hop Silo,0.083,1529,14
+2036,PV Muckle (2013),0.083,522,553
+60,Ballz Deep Double IPA,0.084,1041,50
+1904,Odyssey Imperial IPA,0.084,781,301
+1936,Winterfest,0.084,2404,171
+13,Troll Destroyer,0.085,294,389
+31,Special Edition: Allies Win The War!,0.085,814,25
+127,Uroboros,0.085,852,292
+446,Kludde,0.085,22,5
+565,Gone A-Rye,0.085,2216,159
+697,Dream Crusher Double IPA,0.085,1239,48
+767,Molotov Lite,0.085,596,118
+841,Dirty Bastard,0.085,1523,142
+983,Captain's Daughter,0.085,1846,21
+1245,Thunder Snow,0.085,1081,23
+1267,Dreamin' Double IPA,0.085,1816,203
+1410,Full Moon Belgian White Ale,0.085,1330,166
+1413,Full Moon Belgian White Ale (2007),0.085,1680,239
+1432,Old Grogham Imperial India Pale Ale,0.085,9,3
+1433,Old Grogham Imperial India Pale Ale (2012),0.085,1974,342
+1562,oSKAr the G'Rauch,0.085,347,10
+1563,oSKAr the G'Rauch,0.085,1812,160
+1895,Monkey Dancing On A Razor Blade,0.085,830,194
+1957,Red Cockaded Ale,0.085,2280,77
+1959,Red Cockaded Ale (2013),0.085,1214,389
+2103,Wooden Rooster,0.085,1828,39
+2114,Velvet Rooster,0.085,1761,235
+2191,Overlord Imperial IPA,0.085,66,410
+2270,Siamese twin,0.085,869,477
+2271,Double Duckpin,0.085,1829,68
+2322,Larry Imperial IPA,0.085,1138,131
+9,Cone Crusher,0.086,1120,82
+173,Palate Mallet,0.086,1716,482
+796,Nuclear Winter,0.086,2082,525
+1423,Narragansett Bohemian Pilsner,0.086,967,339
+949,Hibernation Ale,0.087,1621,255
+1354,Hop Freak,0.087,2240,41
+1395,Rich Man's IIPA,0.087,1404,0
+1522,Clan Warrior,0.087,947,32
+1568,Gordon Imperial Red (2010),0.087,1379,276
+1571,G'KNIGHT (16 oz.),0.087,2197,199
+1577,G'KNIGHT (12 oz.),0.087,723,485
+1582,Gordon Ale (2009),0.087,250,74
+1596,Gordon Beer (2006),0.087,2008,176
+1597,G'KNIGHT,0.087,341,84
+212,Hoptopus Double IPA,0.088,727,263
+833,Cavatica Stout,0.088,1283,93
+1039,Hill 88 Double IPA,0.088,1070,210
+1465,Gandhi-Bot Double IPA (12 oz.),0.088,2163,239
+1467,Gandhi-Bot Double IPA (16 oz.) (2010),0.088,1144,275
+1473,MechaHopzilla,0.088,588,137
+594,Bay of Bengal Double IPA (2014),0.089,2194,410
+1807,Giant DIPA,0.089,111,120
+3,Sinister,0.09,871,482
+52,Barn Yeti,0.09,365,294
+54,Ironman,0.09,294,419
+399,Paris,0.09,1711,452
+433,Zaison,0.09,2040,513
+443,Zaison (2012),0.09,645,182
+474,More Cowbell,0.09,209,319
+525,Dead-Eye DIPA,0.09,1348,184
+794,Hardcore Chimera,0.09,1293,397
+971,Hop A Potamus Double Dark Rye Pale Ale,0.09,990,502
+999,Lemon Shandy Tripel,0.09,1376,332
+1265,Monk from the 'Yunk,0.09,2162,493
+1464,668 Neighbor of the Beast12 oz.,0.09,1631,56
+1466,668 Neighbor of the Beast (16 oz.) (2010),0.09,1422,297
+1572,15th Anniversary Abbey Ale (2012),0.09,528,452
+1576,One Hit Wonder,0.09,1114,491
+1707,Hammer & Sickle,0.09,612,333
+2038,Whip Fight,0.09,114,49
+2045,Wee Muckle,0.09,445,18
+2057,The Velvet Fog,0.09,576,205
+2063,Wee Muckle (2011),0.09,673,550
+2299,Squatters Hop Rising Double IPA,0.09,1962,90
+2304,Squatters Hop Rising Double IPA (2014),0.09,2005,328
+2334,Christmas Ale,0.09,1491,106
+1788,Count Hopula (Vault Series),0.091,594,413
+1874,Resin,0.091,592,349
+2062,Isis,0.091,2083,255
+134,Quakertown Stout,0.092,1475,470
+171,Devils Tramping Ground Tripel,0.092,1826,531
+439,Escoffier Bretta Ale,0.092,41,416
+444,Vivant Tripel (2012),0.092,1740,347
+684,On the Wings of Armageddon,0.092,2174,190
+1358,O-Gii,0.092,640,201
+1377,Shipwrecked Double IPA,0.092,131,281
+1521,Perpetual Darkness,0.092,1070,229
+1584,Gordon (2005),0.092,204,483
+1922,Double Dagger Imperial IPA,0.092,1326,552
+1958,Valkyrie Double IPA,0.092,2227,482
+2312,Voodoo Love Child,0.092,1298,146
+2315,Gran Met,0.092,1559,30
+427,Tree Bucket,0.093,2170,514
+430,Trebuchet Double IPA,0.093,486,407
+492,Blackbeard,0.093,1924,537
+909,Snake Handler Double IPA,0.093,2124,502
+1140,Hop Box Imperial IPA,0.093,2095,462
+894,Better Weather IPA,0.094,2062,157
+240,Hemlock Double IPA,0.095,1829,183
+438,Plow Horse Belgian Style Imperial Stout,0.095,959,269
+579,Terrace Hill Double IPA,0.095,264,303
+954,Yeti  Imperial Stout,0.095,2250,152
+1150,Rodeo Clown Double IPA,0.095,546,487
+1271,Gillespie Brown Ale,0.095,585,477
+1528,The Hole in Hadrian's Wall,0.095,1342,250
+1585,Ten Fidy Imperial Stout (2008),0.095,1781,235
+1787,Winter Warmer (Vault Series),0.095,727,292
+297,Pernicious Double IPA,0.096,1882,427
+718,Hoperation Overload,0.096,1251,498
+1971,Bitter Biker Double IPA,0.096,2331,80
+1976,Bitter Biker Double IPA,0.096,1907,192
+2141,The Crusher,0.096,1618,133
+32,Hop Crisis,0.097,1804,27
+445,Trebuchet Double IPA (2012),0.097,323,213
+497,Boy King,0.097,703,548
+1279,Cant Dog Imperial Pale Ale,0.097,1506,382
+2081,Abrasive Ale,0.097,422,2
+268,Bad Axe Imperial IPA,0.098,1892,502
+390,Tart Side of the Barrel,0.098,348,45
+435,Tart Side of the Moon,0.098,1167,25
+21,Lower De Boom,0.099,1966,78
+267,Forest Fire Imperial Smoked Rye,0.099,2076,352
+412,Wizard Burial Ground,0.099,1183,109
+437,Hubris Quadrupel Anniversary Ale,0.099,1423,430
+441,Vivant Belgian Style Imperial Stout (2012),0.099,1889,114
+466,Very Noddy Lager (Current),0.099,1205,482
+479,Hopkick Dropkick,0.099,1490,285
+524,Imperial Pumpkin Stout,0.099,1301,147
+548,Epitome,0.099,236,101
+1045,Ex Umbris Rye Imperial Stout,0.099,1659,514
+1243,Galaxy High,0.099,2023,538
+1268,Chaotic Double IPA,0.099,1585,13
+1277,Sexy Chaos,0.099,82,198
+1361,Axe Head Malt Liquor,0.099,2011,494
+1578,Ten Fidy Imperial Stout,0.099,1483,490
+1580,GUBNA Imperial IPA,0.099,52,210
+1586,Ten Fidy Imperial Stout (2007),0.099,599,320
+1598,Ten Fidy,0.099,1007,407
+1666,Big Chuck Barleywine,0.099,1370,384
+1684,BLAKKR,0.099,1644,15
+1709,Elevation Triple India Pale Ale,0.099,867,439
+1771,Sanctified,0.099,77,98
+1863,Hi-Res,0.099,2284,443
+1870,3Beans,0.099,429,438
+1927,Barrel Aged Seven Devils Imperial Stout,0.099,850,71
+1931,Old Devil's Tooth,0.099,1740,262
+1962,PRO-AM (2012) (2012),0.099,264,249
+2037,Bourbon Barrel Batch 666: Sympathy for the Devil,0.099,2350,191
+2049,Bourbon Barrel Aged Timmie,0.099,2304,251
+2055,Bourbon Barrel Johan,0.099,1113,169
+2066,Johan the Barleywine,0.099,424,367
+2074,BLAKKR,0.099,1852,326
+2160,Double Trunk,0.099,1375,54
+2281,Lee Hill Series Vol. 3 - Barrel Aged Imperial Stout,0.099,1610,477
+2286,Upslope Imperial India Pale Ale,0.099,1236,10
+1857,4Beans,0.1,203,47
+2279,Lee Hill Series Vol. 4 - Manhattan Style Rye Ale,0.104,1454,268
+2189,Csar,0.12,470,402
+70,London Balling,0.125,1519,30
+2278,Lee Hill Series Vol. 5 - Belgian Style Quadrupel Ale,0.128,922,343
