@@ -1,0 +1,10 @@
+query getBeers($skip: Int) {
+    beers(take: 20, skip: $skip) {
+        name
+        rating
+        id
+        brand
+        type
+        abv
+    }
+}

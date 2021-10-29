@@ -19,5 +19,8 @@
   },
   "devDependencies": {
     "concurrently": "^6.3.0"
+  },
+  "dependencies": {
+    "react-simple-star-rating": "^3.0.0"
   }
 }
