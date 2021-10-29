@@ -11,15 +11,11 @@ import { ApolloClient, ApolloProvider, createHttpLink, InMemoryCache } from '@ap
 
 const link = createHttpLink({
     uri: 'http://129.241.104.92:4000',
-    fetchOptions: {
-        mode: 'no-cors',
-    },
 });
 
 const client = new ApolloClient({
     link,
     cache: new InMemoryCache(),
-    credentials: 'include',
 });
 
 ReactDOM.render(
