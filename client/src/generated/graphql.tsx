@@ -10,6 +10,7 @@ export type Scalars = {
     Int: number;
     Float: number;
     /** The `Upload` scalar type represents a file upload. */
+    //eslint-disable-next-line
     Upload: any;
 };
 
@@ -99,9 +100,11 @@ export const GetBeersDocument = gql`
  *   },
  * });
  */
+//eslint-disable-next-line
 export function useGetBeersQuery(baseOptions?: Apollo.QueryHookOptions<GetBeersQuery, GetBeersQueryVariables>) {
     return Apollo.useQuery<GetBeersQuery, GetBeersQueryVariables>(GetBeersDocument, baseOptions);
 }
+//eslint-disable-next-line
 export function useGetBeersLazyQuery(baseOptions?: Apollo.LazyQueryHookOptions<GetBeersQuery, GetBeersQueryVariables>) {
     return Apollo.useLazyQuery<GetBeersQuery, GetBeersQueryVariables>(GetBeersDocument, baseOptions);
 }
