@@ -1,9 +1,9 @@
 type Query {
-    beers: [Beer!]!
+    beers(filter: String, skip: Int, take: Int, orderBy: BeerOrder): [Beer!]!
 }
 
 type Mutation {
-    rateBeer(beerID: ID!, rating: Int!): Beer
+    rateBeer(beerId: ID!, rating: Int!): Beer
 }
 
 type Beer {
@@ -12,5 +12,18 @@ type Beer {
     name: String!
     type: String!
     abv: Float!
-    rating: Float!
+    rating: Float
+}
+
+input BeerOrder {
+    brand: Sort
+    name: Sort
+    type: Sort
+    abv: Sort
+    # rating: Sort
+}
+
+enum Sort {
+    asc
+    desc
 }

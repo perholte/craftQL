@@ -1,0 +1,12 @@
+{
+    "prettier.jsxSingleQuote": true,
+    "editor.formatOnSave": true,
+    "prettier.tabWidth": 4,
+    "prettier.useTabs": true,
+    "prettier.semi": true,
+    "editor.formatOnPaste": true,
+    "javascript.preferences.quoteStyle": "single",
+    "typescript.preferences.quoteStyle": "single",
+    "prettier.singleQuote": true,
+    "prettier.useEditorConfig": false
+}     

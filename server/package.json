@@ -4,27 +4,16 @@
     "main": "src/index.js",
     "license": "MIT",
     "scripts": {
-        "start": "./node_modules/.bin/nodemon src/index.ts",
-        "build": "./node_modules/.bin/tsc -p tsconfig.json",
-        "run": "node out/index.js",
-        "clean": "./node_modules/.bin/tsc --clean",
-        "dev": "./node_modules/.bin/ts-node src/index.ts"
+        "start": "node src/index.js",
+        "dev": "nodemon src/index.js"
     },
     "dependencies": {
-        "@types/node": "^16.11.4",
-        "apollo-server": "^3.4.0",
-        "apollo-server-express": "^3.4.0",
-        "dotenv": "^10.0.0",
-        "express": "^4.17.1",
-        "graphql": "^15.6.1",
-        "lodash": "^4.17.21",
-        "mysql": "^2.18.1",
-        "sequelize": "^6.8.0",
-        "ts-node": "^10.4.0",
-        "ts-node-dev": "^1.1.8"
+        "@prisma/client": "^3.3.0",
+        "apollo-server": "^2.25.2",
+        "graphql": "^15.6.1"
     },
     "devDependencies": {
         "nodemon": "^2.0.14",
-        "typescript": "^4.4.4"
+        "prisma": "^3.3.0"
     }
 }
