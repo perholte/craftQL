@@ -15,13 +15,10 @@ import './BeerModal.css';
 import '../../Header-svg.css';
 import { ReactComponent as BeerSVGS } from '../../beer.svg';
 import { Rating } from 'react-simple-star-rating';
+import { Beer } from '../../generated/graphql';
 
-type BeerType = {
-    name: string;
-    rating: number;
-};
 interface BeerModalProps {
-    Beer: BeerType;
+    Beer: Beer;
 }
 
 const BeerModal: React.FC<BeerModalProps> = ({ Beer }) => {
@@ -31,10 +28,10 @@ const BeerModal: React.FC<BeerModalProps> = ({ Beer }) => {
         <>
             <Box className="ModalDiv" onClick={onOpen} color="rgba(117,56,19,255)" aria-label="show more">
                 <b>{Beer.name}</b>
-                Type {/* this will be {Beer.type} */}
+                {Beer.type}
                 <section id="boxRating">
                     <p>
-                        <b>Rating:</b> {Beer.rating}/5
+                        <b>Rating: </b> {Beer.rating === null ? ' N/A ' : Beer.rating + ' / 5'}
                     </p>
                 </section>
             </Box>
@@ -51,16 +48,18 @@ const BeerModal: React.FC<BeerModalProps> = ({ Beer }) => {
                     </ModalHeader>
                     <ModalCloseButton />
 
-                    <ModalBody id="modalBody" alignitems="center" my="2rem">
+                    <ModalBody id="modalBody" alignitems="center" my="2rem" color="rgba(117, 56, 19, 255)">
                         <section id="ratingByOthers">
-                            <p>{Beer.rating} / 5</p>
+                            <p>{Beer.rating === null ? ' N/A ' : Beer.rating + ' / 5'}</p>
                             <BeerSVGS />
                         </section>
                         <Divider mb="30px"></Divider>
                         <section id="infoSection">
-                            {Beer.name} is a ___________. Its a strong/medium strong beer with an alcohol percentage of
-                            ____. The beer is brewed in ________, and our users have given it a rating of {Beer.rating}{' '}
-                            / not yet been given a rating, be the first to do so!
+                            {Beer.name} is a {Beer.type}. Its a {Beer.abv > 0.03 ? 'strong' : 'medium strong'} beer with
+                            an alcohol percentage of {Beer.abv * 100} %. The beer is brewed by {Beer.brand}, and{' '}
+                            {Beer.rating
+                                ? 'our users have given it a rating of ' + Beer.rating + '.'
+                                : 'has not yet been given a rating, be the first to do so!'}
                         </section>
                         <section id="ratingSection">
                             <Rating className="rating" onClick={setRating} ratingValue={rating}>
