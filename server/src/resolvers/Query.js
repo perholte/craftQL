@@ -17,7 +17,7 @@ async function beers(parent, args, context) {
         where,
         skip,
         take,
-        orderBy: parseOrderBy(orderBy),
+        orderBy: orderBy ? parseOrderBy(orderBy) : undefined,
     });
 }
 
