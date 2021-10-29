@@ -22,6 +22,7 @@ const server = new ApolloServer({
     context: {
         prisma,
     },
+    playground: false,
 });
 
 server.listen().then(({ url }) => console.log(`Server is running on ${url}`));

@@ -1,3 +1,5 @@
+const { parseOrderBy } = require('./utils');
+
 async function beers(parent, args, context) {
     const { filter, skip, take, orderBy } = args;
 
@@ -10,11 +12,13 @@ async function beers(parent, args, context) {
               ],
           }
         : {};
+
+    console.log(parseOrderBy(orderBy));
     return await context.prisma.beer.findMany({
         where,
         skip,
         take,
-        orderBy,
+        orderBy: parseOrderBy(orderBy),
     });
 }
 
