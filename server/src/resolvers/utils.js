@@ -8,7 +8,7 @@ function parseOrderBy(orderBy) {
         case 'type':
             return { type: { name: orderBy.type } };
         case 'brand':
-            return { type: { name: orderBy.brand } };
+            return { brand: { name: orderBy.brand } };
         default:
             return {};
     }
