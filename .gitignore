@@ -22,7 +22,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+<<<<<<< HEAD
 
 **/dist
 **/node_modules
 **.env
+=======
+>>>>>>> 332a846b2a31b32e8e11d875755ecdac99e25942

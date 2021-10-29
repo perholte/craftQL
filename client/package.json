@@ -1,11 +1,12 @@
 {
-  "name": "craftql",
+  "name": "client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@chakra-ui/react": "^1.6.10",
     "@emotion/react": "^11",
     "@emotion/styled": "^11",
+    "@reduxjs/toolkit": "^1.6.2",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -16,6 +17,8 @@
     "framer-motion": "^4",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-redux": "^7.2.5",
     "react-scripts": "4.0.3",
     "typescript": "^4.1.2",
     "web-vitals": "^1.0.1"
@@ -52,12 +55,17 @@
     ]
   },
   "devDependencies": {
+    "@types/enzyme": "^3.10.10",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.5",
+    "cypress": "^8.7.0",
+    "enzyme": "^3.11.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.26.1",
     "lint-staged": "^11.2.3",
-    "prettier": "^2.4.1"
+    "prettier": "^2.4.1",
+    "react-paginate": "^7.1.3"
   }
 }

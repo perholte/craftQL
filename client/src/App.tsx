@@ -1,16 +1,16 @@
 import React from 'react';
 import './App.css';
+import './Header-svg.css';
 import Header from './components/header/Header';
-import Homepage from './components/homepage/Homepage';
-import SearchPage from './components/searchPage/SearchPage';
+import BeerList from './components/beerList/BeerList';
 
-function App() {
+const App: React.FC = () => {
     return (
         <div className="app">
             <Header />
-            <SearchPage />
+            <BeerList />
         </div>
     );
-}
+};
 
 export default App;

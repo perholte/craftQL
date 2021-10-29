@@ -1,0 +1,33 @@
+{
+  "getAllBeers": {
+    "beerList": [
+      {
+      "Corona": [{
+        "id": 1,
+        "brand": "Corona",
+        "name": "Corona",
+        "type": "Beer",
+        "abv": 0.045,
+        "rating": 5
+        }],
+      "Fydenlund": [{
+        "id": 2,
+        "brand": "Frydenlung",
+        "name": "Frydenlund Fatøl",
+        "type": "Fatøl",
+        "abv": 0.045,
+        "rating": 5
+        }],
+      "Hansa": [{
+        "id": 3,
+        "brand": "Hansa",
+        "name": "Hansa Pilsner",
+        "type": "Pilsner",
+        "abv": 0.045,
+        "rating": 4
+        }]
+    }]},
+    "getEmptyBeerList": {
+      "beerList": []
+    }
+}
