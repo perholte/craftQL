@@ -1,5 +1,6 @@
 import { Grid, Box } from '@chakra-ui/react';
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useGetBeersQuery } from '../../generated/graphql';
 import Filters from '../filters/Filters';
 import BeerModal from '../modal/BeerModal';
 
@@ -19,21 +20,15 @@ const BEER: Array<Beer> = [
     { name: 'Pils', rating: 6 },
     { name: 'Sinnabrus', rating: 4 },
     { name: 'Gjæret drikke', rating: 1 },
-    { name: 'Frydenlund Fatøl', rating: 1 },
-    { name: 'Corona', rating: 5 },
-    { name: 'Frydenlund', rating: 3 },
-    { name: 'Hansa', rating: 5 },
-    { name: 'ØL', rating: 3 },
-    { name: 'Mer ØL', rating: 5 },
-    { name: 'Enda mer ØL', rating: 3 },
-    { name: 'Pils', rating: 6 },
-    { name: 'Sinnabrus', rating: 4 },
-    { name: 'Sinnabrus', rating: 4 },
-    { name: 'Gjæret drikke', rating: 1 },
-    { name: 'Frydenlund Fatøl', rating: 1 },
 ];
 
 const BeerList: React.FC = () => {
+    const { data, loading, error } = useGetBeersQuery({ variables: { skip: 0 } });
+    useEffect(() => {
+        console.log(data);
+        console.log(error);
+    }, [data, error]);
+
     return (
         <Box pb="5rem" mt="5rem" mx="auto" w="70vw">
             <Filters />
