@@ -1,5 +1,5 @@
-query getBeers($skip: Int) {
-    beers(take: 20, skip: $skip) {
+query getBeers($skip: Int!, $sort: BeerOrder!) {
+    beers(take: 20, skip: $skip, orderBy: $sort) {
         name
         rating
         id

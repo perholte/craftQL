@@ -6,7 +6,7 @@ import { RootState, useAppDispatch } from '../../redux/store';
 
 const Sort: React.FC = () => {
     const dispatch = useAppDispatch();
-    const selected = useSelector((state: RootState) => state.sort.value);
+    const selected = useSelector((state: RootState) => state.sort.sortOption);
 
     const handleChange = (e: ChangeEvent<HTMLSelectElement>) => {
         dispatch(setSortingChoice(e.target.value as SortOptions));
