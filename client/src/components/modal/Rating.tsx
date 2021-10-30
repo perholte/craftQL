@@ -11,7 +11,6 @@ const Rating: React.FC<RatingProps> = ({ setRating, rating }) => {
 
     return (
         <HStack
-            mx="auto"
             spacing="0"
             //shows the currently selected rating when leaving the "rating area"
             onMouseLeave={() => setHoverRating(rating)}

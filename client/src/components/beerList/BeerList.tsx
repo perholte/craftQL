@@ -49,7 +49,7 @@ const BeerList: React.FC = () => {
             >
                 <Box pb="5rem" mt="5rem" mx="auto" w="80vw">
                     <Grid templateColumns="repeat( auto-fit, minmax(250px, 1fr))" gap={10} pt="5rem">
-                        {beerData ? beerData.map((beer) => <BeerModal key={beer.id} Beer={beer} />) : <></>}
+                        {beerData ? beerData.map((beer) => <BeerModal key={beer.id} beer={beer} />) : <></>}
                     </Grid>
                 </Box>
             </InfiniteScroll>
