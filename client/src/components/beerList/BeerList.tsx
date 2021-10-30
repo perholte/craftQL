@@ -1,15 +1,17 @@
-import { Grid, Box, Spinner, Center } from '@chakra-ui/react';
+import { Grid, Box, Spinner, Center, Text } from '@chakra-ui/react';
 import React, { useEffect, useState } from 'react';
 import { Beer, useGetBeersQuery } from '../../generated/graphql';
+import { useSelector } from 'react-redux';
+import { RootState } from '../../redux/store';
 import Filters from '../filters/Filters';
 import BeerModal from '../modal/BeerModal';
 import InfiniteScroll from 'react-infinite-scroll-component';
 
 const BeerList: React.FC = () => {
     const [skip, setSkip] = useState(0);
-    const { data, fetchMore } = useGetBeersQuery({ variables: { skip: skip } });
     const [beerData, setBeerData] = useState<Array<Beer>>([]);
-
+    const sortParams = useSelector((state: RootState) => state.sort.graphqlParams);
+    const { data, error, fetchMore } = useGetBeersQuery({ variables: { skip: skip, sort: sortParams } });
     useEffect(() => {
         setBeerData([...beerData, ...(data?.beers || [])]);
     }, [data]);
@@ -19,8 +21,11 @@ const BeerList: React.FC = () => {
             setSkip(skip + 20);
             setBeerData([...beerData, ...(fetchMoreResult.data.beers || [])]);
         });
-        console.log('lengde: ' + beerData.length);
     };
+
+    if (error) {
+        <Text>An error occured :/ </Text>;
+    }
 
     return (
         <>
@@ -38,7 +43,7 @@ const BeerList: React.FC = () => {
                 }
                 endMessage={
                     <p style={{ textAlign: 'center' }}>
-                        <b>Yay! You have seen it all</b>
+                        <b>Cheers! You have seen it all</b>
                     </p>
                 }
             >
