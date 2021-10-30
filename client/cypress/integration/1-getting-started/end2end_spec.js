@@ -1,26 +1,41 @@
-describe('My First Test', () => {
+describe('Successfully', () => {
     beforeEach(() => {
         cy.visit('localhost:3000');
     });
 
-    it('Renders header', () => {
+    it('renders header', () => {
         cy.get('h2').should('have.text', 'CraftQL');
         cy.get('svg').should('be.visible');
     });
 
-    it('Render beers', () => {
-        cy.get('.css-shwykg').children().should('have.length', 20);
+    it('renders beers', () => {
+        cy.get('#beerListGrid').children().should('have.length', 20);
     });
 
-    it('Opens and closes a modal', () => {
-        cy.get('.css-shwykg > :nth-child(1)').click();
-        cy.get('#chakra-modal--header-8').should('have.text', "Devil's Cup ");
-        cy.get('.chakra-button').click();
-        cy.get('#chakra-modal--header-8').should('not.be', 'visible');
+    it('opens and closes a modal', () => {
+        cy.get('#beerListGrid > :nth-child(1)').click();
+        cy.get('.modalHeader').should('have.text', '#001 Golden Amber Lager ');
+        cy.get('.chakra-button').should('have.text', 'Submit rating');
+        cy.get('.modalCloseButton').click();
+        cy.get('.modalHeader').should('not.be', 'visible');
+    });
+
+    it('sorts the entries', () => {
+        const firstElement = cy.get('#beerListGrid > :nth-child(1)');
+        firstElement.click();
+        cy.get('select').select('Name: Z - A', { force: true });
+        cy.get('#beerListGrid > :nth-child(1)').should('not.equal', firstElement);
+    });
+
+    it('renders 20 new beers', () => {
+        const body = cy.get('body');
+        cy.get('#beerListGrid').children().should('have.length', 20);
+        cy.get('#root').scrollTo('bottom');
+        cy.get('#beerListGrid').children().should('have.length', 40);
     });
 });
 
+// Widespread Wit
 
 // Search for a specific beer
-// Sort and check
 // Rate and check
