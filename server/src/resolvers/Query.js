@@ -1,5 +1,12 @@
 const { parseOrderBy } = require('./utils');
 
+/**
+ *  Resolver for the beers endpoint
+ * @param {previous resolver} parent
+ * @param {user input} args
+ * @param {application context} context
+ * @returns a list of beers according to the requests arguments
+ */
 async function beers(parent, args, context) {
     const { filter, skip, take, orderBy } = args;
 

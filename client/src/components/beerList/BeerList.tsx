@@ -1,5 +1,5 @@
-import { Grid, Box } from '@chakra-ui/react';
 import React from 'react';
+import { Grid, Box } from '@chakra-ui/react';
 import { Beer } from '../../generated/graphql';
 import Filters from '../filters/Filters';
 import BeerModal from '../modal/BeerModal';
@@ -7,6 +7,7 @@ import BeerModal from '../modal/BeerModal';
 interface beerDataProps {
     Beers: Beer[];
 }
+
 const BeerList: React.FC<beerDataProps> = ({ Beers }) => {
     return (
         <>
