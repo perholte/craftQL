@@ -1,35 +1,54 @@
 import { Grid, Box, Spinner, Center } from '@chakra-ui/react';
-import React, { useEffect } from 'react';
-import { useGetBeersQuery } from '../../generated/graphql';
+import React, { useEffect, useState } from 'react';
+import { Beer, useGetBeersQuery } from '../../generated/graphql';
 import Filters from '../filters/Filters';
 import BeerModal from '../modal/BeerModal';
+import InfiniteScroll from 'react-infinite-scroll-component';
 
 const BeerList: React.FC = () => {
-    const { data, loading, error } = useGetBeersQuery({ variables: { skip: 0 } });
-    useEffect(() => {
-        console.log(data);
-        console.log(error);
-    }, [data, error]);
+    const [skip, setSkip] = useState(0);
+    const { data, fetchMore } = useGetBeersQuery({ variables: { skip: skip } });
+    const [beerData, setBeerData] = useState<Array<Beer>>([]);
 
-    if (loading) {
-        return (
-            <Center mt="40%">
-                <Spinner />
-            </Center>
-        );
-    }
+    useEffect(() => {
+        setBeerData([...beerData, ...(data?.beers || [])]);
+    }, [data]);
+
+    const fetchData = () => {
+        fetchMore({ variables: { skip: skip } }).then((fetchMoreResult) => {
+            setSkip(skip + 20);
+            setBeerData([...beerData, ...(fetchMoreResult.data.beers || [])]);
+        });
+        console.log('lengde: ' + beerData.length);
+    };
 
     return (
-        <Box pb="5rem" mt="5rem" mx="auto" w="70vw">
+        <>
             <Filters />
-            <Grid templateColumns="repeat( auto-fit, minmax(250px, 1fr))" gap={10} pt="5rem">
-                {data?.beers && data.beers.length > 0 ? (
-                    data.beers.map((beer) => <BeerModal key={beer.name} Beer={beer} />)
-                ) : (
-                    <h1>No Results</h1>
-                )}
-            </Grid>
-        </Box>
+            <InfiniteScroll
+                height="700px"
+                className="infiniteScroller"
+                dataLength={beerData ? beerData.length : 0}
+                next={fetchData}
+                hasMore={true}
+                loader={
+                    <Center>
+                        <Spinner />
+                    </Center>
+                }
+                endMessage={
+                    <p style={{ textAlign: 'center' }}>
+                        <b>Yay! You have seen it all</b>
+                    </p>
+                }
+            >
+                <Box pb="5rem" mt="5rem" mx="auto" w="80vw">
+                    <Grid templateColumns="repeat( auto-fit, minmax(250px, 1fr))" gap={10} pt="5rem">
+                        {beerData ? beerData.map((beer) => <BeerModal key={beer.id} Beer={beer} />) : <></>}
+                    </Grid>
+                </Box>
+            </InfiniteScroll>
+        </>
     );
 };
 
