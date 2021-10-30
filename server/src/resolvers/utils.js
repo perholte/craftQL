@@ -1,3 +1,8 @@
+/**
+ *
+ * @param {user input} orderBy
+ * @returns an object to be used by prisma to sort the output
+ */
 function parseOrderBy(orderBy) {
     const key = Object.keys(orderBy)[0];
     switch (key) {
