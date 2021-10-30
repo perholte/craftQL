@@ -3,7 +3,7 @@ type Query {
     Endpoint for fetching beers
     Can be filtered, sorted and paged
     """
-    beers(filter: String, skip: Int, take: Int, orderBy: BeerOrder): [Beer!]!
+    beers(filter: BeerFilter, skip: Int, take: Int, orderBy: BeerOrder): [Beer!]!
 }
 
 type Mutation {
@@ -35,7 +35,19 @@ input BeerOrder {
     name: Sort
     type: Sort
     abv: Sort
-    # rating: Sort
+    rating: Sort
+}
+
+input BeerFilter {
+    value: String!
+    field: FilterField!
+}
+
+enum FilterField {
+    name
+    brand
+    type
+    all
 }
 
 enum Sort {
