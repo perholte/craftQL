@@ -1,11 +1,8 @@
-import { Grid, Box, Spinner, Center } from '@chakra-ui/react';
-import React, { useEffect, useState } from 'react';
-import { Beer, useGetBeersQuery } from '../../generated/graphql';
-import { useSelector } from 'react-redux';
-import { RootState } from '../../redux/store';
+import { Grid, Box } from '@chakra-ui/react';
+import React from 'react';
+import { Beer } from '../../generated/graphql';
 import Filters from '../filters/Filters';
 import BeerModal from '../modal/BeerModal';
-import InfiniteScroll from 'react-infinite-scroller';
 
 interface beerDataProps {
     Beers: Beer[];

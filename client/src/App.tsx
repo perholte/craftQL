@@ -14,9 +14,9 @@ const App: React.FC = () => {
     const [beerData, setBeerData] = useState<Array<Beer>>([]);
     const sortParams = useSelector((state: RootState) => state.sort.graphqlParams);
 
-    const { data, fetchMore } = useGetBeersQuery({ variables: { skip: skip, sort: sortParams } });
+    const { data, fetchMore } = useGetBeersQuery({ variables: { skip: 0, sort: sortParams } });
     useEffect(() => {
-        setBeerData([...beerData, ...(data?.beers || [])]);
+        setBeerData(data?.beers || []);
     }, [data]);
 
     const fetchData = () => {
@@ -24,7 +24,6 @@ const App: React.FC = () => {
             setSkip(skip + 20);
             setBeerData([...beerData, ...(fetchMoreResult.data.beers || [])]);
         });
-        console.log('lengde: ' + beerData.length);
     };
 
     return (
