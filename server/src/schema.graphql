@@ -1,12 +1,24 @@
 type Query {
+    """
+    Endpoint for fetching beers
+    Can be filtered, sorted and paged
+    """
     beers(filter: String, skip: Int, take: Int, orderBy: BeerOrder): [Beer!]!
 }
 
 type Mutation {
+    """
+    Endpoint for rating a beer
+    Returns null if no beer with the given id exists
+    """
     rateBeer(beerId: ID!, rating: Int!): Beer
 }
 
 type Beer {
+    """
+    Defines a beer in our system
+    ABV stands for Alcohol By Volume (alkoholprosent)
+    """
     id: ID!
     brand: String!
     name: String!
@@ -16,6 +28,9 @@ type Beer {
 }
 
 input BeerOrder {
+    """
+    Defines which fields the beers can be sorted on
+    """
     brand: Sort
     name: Sort
     type: Sort
@@ -24,6 +39,9 @@ input BeerOrder {
 }
 
 enum Sort {
+    """
+    Defines which direction to sort
+    """
     asc
     desc
 }
