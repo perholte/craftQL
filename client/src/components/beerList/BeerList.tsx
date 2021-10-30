@@ -1,14 +1,25 @@
-import { Grid, Box, Spinner, Center } from '@chakra-ui/react';
+import { Box, Center, Grid, Spinner } from '@chakra-ui/react';
 import React, { useEffect } from 'react';
 import { useSelector } from 'react-redux';
-import { useGetBeersQuery } from '../../generated/graphql';
+import { FilterField, useGetBeersQuery } from '../../generated/graphql';
 import { RootState } from '../../redux/store';
 import Filters from '../filters/Filters';
 import BeerModal from '../modal/BeerModal';
 
 const BeerList: React.FC = () => {
     const sortParams = useSelector((state: RootState) => state.sort.graphqlParams);
-    const { data, loading, error } = useGetBeersQuery({ variables: { skip: 0, sort: sortParams } });
+    // const filterParams = useSelector((state: RootState) => state.search.value);
+    // const filterFields = useSelector((state: RootState) => state.search.filter);
+
+    const filter = useSelector((state: RootState) => state.search);
+
+    const { data, loading, error } = useGetBeersQuery({
+        variables: { skip: 0, sort: sortParams, filter },
+    });
+
+    // const { data, loading, error } = useGetBeersQuery({
+    //     variables: { skip: 0, sort: sortParams, filter: { value: filterParams, filter: filterFields } },
+    // });
     useEffect(() => {
         console.log(data);
         console.log(error);
