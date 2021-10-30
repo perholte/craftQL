@@ -1,5 +1,11 @@
 const { UserInputError } = require('apollo-server-errors');
 
+/**
+ *  Resolver for the rateUser endpoint
+ * @param {contains the user input} args
+ * @param {application context for accessing prisma} context
+ * @returns the beer with the id given by the user with an updated rating or null if the beer doesn't exist
+ */
 async function rateBeer(args, context) {
     const { beerId, rating } = args;
 
