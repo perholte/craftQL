@@ -11,6 +11,7 @@ import { ApolloClient, ApolloProvider, createHttpLink, InMemoryCache } from '@ap
 
 const link = createHttpLink({
     uri: 'http://129.241.104.92:4000',
+    // uri: 'http://localhost:4000',
 });
 
 const client = new ApolloClient({
