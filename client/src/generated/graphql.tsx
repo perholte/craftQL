@@ -10,7 +10,6 @@ export type Scalars = {
     Int: number;
     Float: number;
     /** The `Upload` scalar type represents a file upload. */
-    //eslint-disable-next-line
     Upload: any;
 };
 
@@ -64,7 +63,8 @@ export enum Sort {
 }
 
 export type GetBeersQueryVariables = Exact<{
-    skip?: Maybe<Scalars['Int']>;
+    skip: Scalars['Int'];
+    sort: BeerOrder;
 }>;
 
 export type GetBeersQuery = { __typename?: 'Query' } & {
@@ -72,8 +72,8 @@ export type GetBeersQuery = { __typename?: 'Query' } & {
 };
 
 export const GetBeersDocument = gql`
-    query getBeers($skip: Int) {
-        beers(take: 20, skip: $skip) {
+    query getBeers($skip: Int!, $sort: BeerOrder!) {
+        beers(take: 20, skip: $skip, orderBy: $sort) {
             name
             rating
             id
@@ -97,14 +97,13 @@ export const GetBeersDocument = gql`
  * const { data, loading, error } = useGetBeersQuery({
  *   variables: {
  *      skip: // value for 'skip'
+ *      sort: // value for 'sort'
  *   },
  * });
  */
-//eslint-disable-next-line
 export function useGetBeersQuery(baseOptions?: Apollo.QueryHookOptions<GetBeersQuery, GetBeersQueryVariables>) {
     return Apollo.useQuery<GetBeersQuery, GetBeersQueryVariables>(GetBeersDocument, baseOptions);
 }
-//eslint-disable-next-line
 export function useGetBeersLazyQuery(baseOptions?: Apollo.LazyQueryHookOptions<GetBeersQuery, GetBeersQueryVariables>) {
     return Apollo.useLazyQuery<GetBeersQuery, GetBeersQueryVariables>(GetBeersDocument, baseOptions);
 }
