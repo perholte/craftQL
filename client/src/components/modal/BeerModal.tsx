@@ -26,7 +26,13 @@ const BeerModal: React.FC<BeerModalProps> = ({ Beer }) => {
     const [rating, setRating] = useState<number>(0);
     return (
         <>
-            <Box className="ModalDiv" onClick={onOpen} color="rgba(117,56,19,255)" aria-label="show more">
+            <Box
+                className="modalBox"
+                id={'modalBox' + Beer.id}
+                onClick={onOpen}
+                color="rgba(117,56,19,255)"
+                aria-label="show more"
+            >
                 <b>{Beer.name}</b>
                 {Beer.type}
                 <section id="boxRating">
@@ -37,31 +43,39 @@ const BeerModal: React.FC<BeerModalProps> = ({ Beer }) => {
             </Box>
 
             <Modal size="lg" isOpen={isOpen} onClose={onClose} isCentered>
-                <ModalOverlay />
-                <ModalContent>
+                <ModalOverlay id={'modalOverlay' + Beer.id} />
+                <ModalContent id={'modalContent' + Beer.id}>
                     <ModalHeader
+                        className="modalHeader"
+                        id={'modalHeader' + Beer.id}
                         alignSelf="flex-start"
                         borderBottom="2px solid rgba(117,56,19,255)"
                         color="rgba(117,56,19,255)"
                     >
                         {Beer.name} <br />
                     </ModalHeader>
-                    <ModalCloseButton />
+                    <ModalCloseButton className="modalCloseButton" />
 
-                    <ModalBody id="modalBody" alignitems="center" my="2rem" color="rgba(117, 56, 19, 255)">
-                        <section id="ratingByOthers">
+                    <ModalBody
+                        className="modalBody"
+                        id={'modalBody' + Beer.id}
+                        alignitems="center"
+                        my="2rem"
+                        color="rgba(117, 56, 19, 255)"
+                    >
+                        <section className="ratingByOthers" id={'ratingByOthers' + Beer.id}>
                             <p>{Beer.rating === null ? ' N/A ' : Beer.rating + ' / 5'}</p>
                             <BeerSVGS />
                         </section>
                         <Divider mb="30px"></Divider>
-                        <section id="infoSection">
+                        <section className="infoSection" id={'infoSection' + Beer.id}>
                             {Beer.name} is a {Beer.type}. Its a {Beer.abv > 0.03 ? 'strong' : 'medium strong'} beer with
                             an alcohol percentage of {Beer.abv * 100} %. The beer is brewed by {Beer.brand}, and{' '}
                             {Beer.rating
                                 ? 'our users have given it a rating of ' + Beer.rating + '.'
                                 : 'has not yet been given a rating, be the first to do so!'}
                         </section>
-                        <section id="ratingSection">
+                        <section className="ratingSection" id={'ratingSection' + Beer.id}>
                             <Rating className="rating" onClick={setRating} ratingValue={rating}>
                                 <svg x="0px" y="0px" width="50px" height="50px" viewBox="0 0 500 1000">
                                     <path
@@ -94,7 +108,9 @@ const BeerModal: React.FC<BeerModalProps> = ({ Beer }) => {
                                     <line fill="grey" x1="304" y1="480" x2="304" y2="562" />
                                 </svg>
                             </Rating>
-                            <Button size="xs">Submit rating</Button>
+                            <Button id={'submitButton' + Beer.id} size="xs">
+                                Submit rating
+                            </Button>
                         </section>
                     </ModalBody>
                 </ModalContent>
