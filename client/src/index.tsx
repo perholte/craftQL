@@ -10,8 +10,7 @@ import { Provider } from 'react-redux';
 import { ApolloClient, ApolloProvider, createHttpLink, InMemoryCache } from '@apollo/client';
 
 const link = createHttpLink({
-    // uri: 'http://129.241.104.92:4000',
-    uri: 'http://localhost:4000',
+    uri: 'http://129.241.104.92:4000',
 });
 
 const client = new ApolloClient({
