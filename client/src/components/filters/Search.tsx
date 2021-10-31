@@ -23,8 +23,16 @@ const Search: React.FC = () => {
         dispatch(setSearchCategory(evt?.target?.value as FilterField));
     };
     return (
-        <Flex w="auto" minW="175px" flexDirection="row" alignItems="flex-end" justifyContent="flex-start">
-            <FormControl w="auto">
+        <Flex
+            w="auto"
+            minW="175px"
+            display="flex"
+            flexDirection="row"
+            alignItems="flex-end"
+            justifyContent="flex-start"
+            flexWrap="wrap"
+        >
+            <FormControl w="auto" display="flex" flexDirection="column">
                 <FormLabel>Search in category:</FormLabel>
                 <Input
                     minW="100%"
@@ -35,9 +43,9 @@ const Search: React.FC = () => {
                     onChange={updateText}
                 />
             </FormControl>
-            <FormControl w="auto">
+            <FormControl w="auto" display="flex" flexDirection="column" mt="1rem">
                 <FormLabel maxW="12em">Category:</FormLabel>
-                <Select value={field} onChange={updateCategory} maxW="6em">
+                <Select value={field} onChange={updateCategory} w="12em">
                     <option value={FilterField.All}>{FilterField.All}</option>
                     <option value={FilterField.Name}>{FilterField.Name}</option>
                     <option value={FilterField.Brand}>{FilterField.Brand}</option>
