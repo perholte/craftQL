@@ -43,23 +43,17 @@ describe('Successfully', () => {
 
     it('rates chosen beer', () => {
         cy.get('#beerListGrid > :nth-child(1)').click();
-        cy.get('[aria-label="Give 5 stars"] > svg').click();
+        cy.get('[aria-label="Give 4 stars"] > svg').click();
 
-        // This test works, but given our time limit we didnt have time to set up test environment for
-        // this, so we just commented it out
-        /*         cy.intercept(
+        // This is obiously not good practise, but given our time limit, we couldnt implement a test environment,
+        // so just to show that we managed this test, we rate the same beer to an even 4 hehe.
+        cy.intercept(
             {
-                method: 'POST', 
+                method: 'POST',
                 url: '/*',
             },
-            [], 
+            [],
         );
         cy.get('.css-taj3dd').click();
- */
     });
 });
-
-// Widespread Wit
-
-// Search for a specific beer
-// Rate and check
