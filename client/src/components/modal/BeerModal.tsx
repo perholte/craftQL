@@ -10,6 +10,7 @@ import {
     ModalOverlay,
     useDisclosure,
     VStack,
+    Text,
 } from '@chakra-ui/react';
 import React, { useState } from 'react';
 import { ReactComponent as BeerSVGS } from '../../beer.svg';
@@ -83,7 +84,9 @@ const BeerModal: React.FC<BeerModalProps> = ({ beer }) => {
                         color="rgba(117, 56, 19, 255)"
                     >
                         <section id="ratingByOthers">
-                            <p>{beer.rating === null ? ' N/A ' : beer.rating + ' / 5'}</p>
+                            <Text fontWeight="bold" fontSize="1.5em" textAlign="center">
+                                Rating: {beer.rating === null ? ' N/A ' : beer.rating + ' / 5'}
+                            </Text>
                             <BeerSVGS />
                         </section>
                         <Divider mb="30px"></Divider>
