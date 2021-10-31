@@ -44,7 +44,6 @@ const App: React.FC = () => {
                 setSkip(skip + 20);
             }
             const newBeers: Array<Beer> = fetchMoreResult.data.beers || [];
-            console.log(newBeers[0]);
             setBeerData([...beerData, ...newBeers]);
         });
     };
