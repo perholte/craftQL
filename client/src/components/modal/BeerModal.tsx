@@ -10,6 +10,8 @@ import {
     useDisclosure,
     VStack,
     Text,
+    HStack,
+    Tooltip,
 } from '@chakra-ui/react';
 import React, { useState } from 'react';
 import { ReactComponent as BeerSVGS } from '../../beer.svg';
@@ -90,7 +92,6 @@ const BeerModal: React.FC<BeerModalProps> = ({ beer }) => {
                     <ModalCloseButton className="modalCloseButton" />
 
                     <ModalBody
-                        i
                         className="modalBody"
                         id={'modalBody' + beer.id}
                         alignitems="center"
@@ -116,7 +117,19 @@ const BeerModal: React.FC<BeerModalProps> = ({ beer }) => {
                         </section>
                         <VStack as="section" id="ratingSection" spacing="5">
                             <Rating rating={rating} setRating={setRating} />
-                            <Button onClick={submitRating}>Submit rating</Button>
+                            <HStack>
+                                <Tooltip
+                                    label="Please select a rating between 1 and 5"
+                                    visibility={rating === 0 ? 'visible' : 'hidden'}
+                                >
+                                    <Button onClick={submitRating} aria-disabled={rating === 0} colorScheme="green">
+                                        Submit rating
+                                    </Button>
+                                </Tooltip>
+                                <Button onClick={() => setRating(0)} colorScheme="red">
+                                    Clear rating
+                                </Button>
+                            </HStack>
                         </VStack>
                     </ModalBody>
                 </ModalContent>
