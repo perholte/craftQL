@@ -1,14 +1,21 @@
 import { shallow } from 'enzyme';
-import BeerModal from '../components/modal/BeerModal';
+import BeerModal from '../components/beer/BeerModal';
 import { Provider } from 'react-redux';
 import { store } from './App.test';
+import React from 'react';
 
 describe('<BeerModal />', () => {
     const beer = { id: '1', brand: 'test', name: 'Corona', rating: 1, abv: 0.034, type: 'test' };
 
     const wrapper = shallow(
         <Provider store={store}>
-            <BeerModal beer={beer} />,
+            <BeerModal
+                beer={beer}
+                updateBeerRating={() => {
+                    console.log('');
+                }}
+            />
+            ,
         </Provider>,
     );
 
