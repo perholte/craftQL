@@ -75,6 +75,10 @@ Vi bruker Redux for å holde styr på inputsene til brukeren. Dette mapper vi ti
 
 Det er mange som bruker redux for å holde styr på den dataen som er blitt hentet vi apiet, men dette har vi bevisst valgt ikke gjøre, siden `ApolloClient` gir oss statehåndtering i sine autogenererte metoder i tillegg til caching av dataen. Å ha en kopi av dataen i Redux så vi på lite effektivt, spesielt når datamengden kan bli stor, og har derfor valgt å håndtere staten i komponenten.
 
+#### Context
+
+Vi bruker jo props for å sende gjennom `updateBeerRating`, gjennom noen komponeneter. Her kunne vi brukt Context apiet, men ettersom det var så minimalt så vi det å bruke context som mer komplisert.
+
 #### Chakra UI
 
 Vi har brukt komponentbiblioteket Chakra for en del ferdiglagde komponenter ettersom Chakra har god støtte for _universell utforming_. For eksempel sier WCAG 3.3.2 at alle inputs skal ha et tilhørende label og Chakra's `FormControl` setter kobler underliggende `FormLabel` og `Input` sammen automatisk. Dette skjer ved at `Input` får generert id, og `FormLabel` blir gitt et `for`-attributt som settet til Input sin id.
