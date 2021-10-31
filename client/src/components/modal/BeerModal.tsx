@@ -73,17 +73,15 @@ const BeerModal: React.FC<BeerModalProps> = ({ beer }) => {
                         </section>
                         <Divider mb="30px"></Divider>
                         <section id="infoSection">
-                            {beer.name} is a {beer.type}. Its a {beer.abv > 0.03 ? 'strong' : 'medium strong'} beer with
-                            an alcohol percentage of {beer.abv * 100} %. The beer is brewed by {beer.brand}, and{' '}
+                            {beer.name} is a {beer.type}. {"It's"} a {beer.abv > 0.05 ? 'strong' : 'medium strong'} beer
+                            with an alcohol percentage of {beer.abv * 100} %. The beer is brewed by {beer.brand}, and{' '}
                             {beer.rating
                                 ? 'our users have given it a rating of ' + beer.rating + '.'
                                 : 'has not yet been given a rating, be the first to do so!'}
                         </section>
                         <VStack as="section" id="ratingSection" spacing="5">
                             <Rating rating={rating} setRating={setRating} />
-                            <Button size="xs" onClick={submitRating}>
-                                Submit rating
-                            </Button>
+                            <Button onClick={submitRating}>Submit rating</Button>
                         </VStack>
                     </ModalBody>
                 </ModalContent>
