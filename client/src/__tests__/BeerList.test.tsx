@@ -1,14 +1,11 @@
-import { mount, shallow } from 'enzyme';
+import { shallow } from 'enzyme';
 import BeerList from '../components/beerList/BeerList';
-import Filters from '../components/filters/Filters';
-import BeerModal from '../components/modal/BeerModal';
 import { MockedProvider } from '@apollo/client/testing';
-import { Beer } from '../generated/graphql';
 
 describe('<BeerList />', () => {
     const wrapper = shallow(
         <MockedProvider>
-            <BeerList />
+            <BeerList Beers={[]} />
         </MockedProvider>,
     );
 
@@ -17,6 +14,6 @@ describe('<BeerList />', () => {
     });
 
     it('shows the right elements', () => {
-        expect(wrapper.containsMatchingElement(<BeerList />)).toEqual(true);
+        expect(wrapper.containsMatchingElement(<BeerList Beers={[]} />)).toEqual(true);
     });
 });

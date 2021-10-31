@@ -55,8 +55,8 @@
     align-self: center;
 }
 
-.infoSection {
-    font-size: x-large;
+#infoSection {
+    font-size: 1.3rem; 
 }
 
 .ratingByOthers {
