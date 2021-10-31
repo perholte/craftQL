@@ -2,7 +2,7 @@ import React from 'react';
 import { Grid, Box } from '@chakra-ui/react';
 import { Beer } from '../../generated/graphql';
 import Filters from '../filters/Filters';
-import BeerModal from '../modal/BeerModal';
+import BeerModal from './BeerModal';
 
 interface BeerDataProps {
     beers: Beer[];

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './App.css';
 import './Header-svg.css';
 import Header from './components/header/Header';
-import BeerList from './components/beerList/BeerList';
+import BeerList from './components/beer/BeerList';
 import { Beer, useGetBeersQuery } from '../src/generated/graphql';
 import { useSelector } from 'react-redux';
 import { RootState } from './redux/store';
