@@ -29,14 +29,17 @@ const App: React.FC = () => {
     const [hasMore, setHasMore] = useState<boolean>(beerData.length === 20);
 
     const fetchData = () => {
-        fetchMore({ variables: { skip: skip, sort: sortParams } }).then((fetchMoreResult) => {
-            if (fetchMoreResult.data.beers.length < 20) {
-                setHasMore(false);
-                setSkip(skip + 20);
-            }
-            const newBeers: Array<Beer> = fetchMoreResult.data.beers || [];
-            setBeerData([...beerData, ...newBeers]);
-        });
+        if (data) {
+            fetchMore({ variables: { skip: skip, sort: sortParams } }).then((fetchMoreResult) => {
+                if (fetchMoreResult.data.beers.length < 20) {
+                    setHasMore(false);
+                } else {
+                    setSkip(skip + 20);
+                }
+                const newBeers: Array<Beer> = fetchMoreResult.data.beers || [];
+                setBeerData([...beerData, ...newBeers]);
+            });
+        }
     };
 
     return (
