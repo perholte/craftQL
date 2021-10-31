@@ -3,7 +3,7 @@ describe('Successfully', () => {
         cy.visit('localhost:3000');
     });
 
-    it('renders header', () => {
+    it('renders header', (): void => {
         cy.get('h2').should('have.text', 'CraftQL');
         cy.get('svg').should('be.visible');
     });
