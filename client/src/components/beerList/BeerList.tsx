@@ -10,14 +10,14 @@ interface BeerDataProps {
 
 const BeerList: React.FC<BeerDataProps> = ({ beers }) => {
     return (
-        <>
+        <Box id="beerListBox" py="5rem" mx="auto" w="80vw">
             <Filters />
-            <Box id="beerListBox" pb="5rem" mt="5rem" mx="auto" w="80vw">
-                <Grid id="beerListGrid" templateColumns="repeat( auto-fit, minmax(250px, 1fr))" gap={10} pt="5rem">
+            <Box id="beerListBox">
+                <Grid id="beerListGrid" templateColumns="repeat( auto-fit, minmax(13rem, 1fr))" gap={10} mt="5rem">
                     {beers ? beers.map((beer: Beer) => <BeerModal key={beer.id} beer={beer} />) : <></>}
                 </Grid>
             </Box>
-        </>
+        </Box>
     );
 };
 

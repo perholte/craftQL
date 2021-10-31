@@ -13,7 +13,7 @@ const Sort: React.FC = () => {
     };
 
     return (
-        <FormControl w="30%" minW="100px">
+        <FormControl w="auto" minW="100px" pt="1rem">
             <FormLabel>Sort beers by: </FormLabel>
             <Select onChange={handleChange} value={selected}>
                 {Object.values(SortOptions).map((so) => (

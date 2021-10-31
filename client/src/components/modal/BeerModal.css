@@ -1,4 +1,5 @@
-.modalBox:hover {
+.modalBox:hover,
+.modalBox:focus {
     background-color: aliceblue;
     transform: scale(120%);
     transition: background-color 0.5s;
@@ -27,15 +28,15 @@
 }
 
 .modalBox {
-    background-color: aliceblue;
-    height: 10vh;
-    display: flex;
+    background-color: aliceblue !important;
+    height: 10vh !important;
+    display: flex !important;
     flex-wrap: nowrap;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: center !important;
+    align-items: center !important;
     box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.4);
-    border-radius: 100px;
+    /* border-radius: 50% 10px !important; */
 }
 
 .ratingSection {
@@ -56,7 +57,7 @@
 }
 
 #infoSection {
-    font-size: 1.3rem; 
+    font-size: 1.3rem;
 }
 
 .ratingByOthers {
