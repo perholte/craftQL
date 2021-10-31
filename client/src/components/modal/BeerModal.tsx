@@ -1,20 +1,21 @@
 import {
-    useDisclosure,
-    Button,
-    Modal,
-    ModalOverlay,
-    ModalHeader,
-    ModalCloseButton,
-    ModalBody,
-    ModalContent,
     Box,
+    Button,
     Divider,
+    Modal,
+    ModalBody,
+    ModalCloseButton,
+    ModalContent,
+    ModalHeader,
+    ModalOverlay,
+    useDisclosure,
     VStack,
+    Text,
 } from '@chakra-ui/react';
 import React, { useState } from 'react';
-import './BeerModal.css';
-import '../../Header-svg.css';
 import { ReactComponent as BeerSVGS } from '../../beer.svg';
+import '../../Header-svg.css';
+import './BeerModal.css';
 import { Beer, useRateBeerMutation } from '../../generated/graphql';
 import Rating from './Rating';
 import { store } from '../../redux/store';
@@ -36,7 +37,7 @@ const BeerModal: React.FC<BeerModalProps> = ({ beer }) => {
     const [rating, setRating] = useState<number>(0);
     const [rateBeerMutation] = useRateBeerMutation({
         variables: {
-            beerId: '1',
+            beerId: beer.id,
             rating: rating,
         },
     });
@@ -47,7 +48,13 @@ const BeerModal: React.FC<BeerModalProps> = ({ beer }) => {
 
     return (
         <>
-            <Box className="ModalDiv" onClick={onOpen} color="rgba(117,56,19,255)" aria-label="show more">
+            <Box
+                className="modalBox"
+                id={'modalBox' + beer.id}
+                onClick={onOpen}
+                color="rgba(117,56,19,255)"
+                aria-label="show more"
+            >
                 <b>{beer.name}</b>
                 {beer.type}
                 <section id="boxRating">
@@ -64,20 +71,37 @@ const BeerModal: React.FC<BeerModalProps> = ({ beer }) => {
             </Box>
 
             <Modal size="lg" isOpen={isOpen} onClose={onClose} isCentered>
-                <ModalOverlay />
-                <ModalContent>
+                <ModalOverlay id={'modalOverlay' + beer.id} />
+                <ModalContent id={'modalContent' + beer.id}>
                     <ModalHeader
+                        className="modalHeader"
+                        id={'modalHeader' + beer.id}
                         alignSelf="flex-start"
                         borderBottom="2px solid rgba(117,56,19,255)"
                         color="rgba(117,56,19,255)"
+                        d="inline-block"
+                        whiteSpace="nowrap"
+                        width="100%"
+                        textOverflow="ellipsis"
+                        paddingRight="10%"
+                        overflow="hidden"
                     >
                         {beer.name} <br />
                     </ModalHeader>
-                    <ModalCloseButton />
+                    <ModalCloseButton className="modalCloseButton" />
 
-                    <ModalBody id="modalBody" alignitems="center" my="2rem" color="rgba(117, 56, 19, 255)">
+                    <ModalBody
+                        i
+                        className="modalBody"
+                        id={'modalBody' + beer.id}
+                        alignitems="center"
+                        my="2rem"
+                        color="rgba(117, 56, 19, 255)"
+                    >
                         <section id="ratingByOthers">
-                            <p>{beer.rating === null ? ' N/A ' : beer.rating + ' / 5'}</p>
+                            <Text fontWeight="bold" fontSize="1.5em" textAlign="center">
+                                Rating: {beer.rating === null ? ' N/A ' : beer.rating + ' / 5'}
+                            </Text>
                             <BeerSVGS />
                         </section>
                         <Divider mb="30px"></Divider>

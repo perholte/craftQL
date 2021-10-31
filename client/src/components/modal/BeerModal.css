@@ -1,4 +1,4 @@
-.ModalDiv:hover {
+.modalBox:hover {
     background-color: aliceblue;
     transform: scale(120%);
     transition: background-color 0.5s;
@@ -18,11 +18,19 @@
     transform: scale(70%);
 }
 
-.ModalDiv {
+.modalBox > :first-child {
+    width: 80%;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.modalBox {
     background-color: aliceblue;
     height: 10vh;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -30,7 +38,7 @@
     border-radius: 100px;
 }
 
-#ratingSection {
+.ratingSection {
     margin-top: 3vh;
     display: flex;
     flex-direction: column;
@@ -38,7 +46,7 @@
     flex-wrap: wrap;
 }
 
-#ratingSection > button {
+.ratingSection > button {
     align-self: center;
 }
 
@@ -51,7 +59,7 @@
     font-size: 1.3rem; 
 }
 
-#ratingByOthers {
+.ratingByOthers {
     display: flex;
     flex-direction: row;
     justify-content: center;

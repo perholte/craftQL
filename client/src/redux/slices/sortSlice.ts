@@ -10,6 +10,8 @@ export enum SortOptions {
     TypeDESC = 'Type Z - A',
     AlcoholASC = 'Most alcohol',
     AlcoholDESC = 'Least alcohol',
+    RatingDESC = 'Highest rating',
+    RatingASC = 'Lowest rating',
 }
 
 const sortOptionToGraphqlParams = new Map<SortOptions, BeerOrder>([
@@ -21,6 +23,8 @@ const sortOptionToGraphqlParams = new Map<SortOptions, BeerOrder>([
     [SortOptions.TypeDESC, { type: Sort.Desc }],
     [SortOptions.AlcoholASC, { abv: Sort.Asc }],
     [SortOptions.AlcoholDESC, { abv: Sort.Desc }],
+    [SortOptions.RatingASC, { rating: Sort.Asc }],
+    [SortOptions.RatingDESC, { rating: Sort.Desc }],
 ]);
 
 export interface SortState {
