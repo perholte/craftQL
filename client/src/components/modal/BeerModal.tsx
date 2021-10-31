@@ -24,7 +24,7 @@ import { store } from '../../redux/store';
 
 interface BeerModalProps {
     beer: Beer;
-    updateBeerRating: (id: string, rating: number) => void;
+    updateBeerRating: (beer: Beer, rating: number) => void;
 }
 
 const BeerModal: React.FC<BeerModalProps> = ({ beer, updateBeerRating }) => {
@@ -49,7 +49,7 @@ const BeerModal: React.FC<BeerModalProps> = ({ beer, updateBeerRating }) => {
         if (rating >= 1 && rating <= 5) {
             rateBeerMutation().then((result) => {
                 if (result.data?.rateBeer?.rating) {
-                    updateBeerRating(result.data.rateBeer.id, result.data.rateBeer.rating);
+                    updateBeerRating(beer, result.data.rateBeer.rating);
                 }
             });
         }

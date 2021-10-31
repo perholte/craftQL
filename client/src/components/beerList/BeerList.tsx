@@ -6,7 +6,7 @@ import BeerModal from '../modal/BeerModal';
 
 interface BeerDataProps {
     beers: Beer[];
-    updateBeerRating: (id: string, rating: number) => void;
+    updateBeerRating: (beer: Beer, rating: number) => void;
 }
 
 const BeerList: React.FC<BeerDataProps> = ({ beers, updateBeerRating }) => {
