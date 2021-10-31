@@ -24,7 +24,7 @@ const Search: React.FC = () => {
     };
     return (
         <FormControl w="40%" minW="175px" display="flex" flexDirection="row" alignItems="flex-end">
-            <Select value={field} onChange={updateCategory} minW="6em">
+            <Select value={field} onChange={updateCategory} maxW="6em">
                 <option value={FilterField.Name}>{FilterField.Name}</option>
                 <option value={FilterField.Brand}>{FilterField.Brand}</option>
                 <option value={FilterField.Type}>{FilterField.Type}</option>
