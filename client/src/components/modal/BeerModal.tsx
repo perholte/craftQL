@@ -75,9 +75,7 @@ const BeerModal: React.FC<BeerModalProps> = ({ beer }) => {
                         </section>
                         <VStack as="section" id="ratingSection" spacing="5">
                             <Rating rating={rating} setRating={setRating} />
-                            <Button size="xs" onClick={submitRating}>
-                                Submit rating
-                            </Button>
+                            <Button onClick={submitRating}>Submit rating</Button>
                         </VStack>
                     </ModalBody>
                 </ModalContent>
