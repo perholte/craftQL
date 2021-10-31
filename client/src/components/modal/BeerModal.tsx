@@ -59,15 +59,14 @@ const BeerModal: React.FC<BeerModalProps> = ({ beer }) => {
                 <b>{beer.name}</b>
                 {beer.type}
                 <section id="boxRating">
-                    {filtered === 'rating' ? (
-                        <p>
-                            <b>Rating: </b> {beer.rating === null ? ' N/A ' : beer.rating + ' / 5'}
-                        </p>
-                    ) : (
-                        <p>
-                            <b>{filtered}: </b> {{ ...beer }[filtered]}
-                        </p>
-                    )}
+                    <p>
+                        <b>{filtered}: </b>{' '}
+                        {filtered === 'rating'
+                            ? beer.rating === null
+                                ? ' N/A '
+                                : beer.rating + ' / 5'
+                            : { ...beer }[filtered]}
+                    </p>
                 </section>
             </Button>
 
