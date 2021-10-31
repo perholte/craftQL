@@ -1,5 +1,4 @@
 import {
-    Box,
     Button,
     Divider,
     Modal,
@@ -48,7 +47,7 @@ const BeerModal: React.FC<BeerModalProps> = ({ beer }) => {
 
     return (
         <>
-            <Box
+            <Button
                 className="modalBox"
                 id={'modalBox' + beer.id}
                 onClick={onOpen}
@@ -68,7 +67,7 @@ const BeerModal: React.FC<BeerModalProps> = ({ beer }) => {
                         </p>
                     )}
                 </section>
-            </Box>
+            </Button>
 
             <Modal size="lg" isOpen={isOpen} onClose={onClose} isCentered>
                 <ModalOverlay id={'modalOverlay' + beer.id} />
