@@ -1,4 +1,4 @@
-import { Flex } from '@chakra-ui/react';
+import { HStack } from '@chakra-ui/react';
 import React from 'react';
 import Search from './Search';
 import Sort from './Sort';
@@ -6,10 +6,10 @@ import Sort from './Sort';
 const Filters: React.FC = () => {
     return (
         <form onSubmit={(e) => e.preventDefault()}>
-            <Flex flexDirection="row" justifyContent="space-between">
+            <HStack w="100%" justifyContent="space-between" wrap="wrap" alignItems="flex-end">
                 <Search />
                 <Sort />
-            </Flex>
+            </HStack>
         </form>
     );
 };
