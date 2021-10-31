@@ -10,7 +10,7 @@ import InfiniteScroll from 'react-infinite-scroller';
 import { Center, Spinner } from '@chakra-ui/react';
 
 const App: React.FC = () => {
-    const [skip, setSkip] = useState(20);
+    const [skip, setSkip] = useState(0);
     const [beerData, setBeerData] = useState<Array<Beer>>([]);
     const sortParams = useSelector((state: RootState) => state.sort.graphqlParams);
     const filter = useSelector((state: RootState) => state.search);
@@ -30,8 +30,9 @@ const App: React.FC = () => {
     const updateBeerRating = (beer: Beer, rating: number): void => {
         setBeerData([...beerData.filter((b) => b.id !== beer.id), { ...beer, rating }]);
     };
+
     const fetchData = () => {
-        if (data) {
+        if (data && data?.beers.length <= 20) {
             fetchMore({ variables: { skip: skip, sort: sortParams } }).then((fetchMoreResult) => {
                 if (fetchMoreResult.data.beers.length < 20) {
                     setHasMore(false);

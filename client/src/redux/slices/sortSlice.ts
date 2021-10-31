@@ -21,8 +21,8 @@ const sortOptionToGraphqlParams = new Map<SortOptions, BeerOrder>([
     [SortOptions.BrandDESC, { brand: Sort.Desc }],
     [SortOptions.TypeASC, { type: Sort.Asc }],
     [SortOptions.TypeDESC, { type: Sort.Desc }],
-    [SortOptions.AlcoholASC, { abv: Sort.Asc }],
-    [SortOptions.AlcoholDESC, { abv: Sort.Desc }],
+    [SortOptions.AlcoholASC, { abv: Sort.Desc }],
+    [SortOptions.AlcoholDESC, { abv: Sort.Asc }],
     [SortOptions.RatingASC, { rating: Sort.Asc }],
     [SortOptions.RatingDESC, { rating: Sort.Desc }],
 ]);
