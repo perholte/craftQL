@@ -4,17 +4,17 @@ import { Beer } from '../../generated/graphql';
 import Filters from '../filters/Filters';
 import BeerModal from '../modal/BeerModal';
 
-interface beerDataProps {
-    Beers: Beer[];
+interface BeerDataProps {
+    beers: Beer[];
 }
 
-const BeerList: React.FC<beerDataProps> = ({ Beers }) => {
+const BeerList: React.FC<BeerDataProps> = ({ beers }) => {
     return (
         <>
             <Filters />
             <Box id="beerListBox" pb="5rem" mt="5rem" mx="auto" w="80vw">
                 <Grid id="beerListGrid" templateColumns="repeat( auto-fit, minmax(250px, 1fr))" gap={10} pt="5rem">
-                    {Beers ? Beers.map((beer: Beer) => <BeerModal key={beer.id} beer={beer} />) : <></>}
+                    {beers ? beers.map((beer: Beer) => <BeerModal key={beer.id} beer={beer} />) : <></>}
                 </Grid>
             </Box>
         </>

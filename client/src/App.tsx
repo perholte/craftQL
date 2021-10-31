@@ -8,21 +8,35 @@ import { useSelector } from 'react-redux';
 import { RootState } from './redux/store';
 import InfiniteScroll from 'react-infinite-scroller';
 import { Center, Spinner } from '@chakra-ui/react';
+import { union } from './utils/index';
 
 const App: React.FC = () => {
-    const [skip, setSkip] = useState(0);
-    const [beerData, setBeerData] = useState<Array<Beer>>([]);
+    const [skip, setSkip] = useState(20);
+    const [beerData, setBeerData] = useState<Set<Beer>>(new Set());
     const sortParams = useSelector((state: RootState) => state.sort.graphqlParams);
+    const filter = useSelector((state: RootState) => state.search);
 
-    const { data, fetchMore } = useGetBeersQuery({ variables: { skip: 0, sort: sortParams } });
+    const { data, fetchMore } = useGetBeersQuery({
+        variables: { skip: 0, sort: sortParams, filter },
+    });
+
+    //reset values when changing data set
     useEffect(() => {
-        setBeerData(data?.beers || []);
+        setBeerData(new Set(data?.beers) || new Set());
+        setSkip(20);
+        setHasMore(true);
     }, [data]);
+
+    const [hasMore, setHasMore] = useState<boolean>(beerData.size === 20);
 
     const fetchData = () => {
         fetchMore({ variables: { skip: skip, sort: sortParams } }).then((fetchMoreResult) => {
+            if (fetchMoreResult.data.beers.length < 20) {
+                setHasMore(false);
+            }
             setSkip(skip + 20);
-            setBeerData([...beerData, ...(fetchMoreResult.data.beers || [])]);
+            const newBeers: Set<Beer> = new Set(fetchMoreResult.data.beers || []);
+            setBeerData(union(beerData, newBeers));
         });
     };
 
@@ -32,17 +46,18 @@ const App: React.FC = () => {
             pageStart={0}
             loadMore={fetchData}
             useWindow={false}
-            hasMore={true}
+            hasMore={hasMore}
             style={{ height: '700px', overflow: 'visible' }}
             loader={
-                <Center>
+                // https://github.com/oVirt/ovirt-web-ui/issues/562
+                <Center key={0}>
                     <Spinner />
                 </Center>
             }
         >
             <div className="app">
                 <Header />
-                <BeerList Beers={beerData} />
+                <BeerList beers={[...beerData]} />
             </div>
         </InfiniteScroll>
     );

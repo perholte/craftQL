@@ -1,5 +1,5 @@
 describe('Successfully', () => {
-    beforeEach(() => {
+    it('enters the page', () => {
         cy.visit('localhost:3000');
     });
 
@@ -13,8 +13,9 @@ describe('Successfully', () => {
     });
 
     it('opens and closes a modal', () => {
-        cy.get('#beerListGrid > :nth-child(1)').click();
-        cy.get('.modalHeader').should('have.text', '#001 Golden Amber Lager ');
+        cy.get('#beerListGrid > :nth-child(1)').as('modal');
+        cy.get('@modal').should('be.visible').click();
+        cy.get('[id^=modalHeader]').should('be.visible');
         cy.get('.chakra-button').should('have.text', 'Submit rating');
         cy.get('.modalCloseButton').click();
         cy.get('.modalHeader').should('not.be', 'visible');
@@ -22,8 +23,9 @@ describe('Successfully', () => {
 
     it('sorts the entries', () => {
         const firstElement = cy.get('#beerListGrid > :nth-child(1)');
-        firstElement.click();
-        cy.get('select').select('Name: Z - A', { force: true });
+        firstElement.should('be.visible').click();
+        cy.get('select').eq(1).as('selector');
+        cy.get('@selector').select('Name: Z - A', { force: true });
         cy.get('#beerListGrid > :nth-child(1)').should('not.equal', firstElement);
     });
 
