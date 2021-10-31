@@ -1,5 +1,4 @@
 import {
-    Box,
     Button,
     Divider,
     Modal,
@@ -11,6 +10,9 @@ import {
     useDisclosure,
     VStack,
     Text,
+    Heading,
+    HStack,
+    Tooltip,
 } from '@chakra-ui/react';
 import React, { useState } from 'react';
 import { ReactComponent as BeerSVGS } from '../../beer.svg';
@@ -18,6 +20,7 @@ import '../../Header-svg.css';
 import './BeerModal.css';
 import { Beer, useRateBeerMutation } from '../../generated/graphql';
 import Rating from './Rating';
+import { store } from '../../redux/store';
 
 interface BeerModalProps {
     beer: Beer;
@@ -25,6 +28,14 @@ interface BeerModalProps {
 }
 
 const BeerModal: React.FC<BeerModalProps> = ({ beer, updateBeerRating }) => {
+    const activeSortingOption = store.getState().sort.graphqlParams;
+    const filtered =
+        Object.keys(activeSortingOption)
+            .filter((option) => !['name', 'brand'].includes(option))
+            .find((option) => {
+                return { ...activeSortingOption }[option];
+            }) || 'rating';
+
     const { isOpen, onOpen, onClose } = useDisclosure();
     const [rating, setRating] = useState<number>(0);
     const [rateBeerMutation] = useRateBeerMutation({
@@ -46,21 +57,28 @@ const BeerModal: React.FC<BeerModalProps> = ({ beer, updateBeerRating }) => {
 
     return (
         <>
-            <Box
-                className="modalBox"
+            <Button
+                className="modalButton"
                 id={'modalBox' + beer.id}
                 onClick={onOpen}
                 color="rgba(117,56,19,255)"
                 aria-label="show more"
             >
-                <b>{beer.name}</b>
-                {beer.type}
+                <span id="beerBrand">{beer.brand}</span>
+                <Heading size="sm" textOverflow="ellipsis">
+                    {beer.name}
+                </Heading>
                 <section id="boxRating">
                     <p>
-                        <b>Rating: </b> {beer.rating ? beer.rating + ' / 5' : ' N/A '}
+                        <b>{filtered}: </b>{' '}
+                        {filtered === 'rating'
+                            ? beer.rating === null
+                                ? ' N/A '
+                                : beer.rating + ' / 5'
+                            : { ...beer }[filtered]}
                     </p>
                 </section>
-            </Box>
+            </Button>
 
             <Modal size="lg" isOpen={isOpen} onClose={onClose} isCentered>
                 <ModalOverlay id={'modalOverlay' + beer.id} />
@@ -98,15 +116,30 @@ const BeerModal: React.FC<BeerModalProps> = ({ beer, updateBeerRating }) => {
                         </section>
                         <Divider mb="30px"></Divider>
                         <section id="infoSection">
-                            {beer.name} is a {beer.type}. {"It's"} a {beer.abv > 0.05 ? 'strong' : 'medium strong'} beer
-                            with an alcohol percentage of {beer.abv * 100} %. The beer is brewed by {beer.brand}, and{' '}
-                            {beer.rating
-                                ? 'our users have given it a rating of ' + beer.rating + '.'
-                                : 'has not yet been given a rating, be the first to do so!'}
+                            <p>
+                                {beer.name} is a {beer.type}. {"It's"} a {beer.abv > 0.05 ? 'strong' : 'medium strong'}{' '}
+                                beer with an alcohol percentage of {beer.abv * 100} %. The beer is brewed by{' '}
+                                {beer.brand}, and{' '}
+                                {beer.rating
+                                    ? 'our users have given it a rating of ' + beer.rating + '.'
+                                    : 'has not yet been given a rating, be the first to do so!'}
+                            </p>
                         </section>
                         <VStack as="section" id="ratingSection" spacing="5">
                             <Rating rating={rating} setRating={setRating} />
-                            <Button onClick={submitRating}>Submit rating</Button>
+                            <HStack>
+                                <Tooltip
+                                    label="Please select a rating between 1 and 5"
+                                    visibility={rating === 0 ? 'visible' : 'hidden'}
+                                >
+                                    <Button onClick={submitRating} aria-disabled={rating === 0} colorScheme="green">
+                                        Submit rating
+                                    </Button>
+                                </Tooltip>
+                                <Button onClick={() => setRating(0)} colorScheme="red">
+                                    Clear rating
+                                </Button>
+                            </HStack>
                         </VStack>
                     </ModalBody>
                 </ModalContent>

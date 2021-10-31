@@ -11,7 +11,7 @@ interface BeerDataProps {
 
 const BeerList: React.FC<BeerDataProps> = ({ beers, updateBeerRating }) => {
     return (
-        <>
+        <Box id="beerListBox" py="5rem" mx="auto" w="80vw">
             <Filters />
             <Box id="beerListBox" pb="5rem" mt="5rem" mx="auto" w="80vw">
                 <Grid templateColumns="repeat( auto-fit, minmax(250px, 1fr))" gap={10} pt="5rem">
@@ -24,7 +24,7 @@ const BeerList: React.FC<BeerDataProps> = ({ beers, updateBeerRating }) => {
                     )}
                 </Grid>
             </Box>
-        </>
+        </Box>
     );
 };
 

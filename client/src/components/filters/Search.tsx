@@ -1,4 +1,4 @@
-import { Box, FormControl, FormLabel, Input, Select } from '@chakra-ui/react';
+import { Flex, FormControl, FormLabel, Input, Select } from '@chakra-ui/react';
 import React, { ChangeEvent, useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
 import { FilterField } from '../../generated/graphql';
@@ -23,27 +23,28 @@ const Search: React.FC = () => {
         dispatch(setSearchCategory(evt?.target?.value as FilterField));
     };
     return (
-        <Box w="40%" minW="175px" display="flex" flexDirection="row" alignItems="flex-end" justifyContent="flex-start">
+        <Flex w="auto" minW="175px" flexDirection="row" alignItems="flex-end" justifyContent="flex-start">
             <FormControl w="auto">
-                <FormLabel maxW="12em">Category:</FormLabel>
-                <Select value={field} onChange={updateCategory} maxW="6em">
-                    <option value={FilterField.Name}>{FilterField.Name}</option>
-                    <option value={FilterField.Brand}>{FilterField.Brand}</option>
-                    <option value={FilterField.Type}>{FilterField.Type}</option>
-                    <option value={FilterField.All}>{FilterField.All}</option>
-                </Select>
-            </FormControl>
-            <FormControl w="auto">
-                <FormLabel>Search:</FormLabel>
+                <FormLabel>Search in category:</FormLabel>
                 <Input
-                    w="100%"
+                    minW="100%"
+                    w="18rem"
                     variant="filled"
-                    placeholder="Search beers by name, label, type or all fields"
+                    placeholder="Search beers"
                     value={value}
                     onChange={updateText}
                 />
             </FormControl>
-        </Box>
+            <FormControl w="auto">
+                <FormLabel maxW="12em">Category:</FormLabel>
+                <Select value={field} onChange={updateCategory} maxW="6em">
+                    <option value={FilterField.All}>{FilterField.All}</option>
+                    <option value={FilterField.Name}>{FilterField.Name}</option>
+                    <option value={FilterField.Brand}>{FilterField.Brand}</option>
+                    <option value={FilterField.Type}>{FilterField.Type}</option>
+                </Select>
+            </FormControl>
+        </Flex>
     );
 };
 
