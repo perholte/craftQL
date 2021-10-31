@@ -1,20 +1,20 @@
 import {
-    useDisclosure,
-    Button,
-    Modal,
-    ModalOverlay,
-    ModalHeader,
-    ModalCloseButton,
-    ModalBody,
-    ModalContent,
     Box,
+    Button,
     Divider,
+    Modal,
+    ModalBody,
+    ModalCloseButton,
+    ModalContent,
+    ModalHeader,
+    ModalOverlay,
+    useDisclosure,
     VStack,
 } from '@chakra-ui/react';
 import React, { useState } from 'react';
-import './BeerModal.css';
-import '../../Header-svg.css';
 import { ReactComponent as BeerSVGS } from '../../beer.svg';
+import '../../Header-svg.css';
+import './BeerModal.css';
 import { Beer, useRateBeerMutation } from '../../generated/graphql';
 import Rating from './Rating';
 
@@ -27,7 +27,7 @@ const BeerModal: React.FC<BeerModalProps> = ({ beer }) => {
     const [rating, setRating] = useState<number>(0);
     const [rateBeerMutation] = useRateBeerMutation({
         variables: {
-            beerId: '1',
+            beerId: beer.id,
             rating: rating,
         },
     });
@@ -55,6 +55,12 @@ const BeerModal: React.FC<BeerModalProps> = ({ beer }) => {
                         alignSelf="flex-start"
                         borderBottom="2px solid rgba(117,56,19,255)"
                         color="rgba(117,56,19,255)"
+                        d="inline-block"
+                        whiteSpace="nowrap"
+                        width="100%"
+                        textOverflow="ellipsis"
+                        paddingRight="10%"
+                        overflow="hidden"
                     >
                         {beer.name} <br />
                     </ModalHeader>
