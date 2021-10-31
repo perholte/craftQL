@@ -10,7 +10,7 @@ const { parseOrderBy, parseFilter } = require('./utils');
 async function beers(parent, args, context) {
     const { filter, skip, take, orderBy } = args;
     const where = parseFilter(filter);
-    if (orderBy && Object.keys(orderBy).includes("rating")) {
+    if (orderBy && Object.keys(orderBy).includes('rating')) {
         return beersSortedByRating(context.prisma, args);
     } else {
         return context.prisma.beer.findMany({
@@ -23,21 +23,21 @@ async function beers(parent, args, context) {
 }
 
 /**
- * We need this method because the rating for each beer is an aggregated value 
- * from the Review table. This function performs joins on the Beer, Review, Brand 
- * and Type tables. Then groups each beer with its associated reviews, and lastly 
- * aggregates the average value for rating.  
- * 
- * @param {*} prisma 
- * @param {*} param1 
- * @returns 
+ * We need this method because the rating for each beer is an aggregated value
+ * from the Review table. This function performs joins on the Beer, Review, Brand
+ * and Type tables. Then groups each beer with its associated reviews, and lastly
+ * aggregates the average value for rating.
+ *
+ * @param {*} prisma
+ * @param {*} param1
+ * @returns
  */
 async function beersSortedByRating(prisma, { filter, skip, take, orderBy }) {
     // filter = filter ? filter : Prisma.empty;
     skip = skip ? skip : 0;
-    take = take ? take : 5;
-    if (orderBy.rating && orderBy.rating === "desc") {
-        return prisma.$queryRaw `
+    take = take ? take : 2147483647; // Apparently this is a legitimate soloution in MySQL. (https://stackoverflow.com/a/15950977)
+    if (orderBy.rating && orderBy.rating === 'desc') {
+        return prisma.$queryRaw`
             SELECT Beer.id AS id, Beer.name AS name, Beer.abv, Brand.name AS brand, Type.name AS type, AVG(Review.rating) AS rating
                 FROM Beer
                     JOIN Review ON Beer.id = Review.beerId
@@ -48,7 +48,7 @@ async function beersSortedByRating(prisma, { filter, skip, take, orderBy }) {
                     LIMIT ${take}
                     OFFSET ${skip};`;
     } else {
-        return prisma.$queryRaw `
+        return prisma.$queryRaw`
             SELECT Beer.id AS id, Beer.name AS name, Beer.abv, Brand.name AS brand, Type.name AS type, AVG(Review.rating) AS rating
                 FROM Beer
                     JOIN Review ON Beer.id = Review.beerId
