@@ -12,12 +12,11 @@ async function rateBeer(parent, args, context) {
         throw new UserInputError('Rating must be between 1 and 5');
     }
     const beerIdInt = parseInt(beerId);
-    const beerExists =
-        (await context.prisma.beer.findUnique({
-            where: {
-                id: beerIdInt,
-            },
-        })) != undefined;
+    const beerExists = await context.prisma.beer.findUnique({
+        where: {
+            id: beerIdInt
+        },
+    }) != undefined;
     if (!beerExists) {
         throw new UserInputError('No beer with this id');
     }

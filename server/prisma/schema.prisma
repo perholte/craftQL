@@ -19,6 +19,9 @@ model Beer {
   typeId  Int
   abv     Float
   reviews Review[]
+
+  @@index([brandId], map: "Beer_brandId_fkey")
+  @@index([typeId], map: "Beer_typeId_fkey")
 }
 
 model Brand {
@@ -38,4 +41,6 @@ model Review {
   beer   Beer @relation(fields: [beerId], references: [id])
   beerId Int
   rating Int
+
+  @@index([beerId], map: "Review_beerId_fkey")
 }

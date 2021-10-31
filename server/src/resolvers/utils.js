@@ -19,6 +19,37 @@ function parseOrderBy(orderBy) {
     }
 }
 
+/**
+ * 
+ * @param {*} filter 
+ * @returns an object to be used by prisma to filter the output
+ */
+function parseFilter(filter) {
+    if (!filter) {
+        return {};
+    }
+    const { value, field } = filter;
+    switch (field) {
+        case 'name':
+            return { name: { contains: value } };
+        case 'brand':
+            return { brand: { is: { name: { contains: value } } } };
+        case 'type':
+            return { type: { is: { name: { contains: value } } } };
+        case 'all':
+            return {
+                OR: [
+                    { name: { contains: value } }, 
+                    { brand: { is: { name: { contains: value } } } }, 
+                    { type: { is: { name: { contains: value } } } }
+                ]
+            };
+        default:
+            return {};
+    }
+}
+
 module.exports = {
     parseOrderBy,
+    parseFilter,
 };
