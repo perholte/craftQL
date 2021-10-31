@@ -1,15 +1,14 @@
-import { mount, ReactWrapper, shallow } from 'enzyme';
+import { shallow } from 'enzyme';
 import BeerModal from '../components/modal/BeerModal';
 import { Provider } from 'react-redux';
 import { store } from './App.test';
 
 describe('<BeerModal />', () => {
-    const beers = { id: '1', brand: 'test', name: 'Corona', rating: 1, abv: 0.034, type: 'test' };
-    const newBeers = { id: '1', brand: 'test', name: 'New Beer', rating: 4, abv: 0.034, type: 'test' };
+    const beer = { id: '1', brand: 'test', name: 'Corona', rating: 1, abv: 0.034, type: 'test' };
 
     const wrapper = shallow(
         <Provider store={store}>
-            <BeerModal beer={beers} />,
+            <BeerModal beer={beer} />,
         </Provider>,
     );
 
