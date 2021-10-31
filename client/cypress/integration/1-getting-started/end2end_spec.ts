@@ -35,6 +35,28 @@ describe('Successfully', () => {
         cy.get('#root').scrollTo('bottom');
         cy.get('#beerListGrid').children().should('have.length', 40);
     });
+
+    it('searches for beer', () => {
+        cy.get('input').type('Rise of The Phoenix');
+        cy.get('#beerListGrid').children().should('have.length', 1);
+    });
+
+    it('rates chosen beer', () => {
+        cy.get('#beerListGrid > :nth-child(1)').click();
+        cy.get('[aria-label="Give 5 stars"] > svg').click();
+
+        // This test works, but given our time limit we didnt have time to set up test environment for
+        // this, so we just commented it out
+        /*         cy.intercept(
+            {
+                method: 'POST', 
+                url: '/*',
+            },
+            [], 
+        );
+        cy.get('.css-taj3dd').click();
+ */
+    });
 });
 
 // Widespread Wit
