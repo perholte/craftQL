@@ -41,8 +41,8 @@ const App: React.FC = () => {
         fetchMore({ variables: { skip: skip, sort: sortParams } }).then((fetchMoreResult) => {
             if (fetchMoreResult.data.beers.length < 20) {
                 setHasMore(false);
+                setSkip(skip + 20);
             }
-            setSkip(skip + 20);
             const newBeers: Array<Beer> = fetchMoreResult.data.beers || [];
             console.log(newBeers[0]);
             setBeerData([...beerData, ...newBeers]);
