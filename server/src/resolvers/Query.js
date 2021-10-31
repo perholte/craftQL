@@ -35,7 +35,7 @@ async function beers(parent, args, context) {
 async function beersSortedByRating(prisma, { filter, skip, take, orderBy }) {
     // filter = filter ? filter : Prisma.empty;
     skip = skip ? skip : 0;
-    take = take ? take : 5;
+    take = take ? take : 2147483647; // Apparently this is a legitimate soloution in MySQL. (https://stackoverflow.com/a/15950977)
     if (orderBy.rating && orderBy.rating === 'desc') {
         return prisma.$queryRaw`
             SELECT Beer.id AS id, Beer.name AS name, Beer.abv, Brand.name AS brand, Type.name AS type, AVG(Review.rating) AS rating
