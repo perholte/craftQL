@@ -1,11 +1,11 @@
 import { mount, ReactWrapper, shallow } from 'enzyme';
 import BeerModal from '../components/modal/BeerModal';
-import { Beer } from '../components/beerList/BeerList';
+import { Beer } from '../../../client/src/generated/graphql';
 
 describe('<BeerModal />', () => {
     let wrapper: ReactWrapper<{ Beer: Beer }>;
 
-    const beer = { name: 'Corona', rating: 1 };
+    const beer = { id: '1', brand: 'test', name: 'Corona', rating: 1, abv: 0.034, type: 'test' };
 
     beforeEach(() => {
         wrapper = mount(<BeerModal Beer={beer} />);
@@ -28,7 +28,7 @@ describe('<BeerModal />', () => {
     it('lets us change the props', () => {
         expect(wrapper.props().Beer.name).toBe('Corona');
         expect(wrapper.props().Beer.rating).toBe(1);
-        wrapper.setProps({ Beer: { name: 'New Beer', rating: 4 } });
+        wrapper.setProps({ Beer: { id: '1', brand: 'test', name: 'New Beer', rating: 4, abv: 0.034, type: 'test' } });
         expect(wrapper.props().Beer.name).toBe('New Beer');
         expect(wrapper.props().Beer.rating).toBe(4);
     });

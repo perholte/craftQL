@@ -1,0 +1,6 @@
+mutation RateBeer($beerId: ID!, $rating: Int!) {
+    rateBeer(beerId: $beerId, rating: $rating) {
+        id
+        rating
+    }
+}
