@@ -1,10 +1,15 @@
-.modalBox:hover,
-.modalBox:focus {
+.modalButton:hover,
+.modalButton:focus {
     background-color: aliceblue;
     transform: scale(120%);
     transition: background-color 0.5s;
     transition: transform 0.25s ease-in;
     cursor: pointer;
+}
+
+#beerBrand {
+    font-size: small;
+    font-weight: 100;
 }
 
 #boxRating {
@@ -19,15 +24,7 @@
     transform: scale(70%);
 }
 
-.modalBox > :first-child {
-    width: 80%;
-    text-align: center;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-}
-
-.modalBox {
+.modalButton {
     background-color: aliceblue !important;
     height: 10vh !important;
     display: flex !important;
@@ -39,6 +36,14 @@
     /* border-radius: 50% 10px !important; */
 }
 
+.modalButton > * {
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
+    margin-top: 0.3rem;
+}
 .ratingSection {
     margin-top: 3vh;
     display: flex;

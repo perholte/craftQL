@@ -10,6 +10,7 @@ import {
     useDisclosure,
     VStack,
     Text,
+    Heading,
 } from '@chakra-ui/react';
 import React, { useState } from 'react';
 import { ReactComponent as BeerSVGS } from '../../beer.svg';
@@ -48,14 +49,16 @@ const BeerModal: React.FC<BeerModalProps> = ({ beer }) => {
     return (
         <>
             <Button
-                className="modalBox"
+                className="modalButton"
                 id={'modalBox' + beer.id}
                 onClick={onOpen}
                 color="rgba(117,56,19,255)"
                 aria-label="show more"
             >
-                <b>{beer.name}</b>
-                {beer.type}
+                <span id="beerBrand">{beer.brand}</span>
+                <Heading size="sm" textOverflow="ellipsis">
+                    {beer.name}
+                </Heading>
                 <section id="boxRating">
                     {filtered === 'rating' ? (
                         <p>
