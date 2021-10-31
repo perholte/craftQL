@@ -26,9 +26,11 @@ interface BeerModalProps {
 const BeerModal: React.FC<BeerModalProps> = ({ beer }) => {
     const activeSortingOption = store.getState().sort.graphqlParams;
     const filtered =
-        Object.keys(activeSortingOption).find((option) => {
-            return { ...activeSortingOption }[option];
-        }) || 'name';
+        Object.keys(activeSortingOption)
+            .filter((option) => !['name', 'brand'].includes(option))
+            .find((option) => {
+                return { ...activeSortingOption }[option];
+            }) || 'rating';
 
     const { isOpen, onOpen, onClose } = useDisclosure();
     const [rating, setRating] = useState<number>(0);
@@ -49,10 +51,15 @@ const BeerModal: React.FC<BeerModalProps> = ({ beer }) => {
                 <b>{beer.name}</b>
                 {beer.type}
                 <section id="boxRating">
-                    <p>
-                        <b>{filtered}: </b> {{ ...beer }[filtered]}
-                        {/* <b>Rating: </b> {beer.rating === null ? ' N/A ' : beer.rating + ' / 5'} */}
-                    </p>
+                    {filtered === 'rating' ? (
+                        <p>
+                            <b>Rating: </b> {beer.rating === null ? ' N/A ' : beer.rating + ' / 5'}
+                        </p>
+                    ) : (
+                        <p>
+                            <b>{filtered}: </b> {{ ...beer }[filtered]}
+                        </p>
+                    )}
                 </section>
             </Box>
 
