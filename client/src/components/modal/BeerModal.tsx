@@ -46,13 +46,13 @@ const BeerModal: React.FC<BeerModalProps> = ({ beer, updateBeerRating }) => {
     });
 
     const submitRating = () => {
-        rateBeerMutation().then((result) => {
-            if (result.data?.rateBeer?.rating) {
-                updateBeerRating(result.data.rateBeer.id, result.data.rateBeer.rating);
-                // console.log(result.data.rateBeer.rating);
-                // beer.rating = result.data.rateBeer.rating;
-            }
-        });
+        if (rating >= 1 && rating <= 5) {
+            rateBeerMutation().then((result) => {
+                if (result.data?.rateBeer?.rating) {
+                    updateBeerRating(result.data.rateBeer.id, result.data.rateBeer.rating);
+                }
+            });
+        }
     };
 
     return (
@@ -109,8 +109,7 @@ const BeerModal: React.FC<BeerModalProps> = ({ beer, updateBeerRating }) => {
                     >
                         <section id="ratingByOthers">
                             <Text fontWeight="bold" fontSize="1.5em" textAlign="center">
-                                {/* Rating: {beer.rating === null ? ' N/A ' : beer.rating + ' / 5'} */}
-                                Rating: {beer.rating}
+                                Rating: {beer.rating === null ? ' N/A ' : beer.rating + ' / 5'}
                             </Text>
                             <BeerSVGS />
                         </section>
