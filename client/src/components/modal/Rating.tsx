@@ -1,5 +1,5 @@
 import { IconButton, HStack } from '@chakra-ui/react';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 interface RatingProps {
     rating: number;
@@ -7,7 +7,11 @@ interface RatingProps {
 }
 
 const Rating: React.FC<RatingProps> = ({ setRating, rating }) => {
-    const [hoverRating, setHoverRating] = useState<number>(0);
+    const [hoverRating, setHoverRating] = useState<number>(rating);
+
+    useEffect(() => {
+        setHoverRating(rating);
+    }, [rating]);
 
     return (
         <HStack

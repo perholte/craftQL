@@ -10,10 +10,10 @@ interface BeerDataProps {
 
 const BeerList: React.FC<BeerDataProps> = ({ beers }) => {
     return (
-        <Box w="80%" py="5rem" mx="auto">
+        <Box id="beerListBox" py="5rem" mx="auto" w="80vw">
             <Filters />
             <Box id="beerListBox">
-                <Grid templateColumns="repeat( auto-fit, minmax(13rem, 1fr))" gap={10} mt="5rem">
+                <Grid id="beerListGrid" templateColumns="repeat( auto-fit, minmax(13rem, 1fr))" gap={10} mt="5rem">
                     {beers ? beers.map((beer: Beer) => <BeerModal key={beer.id} beer={beer} />) : <></>}
                 </Grid>
             </Box>
