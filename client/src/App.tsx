@@ -25,7 +25,6 @@ const App: React.FC = () => {
         setBeerData(new Set(data?.beers) || new Set());
         setSkip(20);
         setHasMore(true);
-        console.log(beerData);
     }, [data]);
 
     const [hasMore, setHasMore] = useState<boolean>(beerData.size === 20);
