@@ -10,6 +10,7 @@ import {
     ModalOverlay,
     useDisclosure,
     VStack,
+    Text,
 } from '@chakra-ui/react';
 import React, { useState } from 'react';
 import { ReactComponent as BeerSVGS } from '../../beer.svg';
@@ -38,7 +39,13 @@ const BeerModal: React.FC<BeerModalProps> = ({ beer }) => {
 
     return (
         <>
-            <Box className="ModalDiv" onClick={onOpen} color="rgba(117,56,19,255)" aria-label="show more">
+            <Box
+                className="modalBox"
+                id={'modalBox' + beer.id}
+                onClick={onOpen}
+                color="rgba(117,56,19,255)"
+                aria-label="show more"
+            >
                 <b>{beer.name}</b>
                 {beer.type}
                 <section id="boxRating">
@@ -49,9 +56,11 @@ const BeerModal: React.FC<BeerModalProps> = ({ beer }) => {
             </Box>
 
             <Modal size="lg" isOpen={isOpen} onClose={onClose} isCentered>
-                <ModalOverlay />
-                <ModalContent>
+                <ModalOverlay id={'modalOverlay' + beer.id} />
+                <ModalContent id={'modalContent' + beer.id}>
                     <ModalHeader
+                        className="modalHeader"
+                        id={'modalHeader' + beer.id}
                         alignSelf="flex-start"
                         borderBottom="2px solid rgba(117,56,19,255)"
                         color="rgba(117,56,19,255)"
@@ -64,11 +73,20 @@ const BeerModal: React.FC<BeerModalProps> = ({ beer }) => {
                     >
                         {beer.name} <br />
                     </ModalHeader>
-                    <ModalCloseButton />
+                    <ModalCloseButton className="modalCloseButton" />
 
-                    <ModalBody id="modalBody" alignitems="center" my="2rem" color="rgba(117, 56, 19, 255)">
+                    <ModalBody
+                        i
+                        className="modalBody"
+                        id={'modalBody' + beer.id}
+                        alignitems="center"
+                        my="2rem"
+                        color="rgba(117, 56, 19, 255)"
+                    >
                         <section id="ratingByOthers">
-                            <p>{beer.rating === null ? ' N/A ' : beer.rating + ' / 5'}</p>
+                            <Text fontWeight="bold" fontSize="1.5em" textAlign="center">
+                                Rating: {beer.rating === null ? ' N/A ' : beer.rating + ' / 5'}
+                            </Text>
                             <BeerSVGS />
                         </section>
                         <Divider mb="30px"></Divider>
