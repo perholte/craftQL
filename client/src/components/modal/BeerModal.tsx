@@ -21,9 +21,10 @@ import Rating from './Rating';
 
 interface BeerModalProps {
     beer: Beer;
+    updateBeerRating: (id: string, rating: number) => void;
 }
 
-const BeerModal: React.FC<BeerModalProps> = ({ beer }) => {
+const BeerModal: React.FC<BeerModalProps> = ({ beer, updateBeerRating }) => {
     const { isOpen, onOpen, onClose } = useDisclosure();
     const [rating, setRating] = useState<number>(0);
     const [rateBeerMutation] = useRateBeerMutation({
@@ -34,7 +35,13 @@ const BeerModal: React.FC<BeerModalProps> = ({ beer }) => {
     });
 
     const submitRating = () => {
-        rateBeerMutation();
+        rateBeerMutation().then((result) => {
+            if (result.data?.rateBeer?.rating) {
+                updateBeerRating(result.data.rateBeer.id, result.data.rateBeer.rating);
+                // console.log(result.data.rateBeer.rating);
+                // beer.rating = result.data.rateBeer.rating;
+            }
+        });
     };
 
     return (
@@ -50,7 +57,7 @@ const BeerModal: React.FC<BeerModalProps> = ({ beer }) => {
                 {beer.type}
                 <section id="boxRating">
                     <p>
-                        <b>Rating: </b> {beer.rating === null ? ' N/A ' : beer.rating + ' / 5'}
+                        <b>Rating: </b> {beer.rating ? beer.rating + ' / 5' : ' N/A '}
                     </p>
                 </section>
             </Box>
@@ -76,7 +83,6 @@ const BeerModal: React.FC<BeerModalProps> = ({ beer }) => {
                     <ModalCloseButton className="modalCloseButton" />
 
                     <ModalBody
-                        i
                         className="modalBody"
                         id={'modalBody' + beer.id}
                         alignitems="center"
@@ -85,7 +91,8 @@ const BeerModal: React.FC<BeerModalProps> = ({ beer }) => {
                     >
                         <section id="ratingByOthers">
                             <Text fontWeight="bold" fontSize="1.5em" textAlign="center">
-                                Rating: {beer.rating === null ? ' N/A ' : beer.rating + ' / 5'}
+                                {/* Rating: {beer.rating === null ? ' N/A ' : beer.rating + ' / 5'} */}
+                                Rating: {beer.rating}
                             </Text>
                             <BeerSVGS />
                         </section>

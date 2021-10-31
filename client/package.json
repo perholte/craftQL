@@ -2,6 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
+  "homepage": "/prosjekt3",
   "dependencies": {
     "@apollo/client": "^3.4.16",
     "@chakra-ui/react": "^1.6.10",
