@@ -8,11 +8,10 @@ import { useSelector } from 'react-redux';
 import { RootState } from './redux/store';
 import InfiniteScroll from 'react-infinite-scroller';
 import { Center, Spinner } from '@chakra-ui/react';
-import { union } from './utils/index';
 
 const App: React.FC = () => {
     const [skip, setSkip] = useState(20);
-    const [beerData, setBeerData] = useState<Set<Beer>>(new Set());
+    const [beerData, setBeerData] = useState<Array<Beer>>([]);
     const sortParams = useSelector((state: RootState) => state.sort.graphqlParams);
     const filter = useSelector((state: RootState) => state.search);
 
@@ -22,12 +21,12 @@ const App: React.FC = () => {
 
     //reset values when changing data set
     useEffect(() => {
-        setBeerData(new Set(data?.beers) || new Set());
+        setBeerData(data?.beers || []);
         setSkip(20);
         setHasMore(true);
     }, [data]);
 
-    const [hasMore, setHasMore] = useState<boolean>(beerData.size === 20);
+    const [hasMore, setHasMore] = useState<boolean>(beerData.length === 20);
 
     const fetchData = () => {
         fetchMore({ variables: { skip: skip, sort: sortParams } }).then((fetchMoreResult) => {
@@ -35,8 +34,8 @@ const App: React.FC = () => {
                 setHasMore(false);
             }
             setSkip(skip + 20);
-            const newBeers: Set<Beer> = new Set(fetchMoreResult.data.beers || []);
-            setBeerData(union(beerData, newBeers));
+            const newBeers: Array<Beer> = fetchMoreResult.data.beers || [];
+            setBeerData([...beerData, ...newBeers]);
         });
     };
 
@@ -57,7 +56,7 @@ const App: React.FC = () => {
         >
             <div className="app">
                 <Header />
-                <BeerList beers={[...beerData]} />
+                <BeerList beers={beerData} />
             </div>
         </InfiniteScroll>
     );
