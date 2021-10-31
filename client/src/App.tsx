@@ -23,12 +23,21 @@ const App: React.FC = () => {
         setBeerData(data?.beers || []);
     }, [data]);
 
+    const [hasMore, setHasMore] = useState<boolean>(true);
+
     const fetchData = () => {
         fetchMore({ variables: { skip: skip, sort: sortParams } }).then((fetchMoreResult) => {
+            if (fetchMoreResult.data.beers.length < 20) {
+                setHasMore(false);
+            }
             setSkip(skip + 20);
             setBeerData([...beerData, ...(fetchMoreResult.data.beers || [])]);
         });
     };
+
+    useEffect(() => {
+        setHasMore(true);
+    }, [data]);
 
     return (
         <InfiniteScroll
@@ -36,7 +45,7 @@ const App: React.FC = () => {
             pageStart={0}
             loadMore={fetchData}
             useWindow={false}
-            hasMore={beerData.length % 20 === 0 || beerData.length < 20}
+            hasMore={hasMore}
             style={{ height: '700px', overflow: 'visible' }}
             loader={
                 <Center>
