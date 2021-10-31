@@ -23,7 +23,8 @@ const App: React.FC = () => {
     useEffect(() => {
         setBeerData(data?.beers || []);
         setSkip(20);
-        setHasMore(true);
+        setHasMore(data?.beers.length === 20);
+        // setHasMore(true);
     }, [data]);
 
     const [hasMore, setHasMore] = useState<boolean>(beerData.length === 20);
@@ -32,7 +33,7 @@ const App: React.FC = () => {
     };
 
     const fetchData = () => {
-        if (data && data?.beers.length <= 20) {
+        if (data && data?.beers.length >= 20) {
             fetchMore({ variables: { skip: skip, sort: sortParams } }).then((fetchMoreResult) => {
                 if (fetchMoreResult.data.beers.length < 20) {
                     setHasMore(false);
