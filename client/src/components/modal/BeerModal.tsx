@@ -24,9 +24,10 @@ import { store } from '../../redux/store';
 
 interface BeerModalProps {
     beer: Beer;
+    updateBeerRating: (id: string, rating: number) => void;
 }
 
-const BeerModal: React.FC<BeerModalProps> = ({ beer }) => {
+const BeerModal: React.FC<BeerModalProps> = ({ beer, updateBeerRating }) => {
     const activeSortingOption = store.getState().sort.graphqlParams;
     const filtered =
         Object.keys(activeSortingOption)
@@ -45,7 +46,13 @@ const BeerModal: React.FC<BeerModalProps> = ({ beer }) => {
     });
 
     const submitRating = () => {
-        rateBeerMutation();
+        if (rating >= 1 && rating <= 5) {
+            rateBeerMutation().then((result) => {
+                if (result.data?.rateBeer?.rating) {
+                    updateBeerRating(result.data.rateBeer.id, result.data.rateBeer.rating);
+                }
+            });
+        }
     };
 
     return (
