@@ -27,7 +27,7 @@ const BeerModal: React.FC<BeerModalProps> = ({ beer }) => {
     const [rating, setRating] = useState<number>(0);
     const [rateBeerMutation] = useRateBeerMutation({
         variables: {
-            beerId: '1',
+            beerId: beer.id,
             rating: rating,
         },
     });
