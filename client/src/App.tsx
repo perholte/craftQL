@@ -54,7 +54,7 @@ const App: React.FC = () => {
             style={{ height: '700px', overflow: 'visible' }}
             loader={
                 // https://github.com/oVirt/ovirt-web-ui/issues/562
-                <Center key={0}>
+                <Center key={0} pb="10vh">
                     <Spinner />
                 </Center>
             }

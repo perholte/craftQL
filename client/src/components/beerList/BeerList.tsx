@@ -13,7 +13,7 @@ const BeerList: React.FC<BeerDataProps> = ({ beers, updateBeerRating }) => {
     return (
         <Box id="beerListBox" py="5rem" mx="auto" w="80vw">
             <Filters />
-            <Box id="beerListBox" pb="5rem" mt="5rem" mx="auto" w="80vw">
+            <Box id="beerListBox" mx="auto" w="80vw">
                 <Grid templateColumns="repeat( auto-fit, minmax(250px, 1fr))" gap={10} pt="5rem">
                     {beers ? (
                         beers.map((beer: Beer) => (
