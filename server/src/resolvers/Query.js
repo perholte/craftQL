@@ -10,13 +10,13 @@ const { parseOrderBy, parseFilter } = require('./utils');
 async function beers(parent, args, context) {
     const { filter, skip, take, orderBy } = args;
     const where = parseFilter(filter);
-    if (Object.keys(orderBy).includes("rating")) {
+    if (orderBy && Object.keys(orderBy).includes("rating")) {
         return beersSortedByRating(context.prisma, args);
     } else {
         return context.prisma.beer.findMany({
             where,
-            skip,
-            take,
+            skip: skip || undefined,
+            take: take || undefined,
             orderBy: orderBy ? parseOrderBy(orderBy) : undefined,
         });
     }
@@ -37,7 +37,7 @@ async function beersSortedByRating(prisma, { filter, skip, take, orderBy }) {
     skip = skip ? skip : 0;
     take = take ? take : 5;
     if (orderBy.rating && orderBy.rating === "desc") {
-        return prisma.$queryRaw`
+        return prisma.$queryRaw `
             SELECT Beer.id AS id, Beer.name AS name, Beer.abv, Brand.name AS brand, Type.name AS type, AVG(Review.rating) AS rating
                 FROM Beer
                     JOIN Review ON Beer.id = Review.beerId
@@ -48,7 +48,7 @@ async function beersSortedByRating(prisma, { filter, skip, take, orderBy }) {
                     LIMIT ${take}
                     OFFSET ${skip};`;
     } else {
-        return prisma.$queryRaw`
+        return prisma.$queryRaw `
             SELECT Beer.id AS id, Beer.name AS name, Beer.abv, Brand.name AS brand, Type.name AS type, AVG(Review.rating) AS rating
                 FROM Beer
                     JOIN Review ON Beer.id = Review.beerId
