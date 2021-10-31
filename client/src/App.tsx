@@ -27,15 +27,8 @@ const App: React.FC = () => {
     }, [data]);
 
     const [hasMore, setHasMore] = useState<boolean>(beerData.length === 20);
-    const updateBeerRating = (id: string, rating: number): void => {
-        for (const i in beerData) {
-            const beer = beerData[i];
-            if (beer.id === id) {
-                beer.rating = rating;
-                setBeerData([...beerData, beer]);
-                break;
-            }
-        }
+    const updateBeerRating = (beer: Beer, rating: number): void => {
+        setBeerData([...beerData.filter((b) => b.id !== beer.id), { ...beer, rating }]);
     };
     const fetchData = () => {
         fetchMore({ variables: { skip: skip, sort: sortParams } }).then((fetchMoreResult) => {
