@@ -17,12 +17,19 @@ import '../../Header-svg.css';
 import { ReactComponent as BeerSVGS } from '../../beer.svg';
 import { Beer, useRateBeerMutation } from '../../generated/graphql';
 import Rating from './Rating';
+import { store } from '../../redux/store';
 
 interface BeerModalProps {
     beer: Beer;
 }
 
 const BeerModal: React.FC<BeerModalProps> = ({ beer }) => {
+    const activeSortingOption = store.getState().sort.graphqlParams;
+    const filtered =
+        Object.keys(activeSortingOption).find((option) => {
+            return { ...activeSortingOption }[option];
+        }) || 'name';
+
     const { isOpen, onOpen, onClose } = useDisclosure();
     const [rating, setRating] = useState<number>(0);
     const [rateBeerMutation] = useRateBeerMutation({
@@ -43,7 +50,8 @@ const BeerModal: React.FC<BeerModalProps> = ({ beer }) => {
                 {beer.type}
                 <section id="boxRating">
                     <p>
-                        <b>Rating: </b> {beer.rating === null ? ' N/A ' : beer.rating + ' / 5'}
+                        <b>{filtered}: </b> {{ ...beer }[filtered]}
+                        {/* <b>Rating: </b> {beer.rating === null ? ' N/A ' : beer.rating + ' / 5'} */}
                     </p>
                 </section>
             </Box>
@@ -67,11 +75,14 @@ const BeerModal: React.FC<BeerModalProps> = ({ beer }) => {
                         </section>
                         <Divider mb="30px"></Divider>
                         <section id="infoSection">
-                            {beer.name} is a {beer.type}. {"It's"} a {beer.abv > 0.05 ? 'strong' : 'medium strong'} beer
-                            with an alcohol percentage of {beer.abv * 100} %. The beer is brewed by {beer.brand}, and{' '}
-                            {beer.rating
-                                ? 'our users have given it a rating of ' + beer.rating + '.'
-                                : 'has not yet been given a rating, be the first to do so!'}
+                            <p>
+                                {beer.name} is a {beer.type}. {"It's"} a {beer.abv > 0.05 ? 'strong' : 'medium strong'}{' '}
+                                beer with an alcohol percentage of {beer.abv * 100} %. The beer is brewed by{' '}
+                                {beer.brand}, and{' '}
+                                {beer.rating
+                                    ? 'our users have given it a rating of ' + beer.rating + '.'
+                                    : 'has not yet been given a rating, be the first to do so!'}
+                            </p>
                         </section>
                         <VStack as="section" id="ratingSection" spacing="5">
                             <Rating rating={rating} setRating={setRating} />
