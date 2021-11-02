@@ -53,9 +53,13 @@ Vi har også satt opp pipeline som kjører build og test ved push og merge, slik
 
 Komponenttestene bruker jest, med enzyme. På komponentene tester vi at alt vises, og at verdier er satt riktig. Vi tester også at props sendes riktig, og at de er satt til riktige verdier.
 
+-yarn test-frontend
+
 #### End2end-testing
 
 End-2-end testen sjekker mer generell funksjonalitet, samt samhandlingen mellom bruker og nettside. Her etterligner vi en bruker som går inn på siden og utfører handlinger som skal være mulig. Her sjekker vi samhandlingen blant alle komponenter på siden, og at komponentene reagerer riktig på handlinger man gjør.
+
+-yarn test-cypress **(front-end må kjøres lokalt samtidig)**
 
 ## 🧠 Valg av teknologi
 

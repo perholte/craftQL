@@ -131,7 +131,12 @@ const BeerModal: React.FC<BeerModalProps> = ({ beer, updateBeerRating }) => {
                                     label="Please select a rating between 1 and 5"
                                     visibility={rating === 0 ? 'visible' : 'hidden'}
                                 >
-                                    <Button onClick={submitRating} aria-disabled={rating === 0} colorScheme="green">
+                                    <Button
+                                        id="ratingButton"
+                                        onClick={submitRating}
+                                        aria-disabled={rating === 0}
+                                        colorScheme="green"
+                                    >
                                         Submit rating
                                     </Button>
                                 </Tooltip>

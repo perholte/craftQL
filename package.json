@@ -14,7 +14,7 @@
     "frontend:build": "yarn workspace client build",
     "backend": "yarn workspace server start",
     "test-frontend": "yarn workspace client test",
-    "test-cypress": "yarn workspace client run cypress:open",
+    "test-cypress": "yarn workspace client run cypress open",
     "code": "code packages/frontend && code packages/backend"
   },
   "devDependencies": {

@@ -4,7 +4,7 @@ describe('Successfully', () => {
     });
 
     it('renders header', (): void => {
-        cy.get('h2').should('have.text', 'CraftQL');
+        cy.get('.chakra-heading').should('have.text', 'CraftQL');
         cy.get('svg').should('be.visible');
     });
 
@@ -16,7 +16,7 @@ describe('Successfully', () => {
         cy.get('#beerListGrid > :nth-child(1)').as('modal');
         cy.get('@modal').should('be.visible').click();
         cy.get('[id^=modalHeader]').should('be.visible');
-        cy.get('.chakra-button').should('have.text', 'Submit rating');
+        cy.get('#ratingButton').should('have.text', 'Submit rating');
         cy.get('.modalCloseButton').click();
         cy.get('.modalHeader').should('not.be', 'visible');
     });
@@ -54,6 +54,6 @@ describe('Successfully', () => {
             },
             [],
         );
-        cy.get('.css-taj3dd').click();
+        cy.get('#ratingButton').click();
     });
 });
